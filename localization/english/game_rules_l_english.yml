@@ -53,9 +53,9 @@
  setting_directly_controlled_investment_pool: "#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_directly_controlled_investment_pool_desc Пул вкладів під прямим контролем#!#!"
  setting_directly_controlled_investment_pool_desc: "[concept_investment_pool] використовується безпосередньо кожною [Concept('concept_country', '$concept_country_ins$')|l] та може бути використаний для фінансування [Concept('concept_government_construction', '$concept_government_construction_gen$')|l] відповідних [Concept('concept_building','споруд')|l], в залежности від [Concept('concept_law','$concept_laws_gen$')|l] [Concept('concept_country', '$concept_country_gen$')|l]."
  
- rule_monument_effects: "Заподії пам‘яток"
+ rule_monument_effects: "Ефекти пам’яток"
  setting_allow_monument_effects: "#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_allow_monument_effects_desc Увімкнені#!#!"
- setting_allow_monument_effects_desc: "[Concept('concept_monument', '$concept_monuments$')] можуть давати багато різних заподій залежно від їхньої природи, а іноді вони дають робочі місця [Concept('concept_pop', '$concept_pops_dat$')|l]."
+ setting_allow_monument_effects_desc: "[Concept('concept_monument', '$concept_monuments$')] можуть давати багато різних ефектів залежно від їхньої природи, а іноді вони дають робочі місця [Concept('concept_pop', '$concept_pops_dat$')|l]."
  setting_prestige_only_monument_effects: "#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_prestige_only_monument_effects_desc Тільки престиж#!#!"
  setting_prestige_only_monument_effects_desc: "Усі [Concept('concept_monument', '$concept_monuments$')|l] дають певну кількість [Concept('concept_prestige', '$concept_prestige_gen$')|l] для цієї держави. $concept_monument$ не дає робочі місця [Concept('concept_pop', '$concept_pops_dat$')|l]."
  setting_no_monument_effects: "#tooltippable #tooltip:[GetPlayer.GetTooltipTag],setting_no_monument_effects_desc Вимкнені#!#!"
@@ -63,7 +63,7 @@
 
  rule_pop_consolidation: "Гуртування громад (Продуктивність)"
  setting_no_consolidation: "Жодного"
- setting_no_consolidation_desc: "[Concept('concept_pop', '$concept_pops$')] ніколи не гуртуватимуться, крім з використанням постанов [Concept('concept_assimilation', '$concept_assimilation_gen$')|l] або [Concept('concept_conversion', '$concept_conversion_gen$')|l], незалежно від розміру.\n@warning! Це може сильно зашкодити продуктивності в середині та наприкінці гри"
+ setting_no_consolidation_desc: "[Concept('concept_pop', '$concept_pops$')] ніколи не гуртуватимуться, крім з використанням постанов [Concept('concept_assimilation', '$concept_assimilation_gen$')|l] або [Concept('concept_conversion', '$concept_conversion_gen$')|l], незалежно від розміру.\n@warning! Це може сильно зашкодити продуктивности в середині та наприкінці гри"
  
  setting_minor_consolidation: "Мале"
  setting_minor_consolidation_desc: "[Concept('concept_pop', '$concept_pops$')] гуртуватимуться лише тоді, коли вони дуже малі та неефективні.\nМоже погіршити продуктивність в середині та наприкінці гри."

@@ -70,18 +70,21 @@
  pm_state_urban_clergy: "Державні церкви"
  pm_free_urban_clergy: "Вільні церкви"
 
-pm_automation_disabled: "Ручна збірка"
-pm_steam_power: "Парова потужність"
-pm_disabled_steam_power: "Без парової потужності"
+ pm_automation_disabled: "Ручна збірка"
+ pm_steam_power: "Парова потужність"
+ pm_disabled_steam_power: "Без парової потужності"
  
 # Trains
  pm_no_passenger_trains: "Пріоритезація вантажу"
- pm_wooden_passenger_carriages: "Дерев‘яні вагони"
+ pm_wooden_passenger_carriages: "Дерев’яні вагони"
  pm_steel_passenger_carriages: "Крицеві вагони"
  pm_early_trains:0 "Experimental Trains"
- pm_steam_trains: "Парові патяги"
- pm_electric_trains: "Електрічні потяги"
+ pm_steam_trains: "Парові потяги"
+ pm_electric_trains: "Електричні потяги"
  pm_diesel_trains: "Дизельні потяги"
+ pm_steam_trains_principle_transport_3: "Спільні парові потяги"
+ pm_electric_trains_principle_transport_3: "Спільні електричні потяги"
+ pm_diesel_trains_principle_transport_3: "Спільні дизельні потяги"
  pm_non_standardized_gauges: "Нестандартизовані колії"
  pm_broad_gauges: "Ширококолійна залізниця"
  pm_narrow_gauges: "Вузькоколійна залізниця"
@@ -93,9 +96,11 @@ pm_disabled_steam_power: "Без парової потужності"
 # Food Industry
  pmg_canning: "Консервування"
  pm_disabled_canning: "Закрутки"
- pm_cannery: "Консервування"
+ pm_cannery: "Консервування м’яса"
+ pm_cannery_fish: "Консервування риби"
  pm_disabled_cannery: "Неконсервованне"
- pm_vacuum_canning:1 "Meat Packaging"
+ pm_vacuum_canning: "Вакуумне пакування"
+ pm_vacuum_canning_principle_3: "Удосконалені методи консервування"
   
  pmg_distillery: "Перепускання"
  pm_disabled_distillery: "Пріоритет на бакалію"
@@ -432,9 +437,9 @@ pm_disabled_steam_power: "Без парової потужності"
 
  pmg_explosives_building_chemical_plants:1 "$pm_base$"
 
-pm_steam_rail_transport: "Залізниця"
+ pm_steam_rail_transport: "Залізниця"
 
-# Державна управа
+# Урядництво
  pmg_base_building_government_administration: "Збереження даних"
  pm_simple_organization: "Проста організація"
  pm_horizontal_drawer_cabinets: "Шафи для документів"
@@ -472,7 +477,7 @@ pm_steam_rail_transport: "Залізниця"
  pm_mobile_warfare_tactics_conscription:0 "$pm_mobile_warfare_tactics$"
   
  pmg_medical_aid: "Медична допомога"
- pm_wound_dressing: "Перев‘язка ран"
+ pm_wound_dressing: "Перев’язка ран"
  pm_first_aid: "Перша допомога"
  pm_field_hospitals: "Польові госпіталі"
 
@@ -493,8 +498,8 @@ pm_steam_rail_transport: "Залізниця"
 
 #Корабельня
  pmg_base_building_shipyards: "Моделя кораблів"
- pm_basic_shipbuilding: "Дерев‘яні судна"
- pm_complex_shipbuilding: "Армовані дерев‘яні судна"
+ pm_basic_shipbuilding: "Дерев’яні судна"
+ pm_complex_shipbuilding: "Армовані дерев’яні судна"
  pm_metal_shipbuilding: "Пароплави"
  pm_arc_welding_shipbuilding: "Дугозварні пароплави"
  pm_no_military_shipbuilding: "Цивільне суднобудування"
@@ -516,6 +521,7 @@ pm_steam_rail_transport: "Залізниця"
 
 #Trade Center
  pm_trade_center: "Торговий центр"
+ pm_trade_center_principle_external_trade_2: "Упливовий торговий центр"
  
 #Naval Base
  pmg_ship_class: "Кляс кораблів"
@@ -617,6 +623,22 @@ pm_steam_rail_transport: "Залізниця"
  pm_home_workshops_no_building_subsistence_fishing_villages: "$pm_home_workshops_no$"
  pm_home_workshops_no_building_subsistence_rice_paddies: "$pm_home_workshops_no$"
 
+  # Power Bloc Principle PMs
+ pm_principle_freedom_of_movement_3:0 "Increased Exchange"
+ pmg_principle_freedom_of_movement_3:0 "Freedom of Movement"
+ pm_freedom_of_movement_no_effect: "Без ефектів"
+ pm_manor_house_principle_divine_economics_2:0 "Increased Clergy Oversight"
+ pm_financial_district_principle_divine_economics_2:0 "Increased Clergy Oversight"
+
+  # Power Bloc Statues
+ pmg_base_building_power_bloc_statue: "Статуя державного блоку"
+ pm_power_bloc_statue_sovereign_empire: "$identity_sovereign_empire$"
+ pm_power_bloc_statue_military_treaty: "$identity_military_treaty_organization$"
+ pm_power_bloc_statue_ideological_union: "$identity_ideological_union$"
+ pm_power_bloc_statue_trade_league: "$identity_trade_league$"
+ pm_power_bloc_statue_religious: "$identity_religious$"
+ pm_power_bloc_prestige_only: "Тільки престиж"
+
 # Serfdom
  pm_serfdom: "Кріпаччина"
  pmg_serfdom_building_subsistence_farms: "$pm_serfdom$"
@@ -668,7 +690,7 @@ pm_steam_rail_transport: "Залізниця"
  
 # Construction Camp
  pmg_base_building_construction_sector: "Тип будівлі"
- pm_wooden_buildings: "Дерев‘яні каркаси"
+ pm_wooden_buildings: "Дерев’яні каркаси"
  pm_iron_frame_buildings: "Залізні каркаси"
  pm_steel_frame_buildings: "Крицеві каркаси"
  pm_arc_welded_buildings: "Дугозварні каркаси"
@@ -729,7 +751,11 @@ pm_steam_rail_transport: "Залізниця"
 
  pmg_ownership_capital_building_railway: "$pmg_ownership$"
  pmg_ownership_building_trade_center: "$pmg_ownership$"
- 
+ pmg_ownership_building_manor_house:0 "$pmg_ownership$"
+ pmg_ownership_building_financial_district:0 "$pmg_ownership$"
+ pmg_additional_ownership_building_manor_house: "Додаткові $pmg_ownership$"
+ pmg_additional_ownership_building_financial_district: "Додаткові $pmg_ownership$"
+
  pm_merchant_guilds: "Купецькі гільдії"
  pm_merchant_guilds_building_food_industry: "$pm_merchant_guilds$"
  pm_merchant_guilds_building_textile_mills: "$pm_merchant_guilds$"
@@ -777,6 +803,12 @@ pm_steam_rail_transport: "Залізниця"
 
  pm_privately_owned_building_railway: "$pm_privately_owned$"
  pm_trade_center_privately_owned: "$pm_privately_owned$"
+ pm_manor_house_privately_owned: "$pm_privately_owned$"
+ pm_manor_house_bureaucrat_ownership: "Контроль урядовцями"
+ pm_trade_center_bureaucrat_ownership: "$pm_manor_house_bureaucrat_ownership$"
+ pm_manor_house_clergy_ownership: "Контроль духовенством"
+ pm_financial_district_privately_owned: "$pm_privately_owned$"
+ pm_financial_district_publicly_traded: "$pm_publicly_traded$"
  
  pm_publicly_traded: "Відкрита торгівля"
  pm_publicly_traded_building_food_industry: "$pm_publicly_traded$"
@@ -865,7 +897,7 @@ pm_steam_rail_transport: "Залізниця"
  pm_worker_cooperative_building_railway: "$pm_worker_cooperative$"
 
  pmg_base_building_skyscraper: "Хмарочос"
- pm_skyscraper_bureaucratic_nexus: "Бюрократичний зв‘язок"
+ pm_skyscraper_bureaucratic_nexus: "Урядовий зв’язок"
  pm_skyscraper_trade_nexus: "Торговельна мережа"
  pmg_airship_mooring_post: "Повітроплав"
  pm_no_airships: "Без повітроплавів"

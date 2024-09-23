@@ -12,11 +12,11 @@
  motor_industry_production_modifier:0 "Motor Industries Production"
  public_trasportation_modifier:0 "Public Transportation"
  je_elevator: "Піднесення нашого становища"
- je_elevator_reason: "З нещодавньою появою здійм, з’явився поштовх до того, щоб встановити ці диво-винаходи в якомога більшій кількості будівель. Питання в тому, чи можемо ми собі це дозволити. Ми повинні прагнути до збільшення виробництва товарів, необхідних для їхнього будівництва та використання."
+ je_elevator_reason: "З нещодавньою появою здійм, з’явився поштовх до того, щоб встановити ці диво-винаходи в якомога більшій кількости будівель. Питання в тому, чи можемо ми собі це дозволити. Ми повинні прагнути до збільшення виробництва товарів, необхідних для їхнього будівництва та використання."
  elevator_services_production_modifier: "Поліпшенні послуги"
  elevator_goods_production_modifier: "Збільшення товарів"
  je_mutual_funds: "Відкриті торги"
- je_mutual_funds_reason: "Збільшення кількости публічних компаній дозволить більшій кількості працівників заробляти більше багатства. Ми повинні прагнути до того, щоб якомога більше наших будівель мали відкриту торгівлю."
+ je_mutual_funds_reason:1 "Newly-developed mutual funds will allow for greater ease in raising capital for enterprises. We should strive to have as many of our financial districts as possible making use of these new methods to generate wealth for our capitalists."
  mutual_funds_pop_attaction_modifier:0 "Increased Support"
  is_production_building: "Усі недержавні виробничі будівлі"
  is_production_building_tt: "Усі недержавні виробничі будівлі, які можуть мати спосіб виробництва «Відкрита торгівля»."
@@ -217,7 +217,7 @@
  decree_events.105.b:0 "[SCOPE.gsInterestGroup('landowners_ig_focus').GetName] should get the credit."
  decree_events.105.c:0 "Workers should be recognized."
  decree_events.106.t:0 "Resentment Regiments"
- decree_events.106.d:1 "Favoritism of our regiments in [SCOPE.sState('decree_enlistment_origin').GetName] has led to an animosity from regiments in the neighboring state of [SCOPE.sState('decree_elite_guards').GetName]. They are requesting that all regiments should be treated equally."
+ decree_events.106.d:1 "Favoritism of our regiments in [SCOPE.sState('decree_enlistment_origin').GetName] has led to an animosity from regiments in the neighboring state of [SCOPE.sState('decree_enlistment').GetName]. They are requesting that all regiments should be treated equally."
  decree_events.106.f:0 ""These soldiers are merely a bunch of attention-seeking complainers hoping to get a little extra pay for not much more work. It is their job to fight and ours to say against who. Soldiers can't be trusted to make difficult decisions like these.""
  decree_events.106.a:0 "This is what the [SCOPE.gsInterestGroup('armed_forces_ig_focus').GetName] want."
  decree_events.106.b:0 "We should invest more into organizing these troops."
@@ -436,7 +436,7 @@
 
  je_expanding_the_market: "Розширення нашого ринку"
  je_expanding_the_market_status: "Майте 8 країну у вашій [Concept('concept_customs_union','$concept_customs_union_loc$')|l]."
- je_expanding_the_market_reason: "Ми повинні прагнути до розширення нашої митної спілки з іншими країнами. Це дозволить здійснювати більш вільну та пряму торгівлю з іншими державами без необхідності прокладати окремі [Concept('concept_trade_route','$concept_trade_routes_acc$')|l]."
+ je_expanding_the_market_reason: "Ми повинні прагнути до розширення нашої митної спілки з іншими країнами. Це дозволить здійснювати більш вільну та пряму торгівлю з іншими державами без необхідности прокладати окремі [Concept('concept_trade_route','$concept_trade_routes_acc$')|l]."
 
  je_strong_market: "Потужний ринок"
  je_strong_market_reason: "Настав час утвердитися як найбільший і найпотужніший ринок на планеті."
@@ -538,7 +538,7 @@
  je_the_hegemon: "Геґемон"
  je_the_hegemon_reason:1 "We have shown the world what we are capable of. We have made great strides. Now however we should make sure we have the population to back our global standing."
 
- colonization_law_passed_complete_1: "Осадницька державаі"
+ colonization_law_passed_complete_1: "Осадницька держава"
  colonization_law_passed_complete_1_desc: "Дуже добре! Ви щойно виконали своє перший запис і тепер ближчі на крок до встановлення власної геґемонії."
 
  hegemon_welcome: "Геґемонія"

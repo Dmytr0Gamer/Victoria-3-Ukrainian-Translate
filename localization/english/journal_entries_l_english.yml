@@ -6,7 +6,7 @@
  je_secret_police_research_identification_reason: "Таємна поліція хоче, щоб ви дослідили посвідчення особи."
  notification_je_secret_police_research_identification_complete_name: "$identification_documents$ для таємної поліції"
  notification_je_secret_police_research_identification_complete_desc: "Ви успішно дослідили посвідчення особи для таємної поліції."
- notification_je_secret_police_research_identification_complete_tooltip: "Ви успішно дослідили посвідчення особи для таємної поліції, що дало вам змінювач «$modifier_secret_police_supported$»."
+ notification_je_secret_police_research_identification_complete_tooltip: "Ви успішно дослідили посвідчення особи для таємної поліції, що дало вам змінник «$modifier_secret_police_supported$»."
  notification_je_secret_police_research_identification_fail_desc: "Ви провалили дослідження «$identification_documents$»."
  notification_je_secret_police_research_identification_fail_tooltip: "Ви провалили дослідження «$identification_documents$» для таємної поліції."
 
@@ -14,7 +14,7 @@
  je_make_schools_secular_reason: "$intelligentsia$ хоче, щоб освіта була світською."
  notification_je_make_schools_secular_complete_name: "Світська освіта"
  notification_je_make_schools_secular_complete_desc: "Ви успішно змінили закон про освіту на світський."
- notification_je_make_schools_secular_complete_tooltip: "Ви успішно змінили закон про освіту на світський, що дало вам змінювачі «$modifier_religious_schools_abolished_intelligentsia$» та «$modifier_religious_schools_abolished_devout$»."
+ notification_je_make_schools_secular_complete_tooltip: "Ви успішно змінили закон про освіту на світський, що дало вам змінники «$modifier_religious_schools_abolished_intelligentsia$» та «$modifier_religious_schools_abolished_devout$»."
  notification_je_make_schools_secular_fail_name: "Провалено перехід на світську освіту"
  notification_je_make_schools_secular_fail_desc: "Ви не змогли перейти на світський закон про освіту."
  notification_je_make_schools_secular_fail_tooltip: "Ви не змогли перейти на світський закон про освіту."
@@ -26,3 +26,4 @@
  je_group_expeditions: "Виправи"
  je_group_technology: "Розвиток"
  je_group_tutorial: "Навчання"
+ je_group_objectives: "Цілі"

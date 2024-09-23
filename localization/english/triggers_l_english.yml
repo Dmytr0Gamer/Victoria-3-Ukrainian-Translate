@@ -308,8 +308,8 @@
  TRIGGER_IS_COUNTRY_TYPE_THIRD:0 "[COUNTRY.GetName] is #variable $COUNTRY_TYPE$#!"
  TRIGGER_IS_COUNTRY_TYPE_THIRD_NOT:0 "[COUNTRY.GetName] is #bold not #!#variable $COUNTRY_TYPE$#!"
  
- TRIGGER_IS_SUBJECT_TYPE: "Тип [Concept('concept_subject','$concept_subject_gen$')|l] - $SUBJECT_TYPE|v$"
- TRIGGER_IS_SUBJECT_TYPE_NOT: "#bold Не #! тип [Concept('concept_subject','$concept_subject_gen$')|l] - $SUBJECT_TYPE|v$"
+ TRIGGER_IS_SUBJECT_TYPE: "[concept_subject_type|l] - $SUBJECT_TYPE|v$"
+ TRIGGER_IS_SUBJECT_TYPE_NOT: "#bold Не #! [concept_subject_type|l] - $SUBJECT_TYPE|v$"
  TRIGGER_IS_SUBJECT_TYPE_FIRST:0 "[COUNTRY.GetNameNoFlag] is #variable $SUBJECT_TYPE$#!"
  TRIGGER_IS_SUBJECT_TYPE_FIRST_NOT:0 "[COUNTRY.GetNameNoFlag] is #bold not #!#variable $SUBJECT_TYPE$#!"
  TRIGGER_IS_SUBJECT_TYPE_THIRD:0 "[COUNTRY.GetNameNoFlag] is #variable $SUBJECT_TYPE$#!"
@@ -1840,8 +1840,8 @@
 
  TRIGGER_PRODUCED_BUREAUCRACY:0 "@bur![Nbsp][concept_bureaucracy] production is $COMPARATOR$ #variable $NUM|0$#!"
  TRIGGER_PRODUCED_BUREAUCRACY_NOT:0 "@bur![Nbsp][concept_bureaucracy] production is #bold not #!$COMPARATOR$ #variable $NUM|0$#!"
- TRIGGER_PRODUCED_BUREAUCRACY_FIRST: "#yellow [COUNTRY.GetAdjectiveNoFlag]ий#! приріст @bur![Nbsp][Concept('concept_bureaucracy', '$concept_bureaucracy_gen$')|l] $COMPARATOR$ #variable $NUM|0$#!"
- TRIGGER_PRODUCED_BUREAUCRACY_FIRST_NOT: "#yellow [COUNTRY.GetAdjectiveNoFlag]ий#! приріст @bur![Nbsp][Concept('concept_bureaucracy', '$concept_bureaucracy_gen$')|l] #bold не#! $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_PRODUCED_BUREAUCRACY_FIRST: "#yellow [COUNTRY.GetAdjectiveNoFlag]ий#! приріст @bur![Nbsp][concept_bureaucracy|l] $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_PRODUCED_BUREAUCRACY_FIRST_NOT: "#yellow [COUNTRY.GetAdjectiveNoFlag]ий#! приріст @bur![Nbsp][concept_bureaucracy|l] #bold не#! $COMPARATOR$ #variable $NUM|0$#!"
  TRIGGER_PRODUCED_BUREAUCRACY_THIRD:0 "[COUNTRY.GetAdjective] @bur![Nbsp][concept_bureaucracy] production is $COMPARATOR$ #variable $NUM|0$#!"
  TRIGGER_PRODUCED_BUREAUCRACY_THIRD_NOT:0 "[COUNTRY.GetAdjective] @bur![Nbsp][concept_bureaucracy] production is #bold not #!$COMPARATOR$ #variable $NUM|0$#!"
  

@@ -48,7 +48,7 @@
  
  grain: "Зерно"
  fish: "Риба"
- meat: "М‘ясо"
+ meat: "М’ясо"
  fruit: "Садовина"
  liquor: "Алкоголь"
  wine: "Вино"
@@ -71,3 +71,4 @@
  popneed_luxury_food: "Розкішна їжа"
  popneed_luxury_items: "Предмети розкоші"
  popneed_art: "Мистецтво"
+ popneed_leisure:0 "Leisure"

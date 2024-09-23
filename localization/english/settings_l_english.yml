@@ -29,6 +29,7 @@
  SETTINGS_CATEGORY_LANGUAGE: "Мова"
  SETTINGS_CATEGORY_SAVE_GAMES: "Збереження гри"
  SETTINGS_CATEGORY_TOOLTIPS: "Параметри підказок"
+ SETTINGS_CATEGORY_OUTLINER:0 "Outliner"
  SETTINGS_CATEGORY_MAP_CONTROLS: "Керування мапою"
  SETTINGS_CATEGORY_MAPMODES: "Режими мапи"
  SETTING_SHADER_QUALITY: "Якість шейдерів"
@@ -57,6 +58,9 @@
 
  SETTING_BUILDINGS_CUTOFF: "Відсівання віддалених будівель"
  SETTING_BUILDINGS_CUTOFF_TOOLTIP:1 "#T $SETTING_BUILDINGS_CUTOFF$#!\nShow fewer buildings on the map, the further away they are from the camera.\n\nTurning it on may increase performance."
+
+ SETTING_SHOW_NOTIFICATION_FEED_NEXT_TO_OUTLINER:0 "Notifications to the left of Outliner"
+ SETTING_SHOW_NOTIFICATION_FEED_NEXT_TO_OUTLINER_TOOLTIP:0 "#t $SETTING_SHOW_NOTIFICATION_FEED_NEXT_TO_OUTLINER$#!\nPlace the Notifications Feed to the left of the Outliner"
 
  SETTINGS_CATEGORY_GAME_PORTRAITS: "Портрети"
  SETTING_SOUNDTRACK: "Музика на тлі"

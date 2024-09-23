@@ -11,8 +11,12 @@
  ai_secret_goal_antagonize_desc: "Протистояти [Concept('concept_country', '$concept_country_dat$')|l] [TARGET_COUNTRY.GetName]"
  ai_secret_goal_conquer: "Захоплення"
  ai_secret_goal_conquer_desc: "Захопити [Concept('concept_country', '$concept_country_acc$')|l] [TARGET_COUNTRY.GetName]"
- ai_secret_goal_none: "Немає"
- ai_secret_goal_none_desc: "Немає"
+ ai_secret_goal_none:0 "Neutrality"
+ ai_secret_goal_none_desc:0 "Stay neutral towards [TARGET_COUNTRY.GetName]"
+ ai_secret_goal_defy: "Defy"
+ ai_secret_goal_defy_desc: "Defy [TARGET_COUNTRY.GetName]"
+ ai_secret_goal_comply: "Comply"
+ ai_secret_goal_comply_desc: "Comply with [TARGET_COUNTRY.GetName]"
  ai_secret_goal_count: "$ai_secret_goal_none$"
  ai_secret_goal_count_desc: "$ai_secret_goal_none_desc$"
 
@@ -63,7 +67,7 @@
   
  ai_expense_money: "Гроші"
  ai_expense_authority: "Авторитет"
- ai_expense_bureaucracy: "Бюрократія"
+ ai_expense_bureaucracy: "Урядування"
  ai_expense_influence: "Вплив"
 
  ai_strategy_conservative_agenda: "Консервативний пропис"
@@ -118,11 +122,19 @@
  ai_strategy_anti_imperialism_desc:0 "[COUNTRY.GetName] seeks to support unrecognized states and contain the expansion of imperial powers."
  ai_strategy_restore_natural_borders: "Restore Natural Borders"
  ai_strategy_restore_natural_borders_desc: "[COUNTRY.GetName] seeks to expand its core territories and achieve its "natural borders" at the river Rhine."
+ ai_strategy_subject_break_free: "Break Free"
+ ai_strategy_subject_break_free_desc: "[COUNTRY.GetName] wants to become independent from their [concept_overlord]"
+ ai_strategy_subject_strengthen_self: "Increased Self-Reliance"
+ ai_strategy_subject_strengthen_self_desc: "[COUNTRY.GetName] wants to increase their [concept_autonomy] and become less dependent on their [concept_overlord]"
+ ai_strategy_subject_maintain_autonomy: "Maintain Autonomy"
+ ai_strategy_subject_maintain_autonomy_desc: "[COUNTRY.GetName] wants to maintain their [concept_autonomy] and relationship with their [concept_overlord] just as it is"
+ ai_strategy_subject_overlord_compliance: "Integrate with Suzerain"
+ ai_strategy_subject_overlord_compliance_desc: "[COUNTRY.GetName] wants closer integration with their [concept_overlord] and to loyally comply with their wishes"
 
- ATTITUDE_DETAILS: "[COUNTRY.GetAttitudeTowards(TARGET_COUNTRY.Self).GetReasonsDesc]\n\n[COUNTRY.GetAttitudeTowards(TARGET_COUNTRY.Self).GetStrategicDesireDesc]"
+ ATTITUDE_DETAILS: "[COUNTRY.GetAttitudeTowards(TARGET_COUNTRY.Self).GetReasonsDesc]"
   
  ai_attitude_human: "#V Людина#!"
- ai_attitude_human_desc: "[COUNTRY.GetName] контролюється людиною-гравцем і їхнє ставлення до [Concept('concept_country', '$concept_country_gen$')|l] [GetPlayer.GetName] повністю залежить від людини."
+ ai_attitude_human_desc: "[COUNTRY.GetName] контролюється людиною-гравцем і їхнє ставлення до [Concept('concept_country', '$concept_country_gen$')|l] [TARGET_COUNTRY.GetName] повністю залежить від людини."
  ai_attitude_human_tooltip: "#header $ai_attitude_human$#!\n$ai_attitude_human_desc$"
  
  ai_attitude_disinterested: "#V Незацікавлене#!"
@@ -146,7 +158,7 @@
  ai_attitude_genial_tooltip: "#header $ai_attitude_genial$ [concept_attitude|l]#!\n$ai_attitude_genial_desc$\n$TOOLTIP_DELIMITER$\n$ATTITUDE_DETAILS$"
 
  ai_attitude_loyal: "#V #P Вірні#!#!"
- ai_attitude_loyal_desc: "[COUNTRY.GetName] бачить [Concept('concept_country', '$concept_country_acc$')|l] [TARGET_COUNTRY.GetName], як їхнього #P #bold законного володаря#!#! в геополітичних справах. Вони, швидше за все, допоможуть [TARGET_COUNTRY.GetName] у [Concept('concept_diplomatic_play', '$concept_diplomatic_plays_loc$')|l] і не намагатимуться здобути незалежність."
+ ai_attitude_loyal_desc: "[COUNTRY.GetName] views [TARGET_COUNTRY.GetName] as their #P #bold just suzerain#!#! in geopolitical affairs. They are likely to acquiesce to demands for decreased [concept_autonomy] and might even agree to be annexed by their [concept_overlord]."
  ai_attitude_loyal_tooltip: "#header $ai_attitude_loyal$ [concept_attitude|l]#!\n$ai_attitude_loyal_desc$\n$TOOLTIP_DELIMITER$\n$ATTITUDE_DETAILS$"
   
  ai_attitude_protective: "#V #P Захисне#!#!"
@@ -158,7 +170,7 @@
  ai_attitude_wary_tooltip: "#header $ai_attitude_wary$ [concept_attitude|l]#!\n$ai_attitude_wary_desc$\n$TOOLTIP_DELIMITER$\n$ATTITUDE_DETAILS$"
  
  ai_attitude_antagonistic: "#V #N Вороже#!#!"
- ai_attitude_antagonistic_desc: "[COUNTRY.GetName] бачить [Concept('concept_country', '$concept_country_acc$')|l] [TARGET_COUNTRY.GetName], як #N #bold загрозливу силу#!#! в геополітичних справах. Імовірно, вони шукатимуть альянсів з нашими ворогами й можуть приєднатися до [Concept('concept_diplomatic_play', '$concept_diplomatic_plays_gen$')|l], щоб протистояти нашому розширенню."
+ ai_attitude_antagonistic_desc: "[COUNTRY.GetName] views [TARGET_COUNTRY.GetName] as a #N #bold threatening force#!#! in geopolitical affairs. They are likely to seek closer relations with their foes and may join [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')] to oppose their expansion."
  ai_attitude_antagonistic_tooltip: "#header $ai_attitude_antagonistic$ [concept_attitude|l]#!\n$ai_attitude_antagonistic_desc$\n$TOOLTIP_DELIMITER$\n$ATTITUDE_DETAILS$"
  
  ai_attitude_belligerent: "#V #N Войовниче#!#!"
@@ -172,19 +184,32 @@
  ai_attitude_rebellious: "#V #N Бунтарське#!#!"
  ai_attitude_rebellious_desc: "[COUNTRY.GetName] бачить [Concept('concept_country', '$concept_country_acc$')|l] [TARGET_COUNTRY.GetName], як їхнього #N #bold тиранічного гнобителя#!#! в геополітичних справах. Імовірно, вони спробують розпочати [Concept('concept_diplomatic_play', '$concept_diplomatic_plays_acc$')|l] за незалежність, якщо повірять, що в змозі перемогти."
  ai_attitude_rebellious_tooltip: "#header $ai_attitude_rebellious$ [concept_attitude|l]#!\n$ai_attitude_rebellious_desc$\n$TOOLTIP_DELIMITER$\n$ATTITUDE_DETAILS$"
+
+ ai_attitude_defiant: "#V #N Defiant#!#!"
+ ai_attitude_defiant_desc: "[COUNTRY.GetName] views [TARGET_COUNTRY.GetName] as their #N #bold overbearing suzerain#!#! in geopolitical affairs. They will attempt to strengthen themselves and gain greater autonomy, but will not seek full independence."
+ ai_attitude_defiant_tooltip: "#header $ai_attitude_defiant$ [concept_attitude]#!\n$ai_attitude_defiant_desc$\n$TOOLTIP_DELIMITER$\n$ATTITUDE_DETAILS$"
+ 
+ ai_attitude_aloof: "#V Aloof#!"
+ ai_attitude_aloof_desc: "[COUNTRY.GetName] views [TARGET_COUNTRY.GetName] as their #bold de jure suzerain#! in geopolitical affairs, but are content with the status quo. They are unlikely to actively seek increased autonomy, but equally unlikely to agree to demands for further integration."
+ ai_attitude_aloof_tooltip: "#header $ai_attitude_aloof$ [concept_attitude]#!\n$ai_attitude_aloof_desc$\n$TOOLTIP_DELIMITER$\n$ATTITUDE_DETAILS$"
   
  ATTITUDE_SCORE_NEUTRAL_FORMAT: "#v $SCORE|=0$#!"
  ATTITUDE_SCORE_FORMAT: "#v $SCORE|=0+$#!"
- AI_STRATEGIC_DESIRE: "[COUNTRY.GetAdjectiveNoFormatting]е [concept_strategic_desire|l] відносно [Concept('concept_country', '$concept_country_gen$')|l] [TARGET_COUNTRY.GetNameNoFormatting]: #v $STRATEGIC_DESIRE$#!"
- AI_ATTITUDE_SCORE: "Воно отримано з оцінки #yellow [COUNTRY.GetAdjective|l]ого#! [concept_attitude|l] в $ATTITUDE_SCORE$ відносно [Concept('concept_country', '$concept_country_gen$')|l] [TARGET_COUNTRY.GetName]:"
-  
+ AI_STRATEGIC_DESIRE:1 "[concept_strategic_desire] towards [TARGET_COUNTRY.GetYouOrCountryName]: #v $STRATEGIC_DESIRE$#!"
+ AI_ATTITUDE_SCORE:0 "[concept_attitude] Score: #tooltippable #tooltip:$ATTITUDE_BREAKDOWN$ $ATTITUDE_SCORE$#!#!\n[concept_strategic_desire]: $STRATEGIC_DESIRE$\n\n$CATALYST_DESC$" 
+ AI_ATTITUDE_SCORE_BREAKDOWN: "#header [concept_attitude] Score: $SCORE$#!\n$TOOLTIP_DELIMITER$\n$SCORE_REASONS$"
+ AI_STRATEGIC_DESIRE_LAST_CATALYST_DESC: "They adopted this #v $concept_strategic_desire$#! due to $CATALYST$"
+ 
+ OUR_ENTIRE_COUNTRY: "our entire [concept_country]"
  AI_REASON_FORMAT:0 "$DESC$: $SCORE|=0+$"
  AI_REASON_NEUTRALITY:0 "[TARGET_COUNTRY.GetName] lacks diplomatic significance for [COUNTRY.GetName]"
  AI_REASON_INFAMY:0 "[COUNTRY.GetName] is threatened by [TARGET_COUNTRY.GetName]'s [concept_infamy]"
  AI_REASON_THREATENING_NEIGHBOR:0 "[COUNTRY.GetName] бачить [Concept('concept_country', '$concept_country_acc$')|l] [TARGET_COUNTRY.GetName] as a militarily threatening neighbor"
- AI_REASON_WANTS_TERRITORY:1 "[COUNTRY.GetName] wants to conquer [Concept('concept_state', '$concept_states$')] owned by [TARGET_COUNTRY.GetName]"
+ AI_REASON_WANTS_TERRITORY:1 [COUNTRY.GetName] wants to conquer $DETAILS$"
+ AI_REASON_WANTS_TREATY_PORTS:0 "[COUNTRY.GetName] wants [Concept('concept_treaty_port','$concept_treaty_ports$')] in $DETAILS$"
  AI_REASON_WANTS_TO_DOMINATE:0 "[COUNTRY.GetName] wants to make a [concept_subject] of [TARGET_COUNTRY.GetName]"
  AI_REASON_RELATIONS:1 "[COUNTRY.GetName] has [COUNTRY.GetRelationsWithDesc( TARGET_COUNTRY.Self )] [concept_relations] with [TARGET_COUNTRY.GetName]"
+ AI_REASON_LIBERTY_DESIRE:0 "[concept_liberty_desire] of [COUNTRY.GetName]"
  AI_REASON_PROTECTOR:0 "[COUNTRY.GetName] бачить [Concept('concept_country', '$concept_country_acc$')|l] [TARGET_COUNTRY.GetName] as a potential protector against [COUNTRY_THIRD_PARTY.GetName]"
  AI_REASON_SUBJECT_RELATIONSHIP:0 "[COUNTRY.GetName] has a subject relationship with [TARGET_COUNTRY.GetName]"
  AI_REASON_ALLIANCE:1 "[COUNTRY.GetName] has an [concept_alliance] or [concept_defensive_pact] with [TARGET_COUNTRY.GetName]"

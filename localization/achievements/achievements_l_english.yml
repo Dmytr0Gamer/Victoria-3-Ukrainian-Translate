@@ -11,4 +11,4 @@
  ACHIEVEMENT_GROUP_TOOLTIP: "#V [Group.CalcNumberOfUnlockedVisibleAchievements]#! з #V [Group.GetNumberOfVisibleAchievements]#! здобуті у групі [Group.GetName|l]" #досягненнь(-я) 
  ACHIEVEMENT_FILTER_ALL: "Показати усі досягнення"
  ACHIEVEMENT_UNAVAILABLE_TT: "Не вдалося завантажити досягнення: перевірте підключення до всемережжя"
- ACHIEVEMENT_UNAVAILABLE_PLAZA_TT: "Не вдалося завантажити досягнення: увійдіть у парадокс плазу"
+ ACHIEVEMENT_UNAVAILABLE_PLAZA_TT: "Не вдалося завантажити досягнення: увійдіть у вашу обліковку Парадокс"

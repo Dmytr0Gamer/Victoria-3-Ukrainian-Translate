@@ -1,24 +1,33 @@
 ﻿l_english:
 # Finland
- HUB_NAME_STATE_SOUTHERN_FINLAND_city: "Гельсінкі"
- HUB_NAME_STATE_SOUTHERN_FINLAND_port: "Турку"
- HUB_NAME_STATE_SOUTHERN_FINLAND_mine: "Міккелі"
- HUB_NAME_STATE_SOUTHERN_FINLAND_farm: "Порі"
- HUB_NAME_STATE_SOUTHERN_FINLAND_wood: "Тампере"
- HUB_NAME_STATE_OSTROBOTHNIA_city: "Вааса"
- HUB_NAME_STATE_OSTROBOTHNIA_port: "Оулу"
- HUB_NAME_STATE_OSTROBOTHNIA_mine: "Кемі"
- HUB_NAME_STATE_OSTROBOTHNIA_farm: "Коккола"
- HUB_NAME_STATE_OSTROBOTHNIA_wood: "Каяані"
- HUB_NAME_STATE_WEST_KARELIA_city: "Віїпурі"
- HUB_NAME_STATE_WEST_KARELIA_port: "Гаміна"
- HUB_NAME_STATE_WEST_KARELIA_mine: "Сортавала"
- HUB_NAME_STATE_WEST_KARELIA_farm: "Какісальмі"
- HUB_NAME_STATE_WEST_KARELIA_wood: "Йоенсуу"
+ HUB_NAME_STATE_UUSIMAA_city: "Гельсінкі"
+ HUB_NAME_STATE_UUSIMAA_port: "Турку"
+ HUB_NAME_STATE_UUSIMAA_mine: "Тампере"
+ HUB_NAME_STATE_UUSIMAA_farm: "Порі"
+ HUB_NAME_STATE_UUSIMAA_wood: "Гямеенлінна "
+ HUB_NAME_STATE_OULU_city: "Овлу"
+ HUB_NAME_STATE_OULU_port: "Рааге"
+ HUB_NAME_STATE_OULU_mine: "Рованіємі"
+ HUB_NAME_STATE_OULU_farm: "Куусамо"
+ HUB_NAME_STATE_OULU_wood: "Каяані"
+ HUB_NAME_STATE_KUOPIO_city: "Міккелі"
+ HUB_NAME_STATE_KUOPIO_mine: "Ійсалмі"
+ HUB_NAME_STATE_KUOPIO_farm: "Савонлінна"
+ HUB_NAME_STATE_KUOPIO_wood: "Куопіо"
+ HUB_NAME_STATE_OSTROBOTHNIA_city: "Васа"
+ HUB_NAME_STATE_OSTROBOTHNIA_port: "Якобстад"
+ HUB_NAME_STATE_OSTROBOTHNIA_mine: "Каннус"
+ HUB_NAME_STATE_OSTROBOTHNIA_farm: "Ілмайокі"
+ HUB_NAME_STATE_OSTROBOTHNIA_wood: "Куортане"
+ HUB_NAME_STATE_WEST_KARELIA_city: "Війпурі"
+ HUB_NAME_STATE_WEST_KARELIA_port: "Наміна"
+ HUB_NAME_STATE_WEST_KARELIA_mine: "Піткяранта"
+ HUB_NAME_STATE_WEST_KARELIA_farm: "Сортавала"
+ HUB_NAME_STATE_WEST_KARELIA_wood: "Лаппеенранта"
  HUB_NAME_STATE_ALAND_city: "Бомарсунд"
  HUB_NAME_STATE_ALAND_port: "Марієгамн"
- HUB_NAME_STATE_ALAND_farm: "Екерьо"
-
+ HUB_NAME_STATE_ALAND_farm: "Страндґорд"
+  
 # Norway
  HUB_NAME_STATE_NORTHERN_NORWAY_city: "Тронгейм"
  HUB_NAME_STATE_NORTHERN_NORWAY_port: "Буде"
@@ -57,7 +66,7 @@
  HUB_NAME_STATE_GOTLAND_mine: "Клінтегамн"
  HUB_NAME_STATE_GOTLAND_farm: "Румаклостер"
  HUB_NAME_STATE_GOTLAND_wood: "Сліт"
- HUB_NAME_STATE_SCANIA_city: "Гельсінгборґ"
+ HUB_NAME_STATE_SCANIA_city: "Гельсінґборґ"
  HUB_NAME_STATE_SCANIA_port: "Мальме"
  HUB_NAME_STATE_SCANIA_mine: "Крістіянстад"
  HUB_NAME_STATE_SCANIA_farm: "Гальмстад"
@@ -78,7 +87,7 @@
  HUB_NAME_STATE_SCHLESWIG_HOLSTEIN_port: "Любек"
  HUB_NAME_STATE_SCHLESWIG_HOLSTEIN_mine: "Нібюль"
  HUB_NAME_STATE_SCHLESWIG_HOLSTEIN_farm: "Фленсбурґ"
- HUB_NAME_STATE_SCHLESWIG_HOLSTEIN_wood: "Ітцего"
+ HUB_NAME_STATE_SCHLESWIG_HOLSTEIN_wood: "Іцего"
   
 # Germany
  HUB_NAME_STATE_MECKLENBURG_city: "Шверін"
@@ -96,10 +105,10 @@
  HUB_NAME_STATE_BRANDENBURG_farm: "Потсдам"
  HUB_NAME_STATE_BRANDENBURG_wood: "Старґард"
  HUB_NAME_STATE_SAXONY_city: "Дрезден"
- HUB_NAME_STATE_SAXONY_mine: "Лейпциґ"
+ HUB_NAME_STATE_SAXONY_mine: "Ляйпциґ"
  HUB_NAME_STATE_SAXONY_farm: "Ерфурт"
  HUB_NAME_STATE_SAXONY_wood: "Ґера"
- HUB_NAME_STATE_FRANCONIA_city: "Нюрнберґ"
+ HUB_NAME_STATE_FRANCONIA_city: "Нюремберґ"
  HUB_NAME_STATE_FRANCONIA_mine: "Байройт"
  HUB_NAME_STATE_FRANCONIA_farm: "Кобурґ"
  HUB_NAME_STATE_FRANCONIA_wood: "Вюрцбурґ"
@@ -136,16 +145,16 @@
  HUB_NAME_STATE_ELBE_mine: "Ельмсгорн"
  HUB_NAME_STATE_ELBE_farm: "Бремен"
  HUB_NAME_STATE_ELBE_wood: "Вальсроде"
- HUB_NAME_STATE_HANNOVER_city: "Ганновер"
+ HUB_NAME_STATE_HANNOVER_city: "Гановер"
  HUB_NAME_STATE_HANNOVER_port: "Емден"
  HUB_NAME_STATE_HANNOVER_mine: "Білефельд"
- HUB_NAME_STATE_HANNOVER_farm: "Ольденбурґ"
+ HUB_NAME_STATE_HANNOVER_farm: "Оснабрюк"
  HUB_NAME_STATE_HANNOVER_wood: "Мінден"
  HUB_NAME_STATE_WESTPHALIA_city: "Дортмунд"
  HUB_NAME_STATE_WESTPHALIA_mine: "Падерборн"
  HUB_NAME_STATE_WESTPHALIA_farm: "Манстер"
  HUB_NAME_STATE_WESTPHALIA_wood: "Ессен"
- HUB_NAME_STATE_NORTH_RHINE_city: "Кьольн"
+ HUB_NAME_STATE_NORTH_RHINE_city: "Кельн"
  HUB_NAME_STATE_NORTH_RHINE_mine: "Аахен"
  HUB_NAME_STATE_NORTH_RHINE_farm: "Бонн"
  HUB_NAME_STATE_NORTH_RHINE_wood: "Ойпен"
@@ -163,7 +172,7 @@
  HUB_NAME_STATE_FLANDERS_port: "Брюґґе"
  HUB_NAME_STATE_FLANDERS_mine: "Гасселт"
  HUB_NAME_STATE_FLANDERS_farm: "Антверпен"
- HUB_NAME_STATE_FLANDERS_wood: "Ґент"
+ HUB_NAME_STATE_FLANDERS_wood: "Гент"
   
 #Netherlands
  HUB_NAME_STATE_GELRE_city: "Ейндговен"
@@ -198,7 +207,7 @@
  HUB_NAME_STATE_WEST_COUNTRY_farm: "Тонтин"
  HUB_NAME_STATE_WEST_COUNTRY_wood: "Барнстейпл"
  HUB_NAME_STATE_WALES_city: "Кардіфф"
- HUB_NAME_STATE_WALES_port: "Свонсі"
+ HUB_NAME_STATE_WALES_port: "Свонзі"
  HUB_NAME_STATE_WALES_mine: "Мертір-Тідвіл"
  HUB_NAME_STATE_WALES_farm: "Кармартен"
  HUB_NAME_STATE_WALES_wood: "Портмадоґ"
@@ -326,8 +335,8 @@
  HUB_NAME_STATE_LANGUEDOC_city: "Тулуза"
  HUB_NAME_STATE_LANGUEDOC_port: "Монпельє"
  HUB_NAME_STATE_LANGUEDOC_mine: "Алес"
- HUB_NAME_STATE_LANGUEDOC_farm: "Нарбонн" #окс. Нарбона
- HUB_NAME_STATE_LANGUEDOC_wood: "Каркассонн" #окс. Каркасона
+ HUB_NAME_STATE_LANGUEDOC_farm: "Нарбона"
+ HUB_NAME_STATE_LANGUEDOC_wood: "Каркасона"
  HUB_NAME_STATE_GUYENNE_city: "Монтобан"
  HUB_NAME_STATE_GUYENNE_mine: "Родез"
  HUB_NAME_STATE_GUYENNE_farm: "Ажен"
@@ -355,7 +364,7 @@
  HUB_NAME_STATE_ESTREMADURA_wood: "Лейрія"
  HUB_NAME_STATE_BEIRA_city: "Браґа"
  HUB_NAME_STATE_BEIRA_port: "Порту"
- HUB_NAME_STATE_BEIRA_mine: "Ґуарда"
+ HUB_NAME_STATE_BEIRA_mine: "Ґварда"
  HUB_NAME_STATE_BEIRA_farm: "Візеу"
  HUB_NAME_STATE_BEIRA_wood: "Каштелу-Бранку"
 
@@ -365,7 +374,7 @@
  HUB_NAME_STATE_GALICIA_mine: "Понферрада"
  HUB_NAME_STATE_GALICIA_farm: "Віґо"
  HUB_NAME_STATE_GALICIA_wood: "Луґо"
- HUB_NAME_STATE_ASTURIAS_city: "Ов‘єдо"
+ HUB_NAME_STATE_ASTURIAS_city: "Ов’єдо"
  HUB_NAME_STATE_ASTURIAS_port: "Сантандер"
  HUB_NAME_STATE_ASTURIAS_mine: "Ла-Фельґера"
  HUB_NAME_STATE_ASTURIAS_wood: "Канґас-дель-Нарсеа"
@@ -414,7 +423,7 @@
  HUB_NAME_STATE_BALEARES_city: "Ібіса"
  HUB_NAME_STATE_BALEARES_port: "Пальма"
  HUB_NAME_STATE_BALEARES_mine: "Манакор"
- HUB_NAME_STATE_BALEARES_farm: "Кала д‘Ор"
+ HUB_NAME_STATE_BALEARES_farm: "Кала д’Ор"
  HUB_NAME_STATE_BALEARES_wood: "Алькудія"
   
 # Italy
@@ -445,11 +454,11 @@
  HUB_NAME_STATE_CAMPANIA_wood: "Потенца"
  HUB_NAME_STATE_ABRUZZO_city: "Васто"
  HUB_NAME_STATE_ABRUZZO_port: "Сан-Бенедетто"
- HUB_NAME_STATE_ABRUZZO_mine: "Л‘Аквуїла"
+ HUB_NAME_STATE_ABRUZZO_mine: "Л’Аквуїла"
  HUB_NAME_STATE_ABRUZZO_farm: "Пескара"
  HUB_NAME_STATE_ABRUZZO_wood: "Кампобассо"
  HUB_NAME_STATE_LAZIO_city: "Рим"
- HUB_NAME_STATE_LAZIO_port: "Ф‘юмічіно"
+ HUB_NAME_STATE_LAZIO_port: "Ф’юмічіно"
  HUB_NAME_STATE_LAZIO_mine: "Терні"
  HUB_NAME_STATE_LAZIO_farm: "Фрозіноне"
  HUB_NAME_STATE_LAZIO_wood: "Вітербо"
@@ -480,7 +489,7 @@
  HUB_NAME_STATE_EMILIA_city: "Парма"
  HUB_NAME_STATE_EMILIA_port: "Лукка"
  HUB_NAME_STATE_EMILIA_mine: "Модена"
- HUB_NAME_STATE_EMILIA_farm: "П‘яченца"
+ HUB_NAME_STATE_EMILIA_farm: "П’яченца"
  HUB_NAME_STATE_EMILIA_wood: "Берчето"
  HUB_NAME_STATE_PIEDMONT_city: "Турин"
  HUB_NAME_STATE_PIEDMONT_port: "Ґенуя"
@@ -490,7 +499,7 @@
  HUB_NAME_STATE_SAVOY_city: "Аннесі"
  HUB_NAME_STATE_SAVOY_mine: "Тонон-ле-Бен"
  HUB_NAME_STATE_SAVOY_farm: "Шамбері"
- HUB_NAME_STATE_SAVOY_wood: "Сен-Жан-де-Мор‘єнн"
+ HUB_NAME_STATE_SAVOY_wood: "Сен-Жан-де-Мор’єнн"
   
 #Switzerland
  HUB_NAME_STATE_WEST_SWITZERLAND_city: "Берн"
@@ -498,32 +507,32 @@
  HUB_NAME_STATE_WEST_SWITZERLAND_farm: "Лозанна"
  HUB_NAME_STATE_WEST_SWITZERLAND_wood: "Женева"
  HUB_NAME_STATE_EAST_SWITZERLAND_city: "Цюрих"
- HUB_NAME_STATE_EAST_SWITZERLAND_mine: "Кур"
+ HUB_NAME_STATE_EAST_SWITZERLAND_mine: "Чур"
  HUB_NAME_STATE_EAST_SWITZERLAND_farm: "Сент-Ґаллен"
  HUB_NAME_STATE_EAST_SWITZERLAND_wood: "Люцерн"
 
 # Austria
  HUB_NAME_STATE_TYROL_city: "Інсбрук"
  HUB_NAME_STATE_TYROL_mine: "Лієнц"
- HUB_NAME_STATE_TYROL_farm: "Зальцбурґ"
+ HUB_NAME_STATE_TYROL_farm: "Зальцбург"
  HUB_NAME_STATE_TYROL_wood: "Фельдкірх"
- HUB_NAME_STATE_SOUTH_TYROL_city: "Тренто" #нім. Трієнт
- HUB_NAME_STATE_SOUTH_TYROL_mine: "Мерано" #нім. Меран
+ HUB_NAME_STATE_SOUTH_TYROL_city: "Тренто"
+ HUB_NAME_STATE_SOUTH_TYROL_mine: "Мерано"
  HUB_NAME_STATE_SOUTH_TYROL_farm: "Роверето"
- HUB_NAME_STATE_SOUTH_TYROL_wood: "Больцано" #нім. Боцен
- HUB_NAME_STATE_STYRIA_city: "Грац"
+ HUB_NAME_STATE_SOUTH_TYROL_wood: "Больцано"
+ HUB_NAME_STATE_STYRIA_city: "Ґрац"
  HUB_NAME_STATE_STYRIA_mine: "Ліцен"
  HUB_NAME_STATE_STYRIA_farm: "Клаґенфурт"
- HUB_NAME_STATE_STYRIA_wood: "Хартберґ"
+ HUB_NAME_STATE_STYRIA_wood: "Гартберґ"
  HUB_NAME_STATE_AUSTRIA_city: "Відень"
- HUB_NAME_STATE_AUSTRIA_mine: "Фрайштат"
+ HUB_NAME_STATE_AUSTRIA_mine: "Фрайштадт"
  HUB_NAME_STATE_AUSTRIA_farm: "Лінц"
- HUB_NAME_STATE_AUSTRIA_wood: "Санкт-Пельтен"
+ HUB_NAME_STATE_AUSTRIA_wood: "Сант-Пельтен"
 
 #Czech Repbulic
  HUB_NAME_STATE_BOHEMIA_city: "Прага"
  HUB_NAME_STATE_BOHEMIA_mine: "Чеські Будейовиці"
- HUB_NAME_STATE_BOHEMIA_farm: "Світави"
+ HUB_NAME_STATE_BOHEMIA_farm: "Градец-Кралове"
  HUB_NAME_STATE_BOHEMIA_wood: "Пльзень"
  HUB_NAME_STATE_MORAVIA_city: "Брно"
  HUB_NAME_STATE_MORAVIA_mine: "Оломуц"
@@ -561,12 +570,20 @@
  HUB_NAME_STATE_BANAT_mine: "Карансебеш"
  HUB_NAME_STATE_BANAT_farm: "Орцишоара"
  HUB_NAME_STATE_BANAT_wood: "Феджет"
+
+#Юґославія
+ HUB_NAME_STATE_DELVIDEK_city: "Нові-Сад"
+ HUB_NAME_STATE_DELVIDEK_mine: "Панчево"
+ HUB_NAME_STATE_DELVIDEK_farm: "Зренянин"
+ HUB_NAME_STATE_DELVIDEK_wood: "Суботіца"
+ HUB_NAME_STATE_SLAVONIA_city: "Брод на Саві"
+ HUB_NAME_STATE_SLAVONIA_mine: "Бєловар"
+ HUB_NAME_STATE_SLAVONIA_farm: "Осієк"
+ HUB_NAME_STATE_SLAVONIA_wood: "Ґрадішка"
  HUB_NAME_STATE_TRANSDANUBIA_city: "Секешфегервар"
  HUB_NAME_STATE_TRANSDANUBIA_mine: "Печ"
  HUB_NAME_STATE_TRANSDANUBIA_farm: "Кестхей"
  HUB_NAME_STATE_TRANSDANUBIA_wood: "Сомбатгей"
-
-#Словенія
  HUB_NAME_STATE_SLOVENIA_city: "Любляна"
  HUB_NAME_STATE_SLOVENIA_mine: "Птуй"
  HUB_NAME_STATE_SLOVENIA_farm: "Марібор"
@@ -576,30 +593,20 @@
  HUB_NAME_STATE_ISTRIA_mine: "Удіне"
  HUB_NAME_STATE_ISTRIA_farm: "Опатія"
  HUB_NAME_STATE_ISTRIA_wood: "Ґоріція"
-
-#Хорватія
  HUB_NAME_STATE_CROATIA_city: "Заґреб"
  HUB_NAME_STATE_CROATIA_mine: "Карловац"
  HUB_NAME_STATE_CROATIA_farm: "Сісак"
  HUB_NAME_STATE_CROATIA_port: "Рієка"
- HUB_NAME_STATE_CROATIA_wood: "Покупсько"
+ HUB_NAME_STATE_CROATIA_wood: "Покупско"
  HUB_NAME_STATE_DALMATIA_city: "Спліт"
  HUB_NAME_STATE_DALMATIA_port: "Задар"
  HUB_NAME_STATE_DALMATIA_mine: "Раґуза"
  HUB_NAME_STATE_DALMATIA_farm: "Кнін"
- HUB_NAME_STATE_DALMATIA_wood: "Шибеник"
- HUB_NAME_STATE_SLAVONIA_city: "Брод на Саві"
- HUB_NAME_STATE_SLAVONIA_mine: "Бєловар"
- HUB_NAME_STATE_SLAVONIA_farm: "Осієк"
- HUB_NAME_STATE_SLAVONIA_wood: "Градішка"
-
-#Босна
+ HUB_NAME_STATE_DALMATIA_wood: "Шибенік"
  HUB_NAME_STATE_BOSNIA_city: "Сараєво"
  HUB_NAME_STATE_BOSNIA_mine: "Мостар"
  HUB_NAME_STATE_BOSNIA_farm: "Баня-Лука"
  HUB_NAME_STATE_BOSNIA_wood: "Добой"
-
-#Сербія
  HUB_NAME_STATE_NORTHERN_SERBIA_city: "Бєлґрад"
  HUB_NAME_STATE_NORTHERN_SERBIA_mine: "Крушеваць"
  HUB_NAME_STATE_NORTHERN_SERBIA_farm: "Смедереве"
@@ -613,35 +620,17 @@
  HUB_NAME_STATE_MONTENEGRO_mine: "Беране"
  HUB_NAME_STATE_MONTENEGRO_farm: "Цетинє"
  HUB_NAME_STATE_MONTENEGRO_wood: "Ганові"
- HUB_NAME_STATE_DELVIDEK_city: "Нові-Сад"
- HUB_NAME_STATE_DELVIDEK_mine: "Панчево"
- HUB_NAME_STATE_DELVIDEK_farm: "Зренянин"
- HUB_NAME_STATE_DELVIDEK_wood: "Суботіца"
-
-#Шкіперщина
  HUB_NAME_STATE_ALBANIA_city: "Тірана"
  HUB_NAME_STATE_ALBANIA_port: "Дуррес"
  HUB_NAME_STATE_ALBANIA_mine: "Шкодер"
  HUB_NAME_STATE_ALBANIA_farm: "Фієр"
  HUB_NAME_STATE_ALBANIA_wood: "Берат"
-
-#Македонія
- HUB_NAME_STATE_SKOPIA_city: "Скоп‘є"
+ HUB_NAME_STATE_SKOPIA_city: "Скоп’є"
  HUB_NAME_STATE_SKOPIA_mine: "Тетово"
  HUB_NAME_STATE_SKOPIA_farm: "Кавадарці"
  HUB_NAME_STATE_SKOPIA_wood: "Прілеп"
 
 #Греччина
- HUB_NAME_STATE_WEST_AEGEAN_ISLANDS_city: "Хора"
- HUB_NAME_STATE_WEST_AEGEAN_ISLANDS_port: "Санторині"
- #HUB_NAME_STATE_WEST_AEGEAN_ISLANDS_mine: "NAME"
- HUB_NAME_STATE_WEST_AEGEAN_ISLANDS_farm: "Тінос"
- #HUB_NAME_STATE_WEST_AEGEAN_ISLANDS_wood: "NAME"
- HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_city: "Хіос"
- HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_port: "Родос"
- #HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_mine: "NAME"
- HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_farm: "Мітіліні"
- HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_wood: "Ваті"
  HUB_NAME_STATE_MACEDONIA_city: "Верія"
  HUB_NAME_STATE_MACEDONIA_port: "Тессалоніки"
  HUB_NAME_STATE_MACEDONIA_mine: "Флорина"
@@ -677,6 +666,16 @@
  HUB_NAME_STATE_CRETE_mine: "Ієрапетра"
  HUB_NAME_STATE_CRETE_farm: "Ханья"
  HUB_NAME_STATE_CRETE_wood: "Палеохора"
+ HUB_NAME_STATE_WEST_AEGEAN_ISLANDS_city: "Хора"
+ HUB_NAME_STATE_WEST_AEGEAN_ISLANDS_port: "Санторині"
+  #HUB_NAME_STATE_WEST_AEGEAN_ISLANDS_mine: "NAME"
+ HUB_NAME_STATE_WEST_AEGEAN_ISLANDS_farm: "Тінос"
+ #HUB_NAME_STATE_WEST_AEGEAN_ISLANDS_wood: "NAME"
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_city: "Хіос"
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_port: "Родос"
+ #HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_mine: "NAME"
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_farm: "Мітіліні"
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_wood: "Ваті"
 
 #Болгарія
  HUB_NAME_STATE_NORTHERN_THRACE_city: "Пловдив"
@@ -695,283 +694,454 @@
  HUB_NAME_STATE_WALLACHIA_mine: "Крайова"
  HUB_NAME_STATE_WALLACHIA_farm: "Бузев"
  HUB_NAME_STATE_WALLACHIA_wood: "Слатіна"
+
+ HUB_NAME_STATE_MOLDAVIA_city: "Яси"
+ HUB_NAME_STATE_MOLDAVIA_mine: "Радівці"
+ HUB_NAME_STATE_MOLDAVIA_farm: "Фокшань"
+ HUB_NAME_STATE_MOLDAVIA_wood: "Бакеу"
+
  HUB_NAME_STATE_DOBRUDJA_city: "Тулча"
  HUB_NAME_STATE_DOBRUDJA_port: "Констанца"
  HUB_NAME_STATE_DOBRUDJA_mine: "Добрич"
  HUB_NAME_STATE_DOBRUDJA_farm: "Манґалія"
  HUB_NAME_STATE_DOBRUDJA_wood: "Силістра"
- HUB_NAME_STATE_BESSARABIA_city: "Кишинів"
- HUB_NAME_STATE_BESSARABIA_port: "Аккерман"
- HUB_NAME_STATE_BESSARABIA_mine: "Більці"
- HUB_NAME_STATE_BESSARABIA_farm: "Ізмаїл"
- HUB_NAME_STATE_BESSARABIA_wood: "Келераш"
- HUB_NAME_STATE_MOLDAVIA_city: "Яси"
- HUB_NAME_STATE_MOLDAVIA_mine: "Радівці"
- HUB_NAME_STATE_MOLDAVIA_farm: "Фокшань"
- HUB_NAME_STATE_MOLDAVIA_wood: "Бакеу"
  
-#Польща
+#Poland
+ HUB_NAME_STATE_EAST_GALICIA_city: "Львів"
+ HUB_NAME_STATE_EAST_GALICIA_mine: "Чернівці"
+ HUB_NAME_STATE_EAST_GALICIA_farm: "Станиславів"
+ HUB_NAME_STATE_EAST_GALICIA_wood: "Стрий"
+ HUB_NAME_STATE_WEST_GALICIA_city: "Краків"
+ HUB_NAME_STATE_WEST_GALICIA_mine: "Ярослав"
+ HUB_NAME_STATE_WEST_GALICIA_farm: "Жешув"
+ HUB_NAME_STATE_WEST_GALICIA_wood: "Б’єльско"
  HUB_NAME_STATE_SILESIA_city: "Бреслав"
- HUB_NAME_STATE_SILESIA_mine: "Гербіц"
+ HUB_NAME_STATE_SILESIA_mine: "Ґербіц"
  HUB_NAME_STATE_SILESIA_farm: "Кеніґсхюте"
  HUB_NAME_STATE_SILESIA_wood: "Кройцбурґ"
  HUB_NAME_STATE_POSEN_city: "Познань"
  HUB_NAME_STATE_POSEN_mine: "Лісса"
  HUB_NAME_STATE_POSEN_farm: "Бронберґ"
- HUB_NAME_STATE_POSEN_wood: "Невторніче"
- HUB_NAME_STATE_WEST_PRUSSIA_city: "Ґданськ"
- HUB_NAME_STATE_WEST_PRUSSIA_port: "Путціґ"
- HUB_NAME_STATE_WEST_PRUSSIA_mine: "Конітц"
+ HUB_NAME_STATE_POSEN_wood: "Нойторнішель"
+ HUB_NAME_STATE_WEST_PRUSSIA_city: "Данциґ"
+ HUB_NAME_STATE_WEST_PRUSSIA_port: "Пуциґ"
+ HUB_NAME_STATE_WEST_PRUSSIA_mine: "Коніц"
  HUB_NAME_STATE_WEST_PRUSSIA_farm: "Торн"
- HUB_NAME_STATE_WEST_PRUSSIA_wood: "Штрассбурґ"
+ HUB_NAME_STATE_WEST_PRUSSIA_wood: "Штрасбурґ"
  HUB_NAME_STATE_EAST_PRUSSIA_city: "Кеніґсберґ"
  HUB_NAME_STATE_EAST_PRUSSIA_port: "Мемель"
- HUB_NAME_STATE_EAST_PRUSSIA_mine: "Гумбінен"
+ HUB_NAME_STATE_EAST_PRUSSIA_mine: "Ґумбінен"
  HUB_NAME_STATE_EAST_PRUSSIA_farm: "Інштербурґ"
  HUB_NAME_STATE_EAST_PRUSSIA_wood: "Алленштайн"
- HUB_NAME_STATE_GREATER_POLAND_city: "Лодзь"
- HUB_NAME_STATE_GREATER_POLAND_mine: "Чеслова"
- HUB_NAME_STATE_GREATER_POLAND_farm: "Плоцьк"
- HUB_NAME_STATE_GREATER_POLAND_wood: "Томашів Мазовецький"
+
+ HUB_NAME_STATE_GREATER_POLAND_city: "Варшава"
+ HUB_NAME_STATE_GREATER_POLAND_mine: "Лодзь"
+ HUB_NAME_STATE_GREATER_POLAND_farm: "Радом"
+ HUB_NAME_STATE_GREATER_POLAND_wood: "Ченстохова"
  HUB_NAME_STATE_LESSER_POLAND_city: "Люблін"
- HUB_NAME_STATE_LESSER_POLAND_mine: "Радом"
- HUB_NAME_STATE_LESSER_POLAND_farm: "Кельце"
- HUB_NAME_STATE_LESSER_POLAND_wood: "Замостя"
- HUB_NAME_STATE_MAZOVIA_city: "Варшава"
- HUB_NAME_STATE_MAZOVIA_mine: "Седльце"
+ HUB_NAME_STATE_LESSER_POLAND_mine: "Сєдльце"
+ HUB_NAME_STATE_LESSER_POLAND_farm: "Холм"
+ HUB_NAME_STATE_LESSER_POLAND_wood: "Біла Підляська"
+ HUB_NAME_STATE_MAZOVIA_city: "Плоцк"
+ HUB_NAME_STATE_MAZOVIA_mine: "Млава"
  HUB_NAME_STATE_MAZOVIA_farm: "Ломжа"
- HUB_NAME_STATE_MAZOVIA_wood: "Остроленка"
+ HUB_NAME_STATE_MAZOVIA_wood: "Бялисток"
 
-#Литва
- HUB_NAME_STATE_LITHUANIA_city: "Вільнюс"
- HUB_NAME_STATE_LITHUANIA_mine: "Утена"
- HUB_NAME_STATE_LITHUANIA_farm: "Шяуляй"
- HUB_NAME_STATE_LITHUANIA_wood: "Каунас"
- HUB_NAME_STATE_LITHUANIA_port: "Паланга"
+#Belarus - TODO BELARUSISE THESE
+ HUB_NAME_STATE_BREST_city: "Горадня" ##Гродна
+ HUB_NAME_STATE_BREST_mine: "Пінск"
+ HUB_NAME_STATE_BREST_farm: "Берестя" ##Брест
+ HUB_NAME_STATE_BREST_wood: "Ошмяни"
+ HUB_NAME_STATE_MOGILEV_city: "Магільов"
+ HUB_NAME_STATE_MOGILEV_mine: "Гомєль"
+ HUB_NAME_STATE_MOGILEV_farm: "Орша"
+ HUB_NAME_STATE_MOGILEV_wood: "Рогачов"
+ HUB_NAME_STATE_MINSK_city: "Мєнск"
+ HUB_NAME_STATE_MINSK_mine: "Койданав"
+ HUB_NAME_STATE_MINSK_farm: "Слуцк"
+ HUB_NAME_STATE_MINSK_wood: "Варисав"
+ HUB_NAME_STATE_VITEBSK_city: "Віцєбск"
+ HUB_NAME_STATE_VITEBSK_mine: "Гарадок"
+ HUB_NAME_STATE_VITEBSK_farm: "Полацк"
+ HUB_NAME_STATE_VITEBSK_wood: "Лєпєль"
 
-#Латвія
- HUB_NAME_STATE_LATVIA_city: "Рига"
- HUB_NAME_STATE_LATVIA_port: "Лієпая"
- HUB_NAME_STATE_LATVIA_mine: "Єлґава"
- HUB_NAME_STATE_LATVIA_farm: "Дауґавпілс"
- HUB_NAME_STATE_LATVIA_wood: "Мадона"
-
-#Естонія
- HUB_NAME_STATE_ESTONIA_city: "Ревель"
- HUB_NAME_STATE_ESTONIA_port: "Пярну"
- HUB_NAME_STATE_ESTONIA_mine: "Тарту"
- HUB_NAME_STATE_ESTONIA_farm: "Нарва"
- HUB_NAME_STATE_ESTONIA_wood: "Хаапсалу"
-
-
- HUB_NAME_STATE_INGRIA_city: "Санкт-Петербурґ"
- HUB_NAME_STATE_INGRIA_port: "Кронштадт"
- HUB_NAME_STATE_INGRIA_mine: "Шліссельбурґ"
- HUB_NAME_STATE_INGRIA_farm: "Ямбурґ"
- HUB_NAME_STATE_INGRIA_wood: "Псков"
- 
-#Білорусь
- HUB_NAME_STATE_MINSK_city: "Мєнськ"
- HUB_NAME_STATE_MINSK_mine: "Борисов"
- HUB_NAME_STATE_MINSK_farm: "Мозир"
- HUB_NAME_STATE_MINSK_wood: "Бобруйськ"
- HUB_NAME_STATE_BREST_city: "Берестя"
- HUB_NAME_STATE_BREST_mine: "Пинськ"
- HUB_NAME_STATE_BREST_farm: "Білосток"
- HUB_NAME_STATE_BREST_wood: "Ґродно"
- HUB_NAME_STATE_ORSHA_city: "Орша"
- HUB_NAME_STATE_ORSHA_mine: "Могилів"
- HUB_NAME_STATE_ORSHA_farm: "Гомель"
- HUB_NAME_STATE_ORSHA_wood: "Віцебськ"
-
-#Україна
- HUB_NAME_STATE_EAST_GALICIA_city: "Львів"
- HUB_NAME_STATE_EAST_GALICIA_mine: "Чернівці"
- HUB_NAME_STATE_EAST_GALICIA_farm: "Станіслав"
- HUB_NAME_STATE_EAST_GALICIA_wood: "Стрий"
- HUB_NAME_STATE_WEST_GALICIA_city: "Краків"
- HUB_NAME_STATE_WEST_GALICIA_mine: "Ярослав"
- HUB_NAME_STATE_WEST_GALICIA_farm: "Ряшів"
- HUB_NAME_STATE_WEST_GALICIA_wood: "Бельсько"
- HUB_NAME_STATE_VOLHYNIA_city: "Рівне"
- HUB_NAME_STATE_VOLHYNIA_mine: "Тернопіль"
+#Ukraine - TODO UKRAINISE THESE
+ HUB_NAME_STATE_VOLHYNIA_city: "Луцьке"
+ HUB_NAME_STATE_VOLHYNIA_mine: "Сарни"
  HUB_NAME_STATE_VOLHYNIA_farm: "Ковель"
- HUB_NAME_STATE_VOLHYNIA_wood: "Новоград-Волинський"
+ HUB_NAME_STATE_VOLHYNIA_wood: "Рівне"
  HUB_NAME_STATE_KIEV_city: "Київ"
- HUB_NAME_STATE_KIEV_mine: "Жмеринка"
- HUB_NAME_STATE_KIEV_farm: "Суми"
- HUB_NAME_STATE_KIEV_wood: "Житомир"
- HUB_NAME_STATE_CHERSON_city: "Миколаїв"
+ HUB_NAME_STATE_KIEV_mine: "Умань"
+ HUB_NAME_STATE_KIEV_farm: "Житомир"
+ HUB_NAME_STATE_KIEV_wood: "Винниця"
+ HUB_NAME_STATE_CHERSON_city: "Херсон"
  HUB_NAME_STATE_CHERSON_port: "Одеса"
- HUB_NAME_STATE_CHERSON_mine: "Єлисаветград"
- HUB_NAME_STATE_CHERSON_farm: "Херсон"
- HUB_NAME_STATE_CHERSON_wood: "Вознесенське"
- HUB_NAME_STATE_CRIMEA_city: "Сімферополь"
- HUB_NAME_STATE_CRIMEA_port: "Севастополь"
- HUB_NAME_STATE_CRIMEA_mine: "Судак"
- HUB_NAME_STATE_CRIMEA_farm: "Джанкой"
- HUB_NAME_STATE_CRIMEA_wood: "Керч"
- HUB_NAME_STATE_LUHANSK_city: "Харків"
- HUB_NAME_STATE_LUHANSK_port: "Маріюполь"
- HUB_NAME_STATE_LUHANSK_mine: "Олександрівка"
- HUB_NAME_STATE_LUHANSK_farm: "Катеринослав"
- HUB_NAME_STATE_LUHANSK_wood: "Олександрівське"
- HUB_NAME_STATE_KURSK_city: "Орел"
- HUB_NAME_STATE_KURSK_mine: "Вороніж"
- HUB_NAME_STATE_KURSK_farm: "Курське"
- HUB_NAME_STATE_KURSK_wood: "Єфремів"
- HUB_NAME_STATE_ROSTOV_city: "Ростів"
- HUB_NAME_STATE_ROSTOV_port: "Озів"
- HUB_NAME_STATE_ROSTOV_mine: "Олександрівське-Грушевський"
- HUB_NAME_STATE_ROSTOV_farm: "Новочеркаське"
- HUB_NAME_STATE_ROSTOV_wood: "Цимлянське"
- HUB_NAME_STATE_KUBAN_port: "Новоросійське"
- HUB_NAME_STATE_KUBAN_city: "Катеринодар"
- HUB_NAME_STATE_KUBAN_mine: "П‘ятигірське"
- HUB_NAME_STATE_KUBAN_wood: "Армавір"
- HUB_NAME_STATE_KUBAN_farm: "Сочі"
+ HUB_NAME_STATE_CHERSON_mine: "Кривий ріг"
+ HUB_NAME_STATE_CHERSON_farm: "Миколаїв"
+ HUB_NAME_STATE_CHERSON_wood: "Катеринослав"
+ HUB_NAME_STATE_KHARKOV_city: "Харків"
+ HUB_NAME_STATE_KHARKOV_mine: "Полтава"
+ HUB_NAME_STATE_KHARKOV_farm: "Суми"
+ HUB_NAME_STATE_KHARKOV_wood: "Кременчук"
+ HUB_NAME_STATE_CHERNIHIV_city: "Чернігів"
+ HUB_NAME_STATE_CHERNIHIV_mine: "Novozybkov"
+ HUB_NAME_STATE_CHERNIHIV_farm: "Конотоп"
+ HUB_NAME_STATE_CHERNIHIV_wood: "Ніжин"
+ HUB_NAME_STATE_TAURIDA_city: "Олександрівське"
+ HUB_NAME_STATE_TAURIDA_mine: "Луганське"
+ HUB_NAME_STATE_TAURIDA_port: "Маріюполь"
+ HUB_NAME_STATE_TAURIDA_farm: "Каховка"
+ HUB_NAME_STATE_TAURIDA_wood: "Бахмут"
 
+#Crimea
+ HUB_NAME_STATE_CRIMEA_city: "Симферополь" #14-11-2023
+ HUB_NAME_STATE_CRIMEA_port: "Севастополь" #14-11-2023
+ HUB_NAME_STATE_CRIMEA_mine: "Керч" #14-11-2023
+ HUB_NAME_STATE_CRIMEA_farm: "Євпаторія" #14-11-2023
+ HUB_NAME_STATE_CRIMEA_wood: "Феодосія" #14-11-2023
 
-# раша
- HUB_NAME_STATE_BRYANSK_city: "Брянськ"
- HUB_NAME_STATE_BRYANSK_mine: "Волоколамськ"
- HUB_NAME_STATE_BRYANSK_farm: "Вязьма"
- HUB_NAME_STATE_BRYANSK_wood: "Калуга"
- HUB_NAME_STATE_SMOLENSK_city: "Смоленськ"
- HUB_NAME_STATE_SMOLENSK_mine: "Рославль"
- HUB_NAME_STATE_SMOLENSK_farm: "Ржев"
- HUB_NAME_STATE_SMOLENSK_wood: "Торопець"
- HUB_NAME_STATE_NOVGOROD_city: "Новґород"
- HUB_NAME_STATE_NOVGOROD_mine: "Лодейне поле"
- HUB_NAME_STATE_NOVGOROD_farm: "Чюдово"
- HUB_NAME_STATE_NOVGOROD_wood: "Блаґоє"
- HUB_NAME_STATE_EAST_KARELIA_city: "Петрозаводськ"
- HUB_NAME_STATE_EAST_KARELIA_port: "Мурманськ"
- HUB_NAME_STATE_EAST_KARELIA_mine: "Кандалакша"
- HUB_NAME_STATE_EAST_KARELIA_farm: "Кем"
- HUB_NAME_STATE_EAST_KARELIA_wood: "Кондопога"
- HUB_NAME_STATE_ARKHANGELSK_city: "Архангельськ"
- HUB_NAME_STATE_ARKHANGELSK_port: "Онега"
- HUB_NAME_STATE_ARKHANGELSK_mine: "Пінега"
- HUB_NAME_STATE_ARKHANGELSK_farm: "Шангали"
- HUB_NAME_STATE_ARKHANGELSK_wood: "Березник"
- HUB_NAME_STATE_TVER_city: "Ярославль"
- HUB_NAME_STATE_TVER_mine: "Вологда"
- HUB_NAME_STATE_TVER_farm: "Твер"
- HUB_NAME_STATE_TVER_wood: "Рибінськ"
- HUB_NAME_STATE_GALICH_city: "Котлас"
- HUB_NAME_STATE_GALICH_mine: "Коноша"
- HUB_NAME_STATE_GALICH_farm: "Кострома"
- HUB_NAME_STATE_GALICH_wood: "Вельськ"
- HUB_NAME_STATE_MOSCOW_city: "Москва"
- HUB_NAME_STATE_MOSCOW_mine: "Скопін"
- HUB_NAME_STATE_MOSCOW_farm: "Тула"
- HUB_NAME_STATE_MOSCOW_wood: "Рязань"
- HUB_NAME_STATE_KAZAN_city: "Казань"
- HUB_NAME_STATE_KAZAN_mine: "Арзамас"
- HUB_NAME_STATE_KAZAN_farm: "Нижній Новґород"
- HUB_NAME_STATE_KAZAN_wood: "Вятка"
- HUB_NAME_STATE_TARTARIA_city: "Саратов"
- HUB_NAME_STATE_TARTARIA_mine: "Пенза"
- HUB_NAME_STATE_TARTARIA_farm: "Тамбов"
- HUB_NAME_STATE_TARTARIA_wood: "Саранськ"
- HUB_NAME_STATE_YEKATERINBURG_city: "Катеринодар"
- HUB_NAME_STATE_YEKATERINBURG_port: "Сочів"
- HUB_NAME_STATE_YEKATERINBURG_mine: "П‘ятигірське"
- HUB_NAME_STATE_YEKATERINBURG_farm: "Тихорецьке"
- HUB_NAME_STATE_YEKATERINBURG_wood: "Майкоп"
- HUB_NAME_STATE_DAGESTAN_city: "Петровськ-Порт"
- HUB_NAME_STATE_DAGESTAN_mine: "Владикавказ"
- HUB_NAME_STATE_DAGESTAN_farm: "Грозний"
- HUB_NAME_STATE_DAGESTAN_wood: "Кизляр"
- HUB_NAME_STATE_ASTRAKHAN_city: "Царицин"
- HUB_NAME_STATE_ASTRAKHAN_mine: "Еліста"
- HUB_NAME_STATE_ASTRAKHAN_farm: "Астрахань"
- HUB_NAME_STATE_ASTRAKHAN_wood: "Калач"
- HUB_NAME_STATE_URALSK_city: "Актобе"
- HUB_NAME_STATE_URALSK_mine: "Кульсари"
- HUB_NAME_STATE_URALSK_farm: "Шалкар"
- HUB_NAME_STATE_URALSK_wood: "Гур‘єв"
- HUB_NAME_STATE_SAMARA_city: "Самара"
- HUB_NAME_STATE_SAMARA_mine: "Оренбурґ"
- HUB_NAME_STATE_SAMARA_farm: "Сизрань"
- HUB_NAME_STATE_SAMARA_wood: "Уфа"
- HUB_NAME_STATE_PERM_city: "Перм"
- HUB_NAME_STATE_PERM_mine: "Лисьва"
- HUB_NAME_STATE_PERM_farm: "Їжевськ"
- HUB_NAME_STATE_PERM_wood: "Березники"
- HUB_NAME_STATE_NENETSIA_city: "Сейда"
- HUB_NAME_STATE_NENETSIA_port: "Амдерма"
- HUB_NAME_STATE_NENETSIA_mine: "Воркута"
- HUB_NAME_STATE_NENETSIA_farm: "Медвежка"
- HUB_NAME_STATE_NENETSIA_wood: "Харута"
- HUB_NAME_STATE_URAL_city: "Єкатеринбурґ"
- HUB_NAME_STATE_URAL_mine: "Нижній Тагіл"
- HUB_NAME_STATE_URAL_farm: "Челябінськ"
- HUB_NAME_STATE_URAL_wood: "Тюмень"
- HUB_NAME_STATE_OB_city: "Ханти-Мансійськ"
- HUB_NAME_STATE_OB_port: "Новий Порт"
- HUB_NAME_STATE_OB_mine: "Губкінський"
- HUB_NAME_STATE_OB_farm: "Сєрьґіно"
- HUB_NAME_STATE_OB_wood: "Надим"
- HUB_NAME_STATE_TOBOLSK_city: "Омськ"
- HUB_NAME_STATE_TOBOLSK_mine: "Тара"
- HUB_NAME_STATE_TOBOLSK_farm: "Новоніколаєвськ"
- HUB_NAME_STATE_TOBOLSK_wood: "Ішим"
- HUB_NAME_STATE_TOMSK_city: "Томськ"
- HUB_NAME_STATE_TOMSK_mine: "Усть-Абаканське"
- HUB_NAME_STATE_TOMSK_farm: "Барнаул"
- HUB_NAME_STATE_TOMSK_wood: "Красноярськ"
- HUB_NAME_STATE_TUVA_city: "Туран"
- HUB_NAME_STATE_TUVA_mine: "Ак-Довурак"
- HUB_NAME_STATE_TUVA_farm: "Кизил"
- HUB_NAME_STATE_TUVA_wood: "Артадит"
- HUB_NAME_STATE_UPPER_YENISEYSK_city: "Маклаково"
- HUB_NAME_STATE_UPPER_YENISEYSK_mine: "Вангаш"
- HUB_NAME_STATE_UPPER_YENISEYSK_farm: "Колпашево"
- HUB_NAME_STATE_UPPER_YENISEYSK_wood: "Нижньовартовськ"
- HUB_NAME_STATE_IRKUTSK_city: "Іркуськ"
- HUB_NAME_STATE_IRKUTSK_mine: "Верхньодінськ"
- HUB_NAME_STATE_IRKUTSK_farm: "Братськ"
- HUB_NAME_STATE_IRKUTSK_wood: "Чита"
- HUB_NAME_STATE_YAKUTSK_city: "Вілюйськ"
- HUB_NAME_STATE_YAKUTSK_port: "Тиксі"
- HUB_NAME_STATE_YAKUTSK_mine: "Сангар"
- HUB_NAME_STATE_YAKUTSK_farm: "Нюрба"
- HUB_NAME_STATE_YAKUTSK_wood: "Мирний"
- HUB_NAME_STATE_TRANS_BAIKAL_city: "Тинда"
- HUB_NAME_STATE_TRANS_BAIKAL_mine: "Агінське"
- HUB_NAME_STATE_TRANS_BAIKAL_farm: "Сковородіно"
- HUB_NAME_STATE_TRANS_BAIKAL_wood: "Алдан"
- HUB_NAME_STATE_OKHOTSK_city: "Якутськ"
- HUB_NAME_STATE_OKHOTSK_port: "Охотськ"
- HUB_NAME_STATE_OKHOTSK_mine: "Алах-Юн"
- HUB_NAME_STATE_OKHOTSK_farm: "Йникчан"
- HUB_NAME_STATE_OKHOTSK_wood: "Болугур"
- HUB_NAME_STATE_CHUKOTKA_city: "Анадир"
- HUB_NAME_STATE_CHUKOTKA_port: "Берінговський"
- HUB_NAME_STATE_CHUKOTKA_mine: "Ачайваям"
- HUB_NAME_STATE_CHUKOTKA_farm: "Марково"
- HUB_NAME_STATE_CHUKOTKA_wood: "Ваєгі"
- HUB_NAME_STATE_KAMCHATKA_city: "Петропавловськ-Камчатський"
- HUB_NAME_STATE_KAMCHATKA_port: "Гіжига"
- HUB_NAME_STATE_KAMCHATKA_mine: "Мильково"
- HUB_NAME_STATE_KAMCHATKA_farm: "Єлізово"
- HUB_NAME_STATE_KAMCHATKA_wood: "Клячі"
- HUB_NAME_STATE_SAKHALIN_city: "Владимировка"
- HUB_NAME_STATE_SAKHALIN_port: "Корсаков"
- HUB_NAME_STATE_SAKHALIN_mine: "Тихменевський"
- HUB_NAME_STATE_SAKHALIN_farm: "Оха"
- HUB_NAME_STATE_SAKHALIN_wood: "Александровський"
+#Moldova
+ HUB_NAME_STATE_BESSARABIA_city: "Кишинів" #14-11-2023
+ HUB_NAME_STATE_BESSARABIA_port: "Аккерман" #14-11-2023
+ HUB_NAME_STATE_BESSARABIA_mine: "Більці" #14-11-2023
+ HUB_NAME_STATE_BESSARABIA_farm: "Ізмаїл" #14-11-2023
+ HUB_NAME_STATE_BESSARABIA_wood: "Бельц" #14-11-2023
+
+#Russia
+ HUB_NAME_STATE_INGRIA_city: "Сант-Пєтєрбурґ" #14-11-2023
+ HUB_NAME_STATE_INGRIA_port: "Кронштадт" #14-11-2023
+ HUB_NAME_STATE_INGRIA_mine: "Шліссельбурґ" #14-11-2023
+ HUB_NAME_STATE_INGRIA_farm: "Ямбурґ" #14-11-2023
+ HUB_NAME_STATE_INGRIA_wood: "Луґа" #14-11-2023
+ HUB_NAME_STATE_KURSK_city: "Курськ" #14-11-2023 ##Курск
+ HUB_NAME_STATE_KURSK_mine: "Вороніж" #14-11-2023 ##Воронєж
+ HUB_NAME_STATE_KURSK_farm: "Білгород" #14-11-2023 ##Бєлґород
+ HUB_NAME_STATE_KURSK_wood: "Новохоперське" #14-11-2023 ##Новохопьорск
+ HUB_NAME_STATE_SMOLENSK_city: "Смолєнск" #14-11-2023
+ HUB_NAME_STATE_SMOLENSK_mine: "Дороґобуж" #14-11-2023
+ HUB_NAME_STATE_SMOLENSK_farm: "Росравль" #14-11-2023
+ HUB_NAME_STATE_SMOLENSK_wood: "Вязма" #14-11-2023
+ HUB_NAME_STATE_NOVGOROD_city: "Новгород" #14-11-2023
+ HUB_NAME_STATE_NOVGOROD_mine: "Чєрєповєц" #14-11-2023
+ HUB_NAME_STATE_NOVGOROD_farm: "Старая Русса" #14-11-2023
+ HUB_NAME_STATE_NOVGOROD_wood: "Боровічі" #14-11-2023
+ HUB_NAME_STATE_EAST_KARELIA_city: "Пєтрозаводск" #14-11-2023
+ HUB_NAME_STATE_EAST_KARELIA_port: "Сорока" #14-11-2023
+ HUB_NAME_STATE_EAST_KARELIA_mine: "Кондопоґа" #14-11-2023
+ HUB_NAME_STATE_EAST_KARELIA_farm: "Кемі" #14-11-2023 ##Кєм(ь)
+ HUB_NAME_STATE_EAST_KARELIA_wood: "Повєнєц" #14-11-2023
+ HUB_NAME_STATE_ARKHANGELSK_city: "Онєґа" #14-11-2023
+ HUB_NAME_STATE_ARKHANGELSK_port: "Арханґєльск" #14-11-2023
+ HUB_NAME_STATE_ARKHANGELSK_mine: "Плєсєцк" #14-11-2023
+ HUB_NAME_STATE_ARKHANGELSK_farm: "Холмоґори" #14-11-2023
+ HUB_NAME_STATE_ARKHANGELSK_wood: "Бєрєзнік" #14-11-2023
+ HUB_NAME_STATE_TVER_city: "Твер" #14-11-2023 ##Твєрь
+ HUB_NAME_STATE_TVER_mine: "Вишній Волочьок" #14-11-2023
+ HUB_NAME_STATE_TVER_farm: "Ржев" #14-11-2023
+ HUB_NAME_STATE_TVER_wood: "Осташков" #14-11-2023
+ HUB_NAME_STATE_GALICH_city: "Волоґда" #14-11-2023
+ HUB_NAME_STATE_GALICH_mine: "Тотма" #14-11-2023
+ HUB_NAME_STATE_GALICH_farm: "Ust-Sysolsk" #14-11-2023
+ HUB_NAME_STATE_GALICH_wood: "Вєлікій Устюґ" #14-11-2023
+ HUB_NAME_STATE_MOSCOW_city: "Москва" #14-11-2023
+ HUB_NAME_STATE_MOSCOW_mine: "Сєрґієв Посад" #14-11-2023
+ HUB_NAME_STATE_MOSCOW_farm: "Коломна" #14-11-2023
+ HUB_NAME_STATE_MOSCOW_wood: "Сєрпухов" #14-11-2023
+ HUB_NAME_STATE_KAZAN_city: "Казань" #14-11-2023
+ HUB_NAME_STATE_KAZAN_mine: "Альмєтьєвск" #14-11-2023
+ HUB_NAME_STATE_KAZAN_farm: "Чістополь" #14-11-2023
+ HUB_NAME_STATE_KAZAN_wood: "Єлабуґа" #14-11-2023
+ HUB_NAME_STATE_TARTARIA_city: "Саратов" #14-11-2023
+ HUB_NAME_STATE_TARTARIA_mine: "Новоузєнск" #14-11-2023
+ HUB_NAME_STATE_TARTARIA_farm: "Сімбірск" #14-11-2023
+ HUB_NAME_STATE_TARTARIA_wood: "Балашов" #14-11-2023
+ HUB_NAME_STATE_ROSTOV_city: "Ростів" #14-11-2023 ##Ростов-на-Дону
+ HUB_NAME_STATE_ROSTOV_port: "Таганріг" #14-11-2023 ##Таґанроґ
+ HUB_NAME_STATE_ROSTOV_mine: "Алєксандро-Ґрушевскій" #14-11-2023
+ HUB_NAME_STATE_ROSTOV_farm: "Усть-Мєдвєдіцкая" #14-11-2023
+ HUB_NAME_STATE_ROSTOV_wood: "Урюпінская" #14-11-2023
+ HUB_NAME_STATE_ASTRAKHAN_city: "Астрахань" #14-11-2023
+ HUB_NAME_STATE_ASTRAKHAN_mine: "Царіцин" #14-11-2023
+ HUB_NAME_STATE_ASTRAKHAN_farm: "Царьов" #14-11-2023
+ HUB_NAME_STATE_ASTRAKHAN_wood: "Єнотаєвка" #14-11-2023
+ HUB_NAME_STATE_SAMARA_city: "Самара" #14-11-2023
+ HUB_NAME_STATE_SAMARA_mine: "Буруґуслан" #14-11-2023
+ HUB_NAME_STATE_SAMARA_farm: "Орєнбурґ" #14-11-2023
+ HUB_NAME_STATE_SAMARA_wood: "Ніколаєвск" #14-11-2023
+ HUB_NAME_STATE_PERM_city: "Перм" #14-11-2023 ##Пєрм(ь)
+ HUB_NAME_STATE_PERM_mine: "Солікамск" #14-11-2023
+ HUB_NAME_STATE_PERM_farm: "Кунґур" #14-11-2023
+ HUB_NAME_STATE_PERM_wood: "Красноуфімск" #14-11-2023
+ HUB_NAME_STATE_NENETSIA_city: "Нар’ян-Мар" #14-11-2023
+ HUB_NAME_STATE_NENETSIA_port: "Мєзєнь" #14-11-2023
+ HUB_NAME_STATE_NENETSIA_mine: "Воркута" #14-11-2023
+ HUB_NAME_STATE_NENETSIA_farm: "Пінєґа" #14-11-2023
+ HUB_NAME_STATE_NENETSIA_wood: "Дороґорскоє" #14-11-2023
+ HUB_NAME_STATE_URAL_city: "Єкатєрінбурґ" #13-11-2023
+ HUB_NAME_STATE_URAL_mine: "Ніжній Таґіл" #13-11-2023
+ HUB_NAME_STATE_URAL_farm: "Шадрінск" #13-11-2023
+ HUB_NAME_STATE_URAL_wood: "Вєрхотур’є" #13-11-2023
+ HUB_NAME_STATE_OB_city: "Обдорск" #13-11-2023
+ HUB_NAME_STATE_OB_port: "Новий Порт" #13-11-2023
+ HUB_NAME_STATE_OB_mine: "Толка" #13-11-2023
+ HUB_NAME_STATE_OB_farm: "Надим" #13-11-2023
+ HUB_NAME_STATE_OB_wood: "Мужи" #13-11-2023
+ HUB_NAME_STATE_TOBOLSK_city: "Тюмєнь" #13-11-2023
+ HUB_NAME_STATE_TOBOLSK_mine: "Курґан" #13-11-2023
+ HUB_NAME_STATE_TOBOLSK_farm: "Омск" #13-11-2023
+ HUB_NAME_STATE_TOBOLSK_wood: "Тобольск" #13-11-2023
+ HUB_NAME_STATE_TOMSK_city: "Новоніколаєвск" #13-11-2023
+ HUB_NAME_STATE_TOMSK_mine: "Кузнєцк" #13-11-2023
+ HUB_NAME_STATE_TOMSK_farm: "Барнаул" #13-11-2023
+ HUB_NAME_STATE_TOMSK_wood: "Томск" #13-11-2023
+ HUB_NAME_STATE_UPPER_YENISEYSK_city: "Єнісєйск" #13-11-2023
+ HUB_NAME_STATE_UPPER_YENISEYSK_mine: "Боґучяни" #13-11-2023
+ HUB_NAME_STATE_UPPER_YENISEYSK_farm: "Колпашево" #13-11-2023
+ HUB_NAME_STATE_UPPER_YENISEYSK_wood: "Лєсосібірск" #13-11-2023
+ HUB_NAME_STATE_KRASNOYARSK_city: "Красноярск" #13-11-2023
+ HUB_NAME_STATE_KRASNOYARSK_mine: "Ачінськ" #13-11-2023
+ HUB_NAME_STATE_KRASNOYARSK_farm: "Мінусінск" #13-11-2023
+ HUB_NAME_STATE_KRASNOYARSK_wood: "Канск" #13-11-2023
+ HUB_NAME_STATE_ALTAI_city: "Улала" #13-11-2023
+ HUB_NAME_STATE_ALTAI_mine: "Бєляши" #13-11-2023
+ HUB_NAME_STATE_ALTAI_farm: "Усть-Кокса" #13-11-2023
+ HUB_NAME_STATE_ALTAI_wood: "Кош-Аґач" #13-11-2023
+ HUB_NAME_STATE_CHELYABINSK_city: "Чєлябінск" #13-11-2023
+ HUB_NAME_STATE_CHELYABINSK_mine: "Магнітоґорск" #18-1-2023
+ HUB_NAME_STATE_CHELYABINSK_farm: "Орск" #13-11-2023
+ HUB_NAME_STATE_CHELYABINSK_wood: "Златоуст" #13-11-2023
+ HUB_NAME_STATE_SURGUT_city: "Сурґут" #13-11-2023
+ HUB_NAME_STATE_SURGUT_mine: "Ніжнєвартовск" #13-11-2023
+ HUB_NAME_STATE_SURGUT_farm: "Самарово" #13-11-2023
+ HUB_NAME_STATE_SURGUT_wood: "Бєрєзов" #13-11-2023
+ HUB_NAME_STATE_IRKUTSK_city: "Іркутск" #14-11-2023
+ HUB_NAME_STATE_IRKUTSK_mine: "Тулун" #14-11-2023
+ HUB_NAME_STATE_IRKUTSK_farm: "Кірєнск" #14-11-2023
+ HUB_NAME_STATE_IRKUTSK_wood: "Ніжнєудінск" #14-11-2023
+ HUB_NAME_STATE_YAKUTSK_city: "Якутск" #14-11-2023
+ HUB_NAME_STATE_YAKUTSK_port: "Тіксі" #14-11-2023
+ HUB_NAME_STATE_YAKUTSK_mine: "Алдан" #14-11-2023
+ HUB_NAME_STATE_YAKUTSK_farm: "Вілюйск" #14-11-2023
+ HUB_NAME_STATE_YAKUTSK_wood: "Олєкмінск" #14-11-2023
+ HUB_NAME_STATE_TRANS_BAIKAL_city: "Чіта" #14-11-2023
+ HUB_NAME_STATE_TRANS_BAIKAL_mine: "Тинда" #14-11-2023
+ HUB_NAME_STATE_TRANS_BAIKAL_farm: "Акша" #14-11-2023
+ HUB_NAME_STATE_TRANS_BAIKAL_wood: "Нєрчінск" #14-11-2023
+ HUB_NAME_STATE_OKHOTSK_city: "Маґадан" #14-11-2023
+ HUB_NAME_STATE_OKHOTSK_port: "Охотск" #14-11-2023
+ HUB_NAME_STATE_OKHOTSK_mine: "Омсукчян" #14-11-2023
+ HUB_NAME_STATE_OKHOTSK_farm: "Чюмікан" #14-11-2023
+ HUB_NAME_STATE_OKHOTSK_wood: "Ґіжиґінск" #14-11-2023
+ HUB_NAME_STATE_CHUKOTKA_city: "Марково" #14-11-2023
+ HUB_NAME_STATE_CHUKOTKA_port: "Анадр" #14-11-2023
+ HUB_NAME_STATE_CHUKOTKA_mine: "Пєвєк" #14-11-2023
+ HUB_NAME_STATE_CHUKOTKA_farm: "Наукан" #14-11-2023
+ HUB_NAME_STATE_CHUKOTKA_wood: "Провідєнія" #14-11-2023
+ HUB_NAME_STATE_KAMCHATKA_city: "Пєтропавловск-Камчятскій" #14-11-2023
+ HUB_NAME_STATE_KAMCHATKA_port: "Усть-Камчяск" #14-11-2023
+ HUB_NAME_STATE_KAMCHATKA_mine: "Маніли" #14-11-2023
+ HUB_NAME_STATE_KAMCHATKA_farm: "Ніжнєкамчятск" #14-11-2023
+ HUB_NAME_STATE_KAMCHATKA_wood: "Мілково" #14-11-2023
+ HUB_NAME_STATE_BURYATIA_city: "Вєрхнєудінск" #14-11-2023
+ HUB_NAME_STATE_BURYATIA_mine: "Тунка" #14-11-2023
+ HUB_NAME_STATE_BURYATIA_farm: "Троїцкосавск" #14-11-2023
+ HUB_NAME_STATE_BURYATIA_wood: "Барґузін" #14-11-2023
+ HUB_NAME_STATE_KOLYMA_city: "Срєднєколимск" #14-11-2023
+ HUB_NAME_STATE_KOLYMA_mine: "Хонуу" #14-11-2023
+ HUB_NAME_STATE_KOLYMA_farm: "Зашивєрск" #14-11-2023
+ HUB_NAME_STATE_KOLYMA_wood: "Алах-Юн" #14-11-2023
+ HUB_NAME_STATE_ORYOL_city: "Орьол"
+ HUB_NAME_STATE_ORYOL_mine: "Тула"
+ HUB_NAME_STATE_ORYOL_farm: "Брянск"
+ HUB_NAME_STATE_ORYOL_wood: "Калуґа"
+ HUB_NAME_STATE_RYAZAN_city: "Рязань"
+ HUB_NAME_STATE_RYAZAN_mine: "Касімов"
+ HUB_NAME_STATE_RYAZAN_farm: "Єґор'євск"
+ HUB_NAME_STATE_RYAZAN_wood: "Ряжск"
+ HUB_NAME_STATE_TAMBOV_city: "Тамбов"
+ HUB_NAME_STATE_TAMBOV_mine: "Ліпєцк"
+ HUB_NAME_STATE_TAMBOV_farm: "Пєнза"
+ HUB_NAME_STATE_TAMBOV_wood: "Саранск"
+ HUB_NAME_STATE_NIZHNY_NOVGOROD_city: "Нижній Новгород"
+ HUB_NAME_STATE_NIZHNY_NOVGOROD_mine: "Сємьонов"
+ HUB_NAME_STATE_NIZHNY_NOVGOROD_farm: "Арзамас"
+ HUB_NAME_STATE_NIZHNY_NOVGOROD_wood: "Сєрґач"
+ HUB_NAME_STATE_PSKOV_city: "Псков"
+ HUB_NAME_STATE_PSKOV_mine: "Остров"
+ HUB_NAME_STATE_PSKOV_farm: "Торопєц"
+ HUB_NAME_STATE_PSKOV_wood: "Вєлікіє Лукі"
+ HUB_NAME_STATE_YAROSLAVL_city: "Ярославль"
+ HUB_NAME_STATE_YAROSLAVL_mine: "Іваново"
+ HUB_NAME_STATE_YAROSLAVL_farm: "Владімір"
+ HUB_NAME_STATE_YAROSLAVL_wood: "Кострома"
+ HUB_NAME_STATE_KOLA_city: "Кола"
+ HUB_NAME_STATE_KOLA_port: "Романов-на-Мурманє"
+ HUB_NAME_STATE_KOLA_mine: "Олєнєґорск"
+ HUB_NAME_STATE_KOLA_farm: "Кандалакша"
+ HUB_NAME_STATE_KOLA_wood: "Умба"
+ HUB_NAME_STATE_CHEBOKSARY_city: "Чєбоксари"
+ HUB_NAME_STATE_CHEBOKSARY_mine: "Шихрани"
+ HUB_NAME_STATE_CHEBOKSARY_farm: "Царєвококшайск"
+ HUB_NAME_STATE_CHEBOKSARY_wood: "Алатир"
+ HUB_NAME_STATE_UFA_city: "Уфа"
+ HUB_NAME_STATE_UFA_mine: "Усть-Катав"
+ HUB_NAME_STATE_UFA_farm: "Стєрлітамак"
+ HUB_NAME_STATE_UFA_wood: "Бірск"
+ HUB_NAME_STATE_STAVROPOL_city: "Ставрополь"
+ HUB_NAME_STATE_STAVROPOL_mine: "П'ятіґорск"
+ HUB_NAME_STATE_STAVROPOL_farm: "Святой Крєст"
+ HUB_NAME_STATE_STAVROPOL_wood: "Блаґодарний"
+ HUB_NAME_STATE_VYATKA_city: "Іжевск"
+ HUB_NAME_STATE_VYATKA_mine: "Яранск"
+ HUB_NAME_STATE_VYATKA_farm: "Вятка"
+ HUB_NAME_STATE_VYATKA_wood: "Уржум"
+ HUB_NAME_STATE_KALMYKIA_city: "Еліста"
+ HUB_NAME_STATE_KALMYKIA_mine: "Садовоє"
+ HUB_NAME_STATE_KALMYKIA_farm: "Лаґан"
+ HUB_NAME_STATE_KALMYKIA_wood: "Яшкул"
+
+#Sakhalin
+ HUB_NAME_STATE_SAKHALIN_city: "Владіміровка" #14-11-2023
+ HUB_NAME_STATE_SAKHALIN_port: "Корсаков" #14-11-2023
+ HUB_NAME_STATE_SAKHALIN_mine: "Тіхмєнєвскій" #14-11-2023
+ HUB_NAME_STATE_SAKHALIN_farm: "Оха" #14-11-2023
+ HUB_NAME_STATE_SAKHALIN_wood: "Алєксандровскій" #14-11-2023
+
+#Caucasus
+ HUB_NAME_STATE_DAGESTAN_city: "Порт-Пєтровск" #14-11-2023
+ HUB_NAME_STATE_DAGESTAN_mine: "Дербент" #14-11-2023 ##Дєрбєнт
+ HUB_NAME_STATE_DAGESTAN_farm: "Темірхан-шура" #14-11-2023
+ HUB_NAME_STATE_DAGESTAN_wood: "Кізляр" #14-11-2023
+ HUB_NAME_STATE_KUBAN_port: "Новоросійск" #14-11-2023
+ HUB_NAME_STATE_KUBAN_city: "Катеринодар" #14-11-2023
+ HUB_NAME_STATE_KUBAN_mine: "Майкор" #14-11-2023
+ HUB_NAME_STATE_KUBAN_wood: "Армавір" #14-11-2023
+ HUB_NAME_STATE_KUBAN_farm: "Сочі" #14-11-2023
+ HUB_NAME_STATE_AZERBAIJAN_city: "Сумґаїт" #14-11-2023
+ HUB_NAME_STATE_AZERBAIJAN_mine: "Баку" #14-11-2023
+ HUB_NAME_STATE_AZERBAIJAN_farm: "Шемаха" #14-11-2023
+ HUB_NAME_STATE_AZERBAIJAN_wood: "Куба" #14-11-2023
+ HUB_NAME_STATE_ELIZAVETPOL_city: "Ґанджа" #14-11-2023
+ HUB_NAME_STATE_ELIZAVETPOL_mine: "Ґазах" #14-11-2023
+ HUB_NAME_STATE_ELIZAVETPOL_farm: "Нуха" #14-11-2023
+ HUB_NAME_STATE_ELIZAVETPOL_wood: "Шуша" #14-11-2023
+ HUB_NAME_STATE_GREATER_CAUCASUS_city: "Тбілісі" #14-11-2023
+ HUB_NAME_STATE_GREATER_CAUCASUS_mine: "Болнісі" #14-11-2023
+ HUB_NAME_STATE_GREATER_CAUCASUS_farm: "Сухум" #14-11-2023
+ HUB_NAME_STATE_GREATER_CAUCASUS_wood: "Телаві" #14-11-2023
+ HUB_NAME_STATE_GREATER_CAUCASUS_port: "Поті" #14-11-2023
+ HUB_NAME_STATE_ARMENIA_city: "Єреван" #14-11-2023
+ HUB_NAME_STATE_ARMENIA_mine: "Нор-Баязет" #14-11-2023
+ HUB_NAME_STATE_ARMENIA_farm: "Алєксандрополь" #14-11-2023
+ HUB_NAME_STATE_ARMENIA_wood: "Нахіівань" #14-11-2023
+ HUB_NAME_STATE_NORTH_CAUCASUS_city: "Ґрозний" #14-11-2023
+ HUB_NAME_STATE_NORTH_CAUCASUS_mine: "Владікавказ" #14-11-2023
+ HUB_NAME_STATE_NORTH_CAUCASUS_farm: "Нальчік" #14-11-2023
+ HUB_NAME_STATE_NORTH_CAUCASUS_wood: "Баталпашинская" #14-11-2023
+
+#Kazakhstan
+ HUB_NAME_STATE_SEMIRECHE_city: "Семей"
+ HUB_NAME_STATE_SEMIRECHE_mine: "Балхаш"
+ HUB_NAME_STATE_SEMIRECHE_farm: "Павлодар"
+ HUB_NAME_STATE_SEMIRECHE_wood: "Оскемен"
+ HUB_NAME_STATE_JETISY_city: "Алмати"
+ HUB_NAME_STATE_JETISY_mine: "Алтай"
+ HUB_NAME_STATE_JETISY_farm: "Зайсан"
+ HUB_NAME_STATE_JETISY_wood: "Жаркент"
+ HUB_NAME_STATE_URALSK_city: "Уральск"
+ HUB_NAME_STATE_URALSK_mine: "Ґур’єв"
+ HUB_NAME_STATE_URALSK_farm: "Чапаєв"
+ HUB_NAME_STATE_URALSK_wood: "Казталовка"
+ HUB_NAME_STATE_AKMOLINSK_city: "Астана"
+ HUB_NAME_STATE_AKMOLINSK_mine: "Караґанда"
+ HUB_NAME_STATE_AKMOLINSK_farm: "Костанай"
+ HUB_NAME_STATE_AKMOLINSK_wood: "Кокчетав"
+ HUB_NAME_STATE_AKTOBE_city: "Актобе"
+ HUB_NAME_STATE_AKTOBE_mine: "Кобда"
+ HUB_NAME_STATE_AKTOBE_farm: "Темір"
+ HUB_NAME_STATE_AKTOBE_wood: "Ірґіз"
+ HUB_NAME_STATE_SYRDARYA_city: "Пєровскій"
+ HUB_NAME_STATE_SYRDARYA_mine: "Шимкент"
+ HUB_NAME_STATE_SYRDARYA_farm: "Туркестан"
+ HUB_NAME_STATE_SYRDARYA_wood: "Айтеке Бі"
+
+#Turkestan
+ HUB_NAME_STATE_UZBEKIA_city: "Самарканд"
+ HUB_NAME_STATE_UZBEKIA_mine: "Нурата"
+ HUB_NAME_STATE_UZBEKIA_farm: "Бухара"
+ HUB_NAME_STATE_UZBEKIA_wood: "Карші"
+ HUB_NAME_STATE_TAJIKISTAN_city: "Душанбе"
+ HUB_NAME_STATE_TAJIKISTAN_mine: "Хороґ"
+ HUB_NAME_STATE_TAJIKISTAN_farm: "Турґан-Тюбе"
+ HUB_NAME_STATE_TAJIKISTAN_wood: "Ґарм"
+ HUB_NAME_STATE_KIRGHIZIA_city: "Пішпек"
+ HUB_NAME_STATE_KIRGHIZIA_mine: "Каракол"
+ HUB_NAME_STATE_KIRGHIZIA_farm: "Ош"
+ HUB_NAME_STATE_KIRGHIZIA_wood: "Талас"
+ HUB_NAME_STATE_KHIVA_city: "Хіва"
+ HUB_NAME_STATE_KHIVA_mine: "Нукус"
+ HUB_NAME_STATE_KHIVA_farm: "Манґіт"
+ HUB_NAME_STATE_KHIVA_wood: "Ґурлен"
+ HUB_NAME_STATE_TURKMENIA_city: "Асхабад"
+ HUB_NAME_STATE_TURKMENIA_mine: "Красноводск"
+ HUB_NAME_STATE_TURKMENIA_farm: "Кизил-Рабад"
+ HUB_NAME_STATE_TURKMENIA_wood: "Каахк"
+ HUB_NAME_STATE_MERZ_city: "Туркмененабат"
+ HUB_NAME_STATE_MERZ_mine: "Мерв"
+ HUB_NAME_STATE_MERZ_farm: "Керкі"
+ HUB_NAME_STATE_MERZ_wood: "Серахс"
+ HUB_NAME_STATE_FERGANA_city: "Ташкент"
+ HUB_NAME_STATE_FERGANA_mine: "Худжанд"
+ HUB_NAME_STATE_FERGANA_farm: "Коканд"
+ HUB_NAME_STATE_FERGANA_wood: "Андижан"
+
+#Baltics
+ HUB_NAME_STATE_RIGA_city: "Риґа"
+ HUB_NAME_STATE_RIGA_port: "Слока"
+ HUB_NAME_STATE_RIGA_mine: "Вальмар"
+ HUB_NAME_STATE_RIGA_farm: "Цесіс"
+ HUB_NAME_STATE_RIGA_wood: "Двінск"
+ HUB_NAME_STATE_TALINN_city: "Ревал"
+ HUB_NAME_STATE_TALINN_port: "Балтійскій" # Baltiyskiy Port. Yes, seriously
+ HUB_NAME_STATE_TALINN_mine: "Пайде"
+ HUB_NAME_STATE_TALINN_farm: "Нарва"
+ HUB_NAME_STATE_TALINN_wood: "Гапсаль"
+
+ HUB_NAME_STATE_COURLAND_city: "Мітава"
+ HUB_NAME_STATE_COURLAND_port: "Лібава"
+ HUB_NAME_STATE_COURLAND_mine: "Тукумс"
+ HUB_NAME_STATE_COURLAND_farm: "Фридрихштадт"
+ HUB_NAME_STATE_COURLAND_wood: "Ґольдинґен"
+ HUB_NAME_STATE_TARTU_city: "Дорпат"
+ HUB_NAME_STATE_TARTU_port: "Пярну"
+ HUB_NAME_STATE_TARTU_mine: "Отепяе"
+ HUB_NAME_STATE_TARTU_farm: "Вільянді"
+ HUB_NAME_STATE_TARTU_wood: "Верро"
+
+ HUB_NAME_STATE_KAUNAS_city: "Каунас"
+ HUB_NAME_STATE_KAUNAS_mine: "Укмерґе"
+ HUB_NAME_STATE_KAUNAS_farm: "Шявляй"
+ HUB_NAME_STATE_KAUNAS_wood: "Вилкавишкіс"
+ HUB_NAME_STATE_KAUNAS_port: "Паланґа"
+ HUB_NAME_STATE_VILNIUS_city: "Вільнюс"
+ HUB_NAME_STATE_VILNIUS_farm: "Друскініки"
+ HUB_NAME_STATE_VILNIUS_wood: "Оліта"
+ HUB_NAME_STATE_VILNIUS_mine: "Швенчьонис"
+
+#Tuva
+ HUB_NAME_STATE_TUVA_city: "Вєлоцарск"
+ HUB_NAME_STATE_TUVA_mine: "Чадан"
+ HUB_NAME_STATE_TUVA_farm: "Самаґалтай"
+ HUB_NAME_STATE_TUVA_wood: "Туран"
   
-  # Japan
+# Japan
  HUB_NAME_STATE_HOKKAIDO_city: "Саппоро"
  HUB_NAME_STATE_HOKKAIDO_port: "Хакодате"
  HUB_NAME_STATE_HOKKAIDO_mine: "Обіхіро"
- HUB_NAME_STATE_HOKKAIDO_farm:0 "Asahikawa"
+ HUB_NAME_STATE_HOKKAIDO_farm: "Асахікава"
  HUB_NAME_STATE_HOKKAIDO_wood: "Немуро"
  HUB_NAME_STATE_TOHOKU_city: "Сендай"
- HUB_NAME_STATE_TOHOKU_port: "Хатінохе"
+ HUB_NAME_STATE_TOHOKU_port: "Хачінохе"
  HUB_NAME_STATE_TOHOKU_mine: "Фукушіма"
  HUB_NAME_STATE_TOHOKU_farm: "Ошу"
  HUB_NAME_STATE_TOHOKU_wood: "Акіта"
@@ -985,7 +1155,7 @@
  HUB_NAME_STATE_CHUBU_mine: "Наґано"
  HUB_NAME_STATE_CHUBU_farm: "Ніїґата"
  HUB_NAME_STATE_CHUBU_wood: "Фукуї"
- HUB_NAME_STATE_KANSAI_city: "Кіото"
+ HUB_NAME_STATE_KANSAI_city: "Кьото"
  HUB_NAME_STATE_KANSAI_port: "Кобе"
  HUB_NAME_STATE_KANSAI_mine: "Осака"
  HUB_NAME_STATE_KANSAI_farm: "Ямада"
@@ -995,7 +1165,7 @@
  HUB_NAME_STATE_SHIKOKU_mine: "Токушіма"
  HUB_NAME_STATE_SHIKOKU_farm: "Сукумо"
  HUB_NAME_STATE_SHIKOKU_wood: "Мацуяма"
- HUB_NAME_STATE_CHUGOKU_city: "Хіросіма"
+ HUB_NAME_STATE_CHUGOKU_city: "Хірошіма"
  HUB_NAME_STATE_CHUGOKU_port: "Окаяма"
  HUB_NAME_STATE_CHUGOKU_mine: "Ізумо"
  HUB_NAME_STATE_CHUGOKU_farm: "Шімоносекі"
@@ -1009,25 +1179,25 @@
  HUB_NAME_STATE_RYUKYU_ISLANDS_port: "Амамі"
  HUB_NAME_STATE_RYUKYU_ISLANDS_farm: "Наґо"
   
-  # Korea
+# Korea
  HUB_NAME_STATE_BUSAN_city: "Теґу"
  HUB_NAME_STATE_BUSAN_port: "Бусан"
  HUB_NAME_STATE_BUSAN_mine: "Санджу"
- HUB_NAME_STATE_BUSAN_farm: "Андонґ"
- HUB_NAME_STATE_BUSAN_wood: "Джіндзю"
- HUB_NAME_STATE_SEOUL_city: "Хансонґ"
+ HUB_NAME_STATE_BUSAN_farm: "Андон"
+ HUB_NAME_STATE_BUSAN_wood: "Чінджу"
+ HUB_NAME_STATE_SEOUL_city: "Хансон"
  HUB_NAME_STATE_SEOUL_port: "Інчхон"
  HUB_NAME_STATE_SEOUL_mine: "Вонджу"
  HUB_NAME_STATE_SEOUL_farm: "Каннин"
  HUB_NAME_STATE_SEOUL_wood: "Кванджу"
  HUB_NAME_STATE_SARIWON_city: "Хамхин"
- HUB_NAME_STATE_SARIWON_port: "Хамхин"
+ HUB_NAME_STATE_SARIWON_port: "Чхонджін"
  HUB_NAME_STATE_SARIWON_mine: "Мусан"
- HUB_NAME_STATE_SARIWON_farm: "Кільчу"
+ HUB_NAME_STATE_SARIWON_farm: "Кілджу"
  HUB_NAME_STATE_SARIWON_wood: "Хесан"
- HUB_NAME_STATE_PYONGYANG_city: "Пхеньян"
+ HUB_NAME_STATE_PYONGYANG_city: "Пхеньянь"
  HUB_NAME_STATE_PYONGYANG_port: "Хеджу"
- HUB_NAME_STATE_PYONGYANG_mine: "Канге"
+ HUB_NAME_STATE_PYONGYANG_mine: "Канґе"
  HUB_NAME_STATE_PYONGYANG_farm: "Хванджу"
  HUB_NAME_STATE_PYONGYANG_wood: "Ийджу"
  HUB_NAME_STATE_YANGHO_city: "Чонджу"
@@ -1038,162 +1208,167 @@
   
  HUB_NAME_STATE_SHENGJING_city: "Мукден"
  HUB_NAME_STATE_SHENGJING_port: "Порт-Артур"
- HUB_NAME_STATE_SHENGJING_mine: "Тієлінґ"
- HUB_NAME_STATE_SHENGJING_farm: "Джінксянь"
- HUB_NAME_STATE_SHENGJING_wood: "Аншан"
- HUB_NAME_STATE_SOUTHERN_MANCHURIA_city: "Цзілінь"
+ HUB_NAME_STATE_SHENGJING_mine: "Тєлін"
+ HUB_NAME_STATE_SHENGJING_farm: "Дзіньсянь"
+ HUB_NAME_STATE_SHENGJING_wood: "Аньшань"
+ HUB_NAME_STATE_SOUTHERN_MANCHURIA_city: "Дзілін"
  HUB_NAME_STATE_SOUTHERN_MANCHURIA_mine: "Ляоюань"
- HUB_NAME_STATE_SOUTHERN_MANCHURIA_farm: "Тунхуа"
- HUB_NAME_STATE_SOUTHERN_MANCHURIA_wood: "Хуньчунь"
+ HUB_NAME_STATE_SOUTHERN_MANCHURIA_farm: "Тонхва"
+ HUB_NAME_STATE_SOUTHERN_MANCHURIA_wood: "Хвеньчвень"
  HUB_NAME_STATE_OUTER_MANCHURIA_city: "Хабаровка"
- HUB_NAME_STATE_OUTER_MANCHURIA_port: "Владивосток"
- HUB_NAME_STATE_OUTER_MANCHURIA_mine: "Білогорськ"
- HUB_NAME_STATE_OUTER_MANCHURIA_farm: "Ходжо"
- HUB_NAME_STATE_OUTER_MANCHURIA_wood: "Февральськ"
- HUB_NAME_STATE_NORTHERN_MANCHURIA_city: "Ціціхар"
- HUB_NAME_STATE_NORTHERN_MANCHURIA_mine: "Неньцзян"
- HUB_NAME_STATE_NORTHERN_MANCHURIA_farm: "Харбін"
- HUB_NAME_STATE_NORTHERN_MANCHURIA_wood: "Суйхуа"
+ HUB_NAME_STATE_OUTER_MANCHURIA_port: "Владівосток"
+ HUB_NAME_STATE_OUTER_MANCHURIA_mine: "Дальнєґорск"
+ HUB_NAME_STATE_OUTER_MANCHURIA_farm: "Ґрафская"
+ HUB_NAME_STATE_OUTER_MANCHURIA_wood: "Ваніно"
+ HUB_NAME_STATE_AMUR_city: "Блаґовєшєнск"
+ HUB_NAME_STATE_AMUR_port: "Ніколаєвск-на-Амурє"
+ HUB_NAME_STATE_AMUR_mine: "Зєйскій Склад"
+ HUB_NAME_STATE_AMUR_farm: "Свободний"
+ HUB_NAME_STATE_AMUR_wood: "Райчіха"
+ HUB_NAME_STATE_NORTHERN_MANCHURIA_city: "Ціцікар"
+ HUB_NAME_STATE_NORTHERN_MANCHURIA_mine: "Неньдзян"
+ HUB_NAME_STATE_NORTHERN_MANCHURIA_farm: "Харбінь"
+ HUB_NAME_STATE_NORTHERN_MANCHURIA_wood: "Свейхва"
   
-  # China
+# China
  HUB_NAME_STATE_BEIJING_city: "Бейдзін"
- HUB_NAME_STATE_BEIJING_port: "Тяньцзінь"
+ HUB_NAME_STATE_BEIJING_port: "Тяньдзін"
  HUB_NAME_STATE_BEIJING_mine: "Ченде"
- HUB_NAME_STATE_BEIJING_farm: "Лангфанг"
+ HUB_NAME_STATE_BEIJING_farm: "Ланфан"
  HUB_NAME_STATE_BEIJING_wood: "Таншань"
  HUB_NAME_STATE_SHANXI_city: "Тайюань"
   #HUB_NAME_STATE_SHANXI_port: "NAME"
- HUB_NAME_STATE_SHANXI_mine: "Лулянь"
- HUB_NAME_STATE_SHANXI_farm: "Лінфен"
- HUB_NAME_STATE_SHANXI_wood: "Датун"
+ HUB_NAME_STATE_SHANXI_mine: "Люлян"
+ HUB_NAME_STATE_SHANXI_farm: "Ліньфень"
+ HUB_NAME_STATE_SHANXI_wood: "Датон"
  HUB_NAME_STATE_ZHILI_city: "Баодін"
- HUB_NAME_STATE_ZHILI_port: "Цанчжоу"
- HUB_NAME_STATE_ZHILI_mine: "Шицзячжуан"
- HUB_NAME_STATE_ZHILI_farm: "Дечжоу"
- HUB_NAME_STATE_ZHILI_wood: "Геншуй"
- HUB_NAME_STATE_SHANDONG_city: "Цзінань"
- HUB_NAME_STATE_SHANDONG_port: "Циндао"
- HUB_NAME_STATE_SHANDONG_mine: "Рижао"
+ HUB_NAME_STATE_ZHILI_port: "Цанджов"
+ HUB_NAME_STATE_ZHILI_mine: "Шидзяджван"
+ HUB_NAME_STATE_ZHILI_farm: "Деджов"
+ HUB_NAME_STATE_ZHILI_wood: "Хеншвей"
+ HUB_NAME_STATE_SHANDONG_city: "Дзінань"
+ HUB_NAME_STATE_SHANDONG_port: "Ціндао"
+ HUB_NAME_STATE_SHANDONG_mine: "Жиджао"
  HUB_NAME_STATE_SHANDONG_farm: "Ліньї"
  HUB_NAME_STATE_SHANDONG_wood: "Яньтай"
  HUB_NAME_STATE_JIANGSU_city: "Суцянь"
- HUB_NAME_STATE_JIANGSU_port: "Ханчоу"
- HUB_NAME_STATE_JIANGSU_mine: "Хуаїнь"
+ HUB_NAME_STATE_JIANGSU_port: "Хайчов"
+ HUB_NAME_STATE_JIANGSU_mine: "Хвайїнь"
  HUB_NAME_STATE_JIANGSU_farm: "Яньчен"
- HUB_NAME_STATE_JIANGSU_wood: "Тайчжов"
- HUB_NAME_STATE_NORTHERN_ANHUI_city: "Чжовков"
- HUB_NAME_STATE_NORTHERN_ANHUI_port: "NAME"
- HUB_NAME_STATE_NORTHERN_ANHUI_mine: "Шаньцю"
- HUB_NAME_STATE_NORTHERN_ANHUI_farm: "Сучжоу"
- HUB_NAME_STATE_NORTHERN_ANHUI_wood: "Сюйчжоу"
- HUB_NAME_STATE_HENAN_city: "Чженчжоу"
+ HUB_NAME_STATE_JIANGSU_wood: "Тайджов"
+ HUB_NAME_STATE_NORTHERN_ANHUI_city: "Джовков"
+ #HUB_NAME_STATE_NORTHERN_ANHUI_port: "NAME"
+ HUB_NAME_STATE_NORTHERN_ANHUI_mine: "Шанцьов"
+ HUB_NAME_STATE_NORTHERN_ANHUI_farm: "Суджов"
+ HUB_NAME_STATE_NORTHERN_ANHUI_wood: "Сюджов"
+ HUB_NAME_STATE_HENAN_city: "Дженджов"
   #HUB_NAME_STATE_HENAN_port: "NAME"
- HUB_NAME_STATE_HENAN_mine: "Юнченґ"
+ HUB_NAME_STATE_HENAN_mine: "Юньчен"
  HUB_NAME_STATE_HENAN_farm: "Наньян"
- HUB_NAME_STATE_HENAN_wood: "Чжумадянь"
- HUB_NAME_STATE_WESTERN_HUBEI_city: "Ічан"
- HUB_NAME_STATE_WESTERN_HUBEI_port: "Наме"
+ HUB_NAME_STATE_HENAN_wood: "Джумадянь"
+ HUB_NAME_STATE_WESTERN_HUBEI_city: "Їчан"
+ #HUB_NAME_STATE_WESTERN_HUBEI_port: "NAME"
  HUB_NAME_STATE_WESTERN_HUBEI_mine: "Сяньян"
- HUB_NAME_STATE_WESTERN_HUBEI_farm: "Шиян"
- HUB_NAME_STATE_WESTERN_HUBEI_wood: "Іньмень"
+ HUB_NAME_STATE_WESTERN_HUBEI_farm: "Шиянь"
+ HUB_NAME_STATE_WESTERN_HUBEI_wood: "Їнмень"
  HUB_NAME_STATE_EASTERN_HUBEI_city: "Вучан"
   #HUB_NAME_STATE_EASTERN_HUBEI_port: "NAME"
  HUB_NAME_STATE_EASTERN_HUBEI_mine: "Сяньнін"
  HUB_NAME_STATE_EASTERN_HUBEI_farm: "Сяоґан"
- HUB_NAME_STATE_EASTERN_HUBEI_wood: "Хуанґан"
- HUB_NAME_STATE_SOUTHERN_ANHUI_city: "Гефей"
+ HUB_NAME_STATE_EASTERN_HUBEI_wood: "Хванґан"
+ HUB_NAME_STATE_SOUTHERN_ANHUI_city: "Хефей"
   #HUB_NAME_STATE_SOUTHERN_ANHUI_port: "NAME"
  HUB_NAME_STATE_SOUTHERN_ANHUI_mine: "Сюаньчен"
  HUB_NAME_STATE_SOUTHERN_ANHUI_farm: "Аньцін"
- HUB_NAME_STATE_SOUTHERN_ANHUI_wood: "Луань"
- HUB_NAME_STATE_NANJING_city: "Нанкін"
+ HUB_NAME_STATE_SOUTHERN_ANHUI_wood: "Луан"
+ HUB_NAME_STATE_NANJING_city: "Наньдзін"
   #HUB_NAME_STATE_NANJING_port: "NAME"
- HUB_NAME_STATE_NANJING_mine: "Чженьцзян"
- HUB_NAME_STATE_NANJING_farm: "Уху"
- HUB_NAME_STATE_NANJING_wood: "Чучжоу"
+ HUB_NAME_STATE_NANJING_mine: "Дженьдзян"
+ HUB_NAME_STATE_NANJING_farm: "Вуху"
+ HUB_NAME_STATE_NANJING_wood: "Чуджов"
  HUB_NAME_STATE_SUZHOU_city: "Шанхай"
- HUB_NAME_STATE_SUZHOU_port: "Наньтун"
+ HUB_NAME_STATE_SUZHOU_port: "Наньтон"
  HUB_NAME_STATE_SUZHOU_mine: "Вусі"
- HUB_NAME_STATE_SUZHOU_farm: "Чанчжоу"
- HUB_NAME_STATE_SUZHOU_wood: "Сучжоу"
- HUB_NAME_STATE_ZHEJIANG_city: "Ханчжоу"
- HUB_NAME_STATE_ZHEJIANG_port: "Веньчжоу"
+ HUB_NAME_STATE_SUZHOU_farm: "Чанджов"
+ HUB_NAME_STATE_SUZHOU_wood: "Суджов"
+ HUB_NAME_STATE_ZHEJIANG_city: "Ханджов"
+ HUB_NAME_STATE_ZHEJIANG_port: "Венджов"
  HUB_NAME_STATE_ZHEJIANG_mine: "Нінбо"
- HUB_NAME_STATE_ZHEJIANG_farm: "Тайчжоу"
- HUB_NAME_STATE_ZHEJIANG_wood: "Цзіньхуа"
- HUB_NAME_STATE_FUJIAN_city: "Лонг‘ян"
- HUB_NAME_STATE_FUJIAN_port: "Цюаньчжоу"
- HUB_NAME_STATE_FUJIAN_mine: "Нанкін"
- HUB_NAME_STATE_FUJIAN_farm: "Санмінґ"
+ HUB_NAME_STATE_ZHEJIANG_farm: "Тайджов"
+ HUB_NAME_STATE_ZHEJIANG_wood: "Дзіньхва"
+ HUB_NAME_STATE_FUJIAN_city: "Лон’ян"
+ HUB_NAME_STATE_FUJIAN_port: "Цюаньджов"
+ HUB_NAME_STATE_FUJIAN_mine: "Наньпін"
+ HUB_NAME_STATE_FUJIAN_farm: "Саньмін"
  HUB_NAME_STATE_FUJIAN_wood: "Сямень"
- HUB_NAME_STATE_FORMOSA_city: "Тайбей"
- HUB_NAME_STATE_FORMOSA_port: "Таґао"
- HUB_NAME_STATE_FORMOSA_mine: "Келунґ"
- HUB_NAME_STATE_FORMOSA_farm: "Тайчжун"
+ HUB_NAME_STATE_FORMOSA_city: "Тайпей"
+ HUB_NAME_STATE_FORMOSA_port: "Таков"
+ HUB_NAME_STATE_FORMOSA_mine: "Келвен"
+ HUB_NAME_STATE_FORMOSA_farm: "Тайчунь"
  HUB_NAME_STATE_FORMOSA_wood: "Тайнань"
- HUB_NAME_STATE_SHAOZHOU_city: "Шаогуань"
+ HUB_NAME_STATE_SHAOZHOU_city: "Шаоґвань"
  HUB_NAME_STATE_SHAOZHOU_port: "Гонконґ"
- HUB_NAME_STATE_SHAOZHOU_mine: "Хейюань."
- HUB_NAME_STATE_SHAOZHOU_farm: "Мейчжоу"
- HUB_NAME_STATE_SHAOZHOU_wood: "Цзеян"
+ HUB_NAME_STATE_SHAOZHOU_mine: "Хеюань"
+ HUB_NAME_STATE_SHAOZHOU_farm: "Мейджов"
+ HUB_NAME_STATE_SHAOZHOU_wood: "Дзєян"
  HUB_NAME_STATE_JIANGXI_city: "Наньчан"
   #HUB_NAME_STATE_JIANGXI_port: "NAME"
- HUB_NAME_STATE_JIANGXI_mine: "Ганьчжоу"
- HUB_NAME_STATE_JIANGXI_farm: "Цзянь"
- HUB_NAME_STATE_JIANGXI_wood: "Інгтан"
+ HUB_NAME_STATE_JIANGXI_mine: "Ґанджов"
+ HUB_NAME_STATE_JIANGXI_farm: "Дзіань"
+ HUB_NAME_STATE_JIANGXI_wood: "Їнтань"
  HUB_NAME_STATE_HUNAN_city: "Чанша"
   #HUB_NAME_STATE_HUNAN_port: "NAME"
- HUB_NAME_STATE_HUNAN_mine: "Чжанцзяцзе"
- HUB_NAME_STATE_HUNAN_farm: "Хуайхуа"
+ HUB_NAME_STATE_HUNAN_mine:0 "Джандзядзє"
+ HUB_NAME_STATE_HUNAN_farm:0 "Хвайхва"
  HUB_NAME_STATE_HUNAN_wood: "Чанде"
- HUB_NAME_STATE_GUANGDONG_city: "Ґуанчжоу"
+ HUB_NAME_STATE_GUANGDONG_city: "Ґванджов"
  HUB_NAME_STATE_GUANGDONG_port: "Макао"
- HUB_NAME_STATE_GUANGDONG_mine: "Саньо"
- HUB_NAME_STATE_GUANGDONG_farm: "Маомінґ"
- HUB_NAME_STATE_GUANGDONG_wood: "Хайкоу"
- HUB_NAME_STATE_GUANGXI_city: "Нянінґ"
+ HUB_NAME_STATE_GUANGDONG_mine: "Санья"
+ HUB_NAME_STATE_GUANGDONG_farm: "Маомін"
+ HUB_NAME_STATE_GUANGDONG_wood: "Хайков"
+ HUB_NAME_STATE_GUANGXI_city: "Няньнін"
   #HUB_NAME_STATE_GUANGXI_port: "NAME"
- HUB_NAME_STATE_GUANGXI_mine: "Ченчжоу"
- HUB_NAME_STATE_GUANGXI_farm: "Ґуйлінь"
+ HUB_NAME_STATE_GUANGXI_mine: "Ченджов"
+ HUB_NAME_STATE_GUANGXI_farm: "Ґвейлінь"
  HUB_NAME_STATE_GUANGXI_wood: "Хечі"
  HUB_NAME_STATE_YUNNAN_city: "Куньмін"
   #HUB_NAME_STATE_YUNNAN_port: "NAME"
- HUB_NAME_STATE_YUNNAN_mine: "Цюйцзін"
+ HUB_NAME_STATE_YUNNAN_mine: "Цюдзін"
  HUB_NAME_STATE_YUNNAN_farm: "Далі"
- HUB_NAME_STATE_YUNNAN_wood: "Ліцзян"
+ HUB_NAME_STATE_YUNNAN_wood: "Лідзян"
  HUB_NAME_STATE_SICHUAN_city: "Ченду"
   #HUB_NAME_STATE_SICHUAN_port: "NAME"
  HUB_NAME_STATE_SICHUAN_mine: "Січан"
- HUB_NAME_STATE_SICHUAN_farm: "Яане"
- HUB_NAME_STATE_SICHUAN_wood: "Лучжоу"
- HUB_NAME_STATE_GUIZHOU_city: "Ґуйян"
+ HUB_NAME_STATE_SICHUAN_farm: "Яан"
+ HUB_NAME_STATE_SICHUAN_wood: "Луджов"
+ HUB_NAME_STATE_GUIZHOU_city: "Ґвейян"
  HUB_NAME_STATE_GUIZHOU_mine: "Дуюн"
- HUB_NAME_STATE_GUIZHOU_farm: "Чжаотун"
+ HUB_NAME_STATE_GUIZHOU_farm: "Джаотон"
  HUB_NAME_STATE_GUIZHOU_wood: "Аньшунь"
- HUB_NAME_STATE_CHONGQING_city: "Чунцин"
- HUB_NAME_STATE_CHONGQING_mine: "Гуанюань"
- HUB_NAME_STATE_CHONGQING_farm: "Нанчонґ"
- HUB_NAME_STATE_CHONGQING_wood: "Мяньян"
+ HUB_NAME_STATE_CHONGQING_city: "Чонцін"
+ HUB_NAME_STATE_CHONGQING_mine: "Ґван’юань"
+ HUB_NAME_STATE_CHONGQING_farm: "Наньчон"
+ HUB_NAME_STATE_CHONGQING_wood: "М’яньян"
  HUB_NAME_STATE_XIAN_city: "Сіань"
- HUB_NAME_STATE_XIAN_mine: "Баоцзи"
- HUB_NAME_STATE_XIAN_farm: "Ханьчжун"
+ HUB_NAME_STATE_XIAN_mine: "Баодзі"
+ HUB_NAME_STATE_XIAN_farm: "Ханьджон"
  HUB_NAME_STATE_XIAN_wood: "Яньань"
- HUB_NAME_STATE_NINGXIA_city: "Ланьчжоу"
+ HUB_NAME_STATE_NINGXIA_city: "Ланьджов"
  HUB_NAME_STATE_NINGXIA_mine: "Лінься"
  HUB_NAME_STATE_NINGXIA_farm: "Тяньшуй"
- HUB_NAME_STATE_NINGXIA_wood: "Лонгнан"
- HUB_NAME_STATE_QINGHAI_city: "Делінга"
+ HUB_NAME_STATE_NINGXIA_wood: "Лоннань"
+ HUB_NAME_STATE_QINGHAI_city: "Делінха"
  HUB_NAME_STATE_QINGHAI_mine: "Ґольмуд"
- HUB_NAME_STATE_QINGHAI_farm: "Ґуолуо"
+ HUB_NAME_STATE_QINGHAI_farm: "Ґволво"
  HUB_NAME_STATE_QINGHAI_wood: "Юшу"
- HUB_NAME_STATE_GANSU_city: "Цзіцюцюань"
- HUB_NAME_STATE_GANSU_mine: "Дуньхуан"
- HUB_NAME_STATE_GANSU_farm: "Чжанхе"
- HUB_NAME_STATE_GANSU_wood: "Ксінінґ"
+ HUB_NAME_STATE_GANSU_city: "Дзюцюань"
+ HUB_NAME_STATE_GANSU_mine: "Дуньхван"
+ HUB_NAME_STATE_GANSU_farm: "Джан’є"
+ HUB_NAME_STATE_GANSU_wood: "Сінін"
  HUB_NAME_STATE_ALXA_city: "Вуда"
  HUB_NAME_STATE_ALXA_mine: "Шиве Хурен"
- HUB_NAME_STATE_ALXA_farm: "Дієґуанюїнґ"
- HUB_NAME_STATE_ALXA_wood: "Цзіньчан"
+ HUB_NAME_STATE_ALXA_farm: "Діньґваньїн"
+ HUB_NAME_STATE_ALXA_wood: "Дзіньчан"
  HUB_NAME_STATE_HINGGAN_city: "Ордос"
  HUB_NAME_STATE_HINGGAN_mine: "Баяннур"
  HUB_NAME_STATE_HINGGAN_farm: "Сіліньхот"
@@ -1201,84 +1376,36 @@
  HUB_NAME_STATE_URGA_city: "Урґа"
  HUB_NAME_STATE_URGA_mine: "Даланзадґад"
  HUB_NAME_STATE_URGA_farm: "Баруун-Урт"
- HUB_NAME_STATE_URGA_wood: "Маймайченґ"
- HUB_NAME_STATE_ULIASTAI_city: "Баянхонгор"
+ HUB_NAME_STATE_URGA_wood: "Маймайчен"
+ HUB_NAME_STATE_ULIASTAI_city: "Баяньхонґор"
  HUB_NAME_STATE_ULIASTAI_mine: "Шарґа"
- HUB_NAME_STATE_ULIASTAI_farm: "Хорго"
+ HUB_NAME_STATE_ULIASTAI_farm: "Хорґо"
  HUB_NAME_STATE_ULIASTAI_wood: "Олгій"
  HUB_NAME_STATE_DZUNGARIA_city: "Урумчі"
  HUB_NAME_STATE_DZUNGARIA_mine: "Куйтун"
  HUB_NAME_STATE_DZUNGARIA_farm: "Ілі"
  HUB_NAME_STATE_DZUNGARIA_wood: "Дружба"
- HUB_NAME_STATE_TIANSHAN_city: "Кашгар"
+ HUB_NAME_STATE_TIANSHAN_city: "Кашґар"
  HUB_NAME_STATE_TIANSHAN_mine: "Аксу"
  HUB_NAME_STATE_TIANSHAN_farm: "Хотан"
- HUB_NAME_STATE_TIANSHAN_wood: "Уця"
- HUB_NAME_STATE_NGARI_city: "Нгарі"
- HUB_NAME_STATE_NGARI_mine: "Лхатсе"
- HUB_NAME_STATE_NGARI_farm: "Дронгпа"
+ HUB_NAME_STATE_TIANSHAN_wood: "Вуця"
+ HUB_NAME_STATE_NGARI_city: "Нґарі"
+ HUB_NAME_STATE_NGARI_mine: "Лхадзе"
+ HUB_NAME_STATE_NGARI_farm: "Дронпа"
  HUB_NAME_STATE_NGARI_wood: "Раґа"
    
  HUB_NAME_STATE_LHASA_city: "Лхаса"
- HUB_NAME_STATE_LHASA_mine: "Майжокунґар"
- HUB_NAME_STATE_LHASA_farm: "Нагку"
+ HUB_NAME_STATE_LHASA_mine: "Майджокунґар"
+ HUB_NAME_STATE_LHASA_farm: "Наґчу"
  HUB_NAME_STATE_LHASA_wood: "Боме"
  HUB_NAME_STATE_HIMALAYAS_city: "Катманду"
  HUB_NAME_STATE_HIMALAYAS_mine: "Покхара"
  HUB_NAME_STATE_HIMALAYAS_farm: "Пунаха"
- HUB_NAME_STATE_HIMALAYAS_wood: "Кангток"
- HUB_NAME_STATE_KASHMIR_city: "Срінагар"
- HUB_NAME_STATE_KASHMIR_mine: "Каргіл"
+ HUB_NAME_STATE_HIMALAYAS_wood: "Ґанґток"
+ HUB_NAME_STATE_KASHMIR_city: "Срінаґар"
+ HUB_NAME_STATE_KASHMIR_mine: "Карґіл"
  HUB_NAME_STATE_KASHMIR_farm: "Ташиган"
  HUB_NAME_STATE_KASHMIR_wood: "Лех"
- HUB_NAME_STATE_TAJIKISTAN_city: "Душанбе"
- HUB_NAME_STATE_TAJIKISTAN_mine: "Куляб"
- HUB_NAME_STATE_TAJIKISTAN_farm: "Худжанд"
- HUB_NAME_STATE_TAJIKISTAN_wood: "Ан‘ї"
- HUB_NAME_STATE_KIRGHIZIA_city: "Кокканд"
- HUB_NAME_STATE_KIRGHIZIA_mine: "Нарин"
- HUB_NAME_STATE_KIRGHIZIA_farm: "Фергана"
- HUB_NAME_STATE_KIRGHIZIA_wood: "Каракол"
- HUB_NAME_STATE_SEMIRECHE_city: "Караганда"
- HUB_NAME_STATE_SEMIRECHE_mine: "Семипалатинськ"
- HUB_NAME_STATE_SEMIRECHE_farm: "Каркарали"
- HUB_NAME_STATE_SEMIRECHE_wood: "Усть-Каменогорськ"
- HUB_NAME_STATE_JETISY_city: "Алматинськ"
- HUB_NAME_STATE_JETISY_mine: "Джаркент"
- HUB_NAME_STATE_JETISY_farm: "Талди-Корган"
- HUB_NAME_STATE_JETISY_wood: "Ушарал"
- HUB_NAME_STATE_AKMOLINSK_city: "Акмолинськ"
- HUB_NAME_STATE_AKMOLINSK_mine: "Кизилорда"
- HUB_NAME_STATE_AKMOLINSK_farm: "Кокшетау"
- HUB_NAME_STATE_AKMOLINSK_wood: "Павлодар"
- HUB_NAME_STATE_UZBEKIA_city: "Самарканд"
- HUB_NAME_STATE_UZBEKIA_mine: "Карші"
- HUB_NAME_STATE_UZBEKIA_farm: "Ташкент"
- HUB_NAME_STATE_UZBEKIA_wood: "Шимкент"
- HUB_NAME_STATE_KHIVA_city: "Таенді"
- HUB_NAME_STATE_KHIVA_mine: "Жанаозень"
- HUB_NAME_STATE_KHIVA_farm: "Нукус"
- HUB_NAME_STATE_KHIVA_wood: "Ургенч"
- HUB_NAME_STATE_TURKMENIA_city: "Ашгабат"
- HUB_NAME_STATE_TURKMENIA_mine: "Балканабат"
- HUB_NAME_STATE_TURKMENIA_farm: "Мари"
- HUB_NAME_STATE_TURKMENIA_wood: "Туркменабат"
-   
- HUB_NAME_STATE_AZERBAIJAN_city: "Баку"
-  #HUB_NAME_STATE_AZERBAIJAN_port: "NAME"
- HUB_NAME_STATE_AZERBAIJAN_mine: "Ленкорань"
- HUB_NAME_STATE_AZERBAIJAN_farm: "Закалата"
- HUB_NAME_STATE_AZERBAIJAN_wood: "Єлисаветполь"
- HUB_NAME_STATE_GREATER_CAUCASUS_city: "Тбілісі"
- HUB_NAME_STATE_GREATER_CAUCASUS_port: "Поті"
- HUB_NAME_STATE_GREATER_CAUCASUS_mine: "Кутаїсі"
- HUB_NAME_STATE_GREATER_CAUCASUS_farm: "Горі"
- HUB_NAME_STATE_GREATER_CAUCASUS_wood: "Телаві"
- HUB_NAME_STATE_ARMENIA_city: "Єреван"
-  #HUB_NAME_STATE_ARMENIA_port: "NAME"
- HUB_NAME_STATE_ARMENIA_mine: "Нор Байезет"
- HUB_NAME_STATE_ARMENIA_farm: "Александруполь"
- HUB_NAME_STATE_ARMENIA_wood: "Нахичевань"
    
  HUB_NAME_STATE_ERZURUM_city: "Ерзурум"
   #HUB_NAME_STATE_ERZURUM_port: "NAME"
@@ -1321,7 +1448,7 @@
  HUB_NAME_STATE_AYDIN_wood: "Айдин"
  HUB_NAME_STATE_KONYA_city: "Конія"
  HUB_NAME_STATE_KONYA_port: "Анталія"
- HUB_NAME_STATE_KONYA_mine: "Афьон-Карахісар"
+ HUB_NAME_STATE_KONYA_mine: "Афйонкарахісар"
  HUB_NAME_STATE_KONYA_farm: "Денізлі"
  HUB_NAME_STATE_KONYA_wood: "Ескішехір"
  HUB_NAME_STATE_CYPRUS_city: "Нікосія"
@@ -1337,7 +1464,8 @@
  HUB_NAME_STATE_DIYARBAKIR_mine: "Хаккарі"
  HUB_NAME_STATE_DIYARBAKIR_farm: "Урфа"
  HUB_NAME_STATE_DIYARBAKIR_wood: "Діярбакир"
-  #Арабія
+  
+#Арабія
  HUB_NAME_STATE_DEIR_EZ_ZOR_city: "Дайр"
  HUB_NAME_STATE_DEIR_EZ_ZOR_mine: "Абу Камал"
  HUB_NAME_STATE_DEIR_EZ_ZOR_farm: "Рас аль-Айн"
@@ -1375,7 +1503,7 @@
  HUB_NAME_STATE_YEMEN_port: "Аль-Худайда"
  HUB_NAME_STATE_YEMEN_mine: "Сана"
  HUB_NAME_STATE_YEMEN_farm: "Аль-Мукалла"
- HUB_NAME_STATE_YEMEN_wood: "Таізз"
+ HUB_NAME_STATE_YEMEN_wood: "Таїз"
  HUB_NAME_STATE_OMAN_city: "Маскат"
  HUB_NAME_STATE_OMAN_port: "Салалах"
  HUB_NAME_STATE_OMAN_mine: "Нізва"
@@ -1411,65 +1539,102 @@
  HUB_NAME_STATE_MOSUL_farm: "Ербіль"
  HUB_NAME_STATE_MOSUL_wood: "Сулейманія"
    
-  # Persia
+# Persia
  HUB_NAME_STATE_TABRIZ_city: "Тебріз"
- HUB_NAME_STATE_TABRIZ_mine: "Суфіян"
+ HUB_NAME_STATE_TABRIZ_mine: "Зенджан"
  HUB_NAME_STATE_TABRIZ_farm: "Мараге"
- HUB_NAME_STATE_TABRIZ_wood: "Ардабіль"
+ HUB_NAME_STATE_TABRIZ_wood: "Ардебіль"
+ HUB_NAME_STATE_URMIA_city: "Урмія"
+ HUB_NAME_STATE_URMIA_mine: "Маку"
+ HUB_NAME_STATE_URMIA_farm: "Хой"
+ HUB_NAME_STATE_URMIA_wood: "Салмас"
  HUB_NAME_STATE_LURISTAN_city: "Хорремабад"
- HUB_NAME_STATE_LURISTAN_mine: "Хамадан"
- HUB_NAME_STATE_LURISTAN_farm: "Де-Бала"
- HUB_NAME_STATE_LURISTAN_wood: "Керманшах"
- HUB_NAME_STATE_KHUZESTAN_city: "Ахваз"
- HUB_NAME_STATE_KHUZESTAN_port: "Бандар Махшахр"
- HUB_NAME_STATE_KHUZESTAN_mine: "Дезфул"
- HUB_NAME_STATE_KHUZESTAN_farm: "Мохаммер"
- HUB_NAME_STATE_KHUZESTAN_wood: "Масджед Солейман"
+ HUB_NAME_STATE_LURISTAN_mine: "Малаєр"
+ HUB_NAME_STATE_LURISTAN_farm: "Боруджерд"
+ HUB_NAME_STATE_LURISTAN_wood: "Ілам"
+ HUB_NAME_STATE_PERSIAN_KURDISTAN_city: "Керманшах"
+ HUB_NAME_STATE_PERSIAN_KURDISTAN_mine: "Саккез"
+ HUB_NAME_STATE_PERSIAN_KURDISTAN_farm: "Сенендедж"
+ HUB_NAME_STATE_PERSIAN_KURDISTAN_wood: "Касре-Ширин"
+ HUB_NAME_STATE_KHUZESTAN_city: "Шуштар"
+ HUB_NAME_STATE_KHUZESTAN_port: "Бендер-Махшар"
+ HUB_NAME_STATE_KHUZESTAN_mine: "Мугамара"
+ HUB_NAME_STATE_KHUZESTAN_farm: "Дезфул"
+ HUB_NAME_STATE_KHUZESTAN_wood: "Ахваз"
  HUB_NAME_STATE_FARS_city: "Шираз"
  HUB_NAME_STATE_FARS_port: "Бушер"
- HUB_NAME_STATE_FARS_mine: "Ясудж"
- HUB_NAME_STATE_FARS_farm: "Канган"
- HUB_NAME_STATE_FARS_wood: "Бехбехан"
- HUB_NAME_STATE_LARISTAN_city: "Хаджіябад"
- HUB_NAME_STATE_LARISTAN_port: "Бандар Аббас"
- HUB_NAME_STATE_LARISTAN_mine: "Керман"
- HUB_NAME_STATE_LARISTAN_farm: "Яск"
- HUB_NAME_STATE_LARISTAN_wood: "Бандар-е-Чарак"
+ HUB_NAME_STATE_FARS_mine: "Адабе"
+ HUB_NAME_STATE_FARS_farm: "Джахром"
+ HUB_NAME_STATE_FARS_wood: "Ардакан"
+ HUB_NAME_STATE_LARISTAN_city: "Бендер-Абас"
+ HUB_NAME_STATE_LARISTAN_port: "Бендер-Ленґе"
+ HUB_NAME_STATE_LARISTAN_mine: "Хаджіабад"
+ HUB_NAME_STATE_LARISTAN_farm: "Мінаб"
+ HUB_NAME_STATE_LARISTAN_wood: "Бендер-Кенґан"
  HUB_NAME_STATE_ISFAHAN_city: "Ісфаган"
- HUB_NAME_STATE_ISFAHAN_mine: "Язд"
- HUB_NAME_STATE_ISFAHAN_farm: "Кашан"
- HUB_NAME_STATE_ISFAHAN_wood: "Хомейн"
- HUB_NAME_STATE_IRAKAJEMI_city: "Тегран"
+ HUB_NAME_STATE_ISFAHAN_mine: "Нейн"
+ HUB_NAME_STATE_ISFAHAN_farm: "Єзд"
+ HUB_NAME_STATE_ISFAHAN_wood: "Диг-Курд"
+ HUB_NAME_STATE_IRAKAJEMI_city: "Тегеран"
  HUB_NAME_STATE_IRAKAJEMI_mine: "Кум"
  HUB_NAME_STATE_IRAKAJEMI_farm: "Казвін"
- HUB_NAME_STATE_IRAKAJEMI_wood: "Семнан"
+ HUB_NAME_STATE_IRAKAJEMI_wood: "Намадан"
  HUB_NAME_STATE_MAZANDARAN_city: "Барфоруш"
- HUB_NAME_STATE_MAZANDARAN_mine: "Рашт"
- HUB_NAME_STATE_MAZANDARAN_farm: "Сарі"
- HUB_NAME_STATE_MAZANDARAN_wood: "Чалус"
- HUB_NAME_STATE_KHORASAN_city: "Мешхед"
- HUB_NAME_STATE_KHORASAN_mine: "Гонабад"
+ HUB_NAME_STATE_MAZANDARAN_mine: "Сарі"
+ HUB_NAME_STATE_MAZANDARAN_farm: "Рашт"
+ HUB_NAME_STATE_MAZANDARAN_wood: "Астарабад"
+ HUB_NAME_STATE_KHORASAN_city: "Машхед"
+ HUB_NAME_STATE_KHORASAN_mine: "Бірджанд"
  HUB_NAME_STATE_KHORASAN_farm: "Сабзевар"
  HUB_NAME_STATE_KHORASAN_wood: "Боджнурд"
  HUB_NAME_STATE_SISTAN_city: "Бампур"
- HUB_NAME_STATE_SISTAN_port: "Чахбахар"
- HUB_NAME_STATE_SISTAN_mine: "Захедан"
- HUB_NAME_STATE_SISTAN_farm:1 "Bahu Kalat"
- HUB_NAME_STATE_SISTAN_wood: "Зарабад"
+ HUB_NAME_STATE_SISTAN_port: "Чагбегар"
+ HUB_NAME_STATE_SISTAN_mine: "Хаш"
+ HUB_NAME_STATE_SISTAN_farm: "Насрафабад"
+ HUB_NAME_STATE_SISTAN_wood: "Доздаб"
+ HUB_NAME_STATE_KERMAN_city: "Керман"
+ HUB_NAME_STATE_KERMAN_mine: "Саїдабад"
+ HUB_NAME_STATE_KERMAN_farm: "Барамабад"
+ HUB_NAME_STATE_KERMAN_wood: "Маган"
+ HUB_NAME_STATE_SEMNAN_city: "Семнан"
+ HUB_NAME_STATE_SEMNAN_mine: "Туруд"
+ HUB_NAME_STATE_SEMNAN_farm: "Дамган"
+ HUB_NAME_STATE_SEMNAN_wood: "Шаруд"
    
- HUB_NAME_STATE_BALUCHISTAN_city: "Шорап"
+#Афганістан
+ HUB_NAME_STATE_BALUCHISTAN_city: "Калат"
  HUB_NAME_STATE_BALUCHISTAN_port: "Ґвадар"
- HUB_NAME_STATE_BALUCHISTAN_mine: "Кветта"
- HUB_NAME_STATE_BALUCHISTAN_farm: "Ормара"
- HUB_NAME_STATE_BALUCHISTAN_wood: "Турбат"
- HUB_NAME_STATE_WESTERN_AFGHANISTAN_city: "Герат"
- HUB_NAME_STATE_WESTERN_AFGHANISTAN_mine: "Шинданд"
- HUB_NAME_STATE_WESTERN_AFGHANISTAN_farm: "Шеберган"
- HUB_NAME_STATE_WESTERN_AFGHANISTAN_wood: "Мазарі-Шаріф"
- HUB_NAME_STATE_EASTERN_AFGHANISTAN_city: "Кабул"
- HUB_NAME_STATE_EASTERN_AFGHANISTAN_mine: "Газні"
- HUB_NAME_STATE_EASTERN_AFGHANISTAN_farm: "Джелалабад"
- HUB_NAME_STATE_EASTERN_AFGHANISTAN_wood: "Фейзабад"
+ HUB_NAME_STATE_BALUCHISTAN_mine:1 "Saindak"
+ HUB_NAME_STATE_BALUCHISTAN_farm: "Бела"
+ HUB_NAME_STATE_BALUCHISTAN_wood: "Сібі"
+ HUB_NAME_STATE_KABUL_city: "Кабул"
+ HUB_NAME_STATE_KABUL_mine: "Місе-Айнак"
+ HUB_NAME_STATE_KABUL_farm: "Газні"
+ HUB_NAME_STATE_KABUL_wood: "Джелалабад"
+ HUB_NAME_STATE_KANDAHAR_city: "Кандагар"
+ HUB_NAME_STATE_KANDAHAR_mine: "Кала-Муса"
+ HUB_NAME_STATE_KANDAHAR_farm: "Калати-Гілзай"
+ HUB_NAME_STATE_KANDAHAR_wood: "Ґерешк"
+ HUB_NAME_STATE_NORTHERN_BALUCHISTAN_city: "Чахансур "
+ HUB_NAME_STATE_NORTHERN_BALUCHISTAN_mine: "Рудбар"
+ HUB_NAME_STATE_NORTHERN_BALUCHISTAN_farm: "Кала-Біст"
+ #HUB_NAME_STATE_NORTHERN_BALUCHISTAN_wood: "wood"
+ HUB_NAME_STATE_CENTRAL_HIGHLANDS_city: "Баміан"
+ HUB_NAME_STATE_CENTRAL_HIGHLANDS_mine: "Балхаб"
+ HUB_NAME_STATE_CENTRAL_HIGHLANDS_farm: "Давлат Яр"
+ HUB_NAME_STATE_CENTRAL_HIGHLANDS_wood: "Ґізаб"
+ HUB_NAME_STATE_BALKH_city: "Мазарі-Шариф"
+ HUB_NAME_STATE_BALKH_mine: "Файзабад"
+ HUB_NAME_STATE_BALKH_farm: "Кундуз"
+ HUB_NAME_STATE_BALKH_wood: "Меймене"
+ HUB_NAME_STATE_HERAT_city: "Герат"
+ HUB_NAME_STATE_HERAT_mine: "Сабсавар"
+ HUB_NAME_STATE_HERAT_farm: "Фара"
+ HUB_NAME_STATE_HERAT_wood: "Обе"
+ HUB_NAME_STATE_QUETTA_city: "Кетта"
+ HUB_NAME_STATE_QUETTA_mine: "Лоралай"
+ HUB_NAME_STATE_QUETTA_farm: "Чаман"
+ HUB_NAME_STATE_QUETTA_wood: "Жоб"
 
  HUB_NAME_STATE_PASHTUNISTAN_city: "Кохат"
  HUB_NAME_STATE_PASHTUNISTAN_mine: "Мінґора"
@@ -1574,24 +1739,24 @@
  HUB_NAME_STATE_PEGU_port: "Сіттве"
  HUB_NAME_STATE_PEGU_mine: "Мраук-У"
  HUB_NAME_STATE_PEGU_farm: "Баґо"
- HUB_NAME_STATE_PEGU_wood: "П‘япон"
+ HUB_NAME_STATE_PEGU_wood: "П’япон"
  HUB_NAME_STATE_BURMA_city: "Мандалай"
  HUB_NAME_STATE_BURMA_port: "NAME"
  HUB_NAME_STATE_BURMA_mine: "Монюва"
- HUB_NAME_STATE_BURMA_farm: "Найп‘їто"
+ HUB_NAME_STATE_BURMA_farm: "Найп’їто"
  HUB_NAME_STATE_BURMA_wood: "Маґвей"
  HUB_NAME_STATE_SHAN_STATES_city: "Танґґі"
  HUB_NAME_STATE_SHAN_STATES_mine: "Куткай"
  HUB_NAME_STATE_SHAN_STATES_farm: "Кенґ Тунґ"
  HUB_NAME_STATE_SHAN_STATES_wood: "Лашіо"
 
-  # South east asia
+# South east asia
  HUB_NAME_STATE_CHIANG_MAI_city: "Чіянґмай"
  HUB_NAME_STATE_CHIANG_MAI_mine: "Нан"
  HUB_NAME_STATE_CHIANG_MAI_farm: "Лампанґ"
  HUB_NAME_STATE_CHIANG_MAI_wood: "Чіянґрай"
  HUB_NAME_STATE_LAOS_city: "Луанґпхабанґ"
- HUB_NAME_STATE_LAOS_mine: "В‘єнтьян"
+ HUB_NAME_STATE_LAOS_mine: "В’єнтьян"
  HUB_NAME_STATE_LAOS_farm: "Чампассак"
  HUB_NAME_STATE_LAOS_wood: "Нам Ха"
  HUB_NAME_STATE_TONKIN_city: "Ханой"
@@ -1615,7 +1780,7 @@
  HUB_NAME_STATE_CAMBODIA_farm: "Кронґ Баттамбанґ"
  HUB_NAME_STATE_CAMBODIA_wood: "Кронґ Сієм Ріп"
  HUB_NAME_STATE_NAKHON_RATCHASIMA_city: "Накхонратчасіма"
- HUB_NAME_STATE_NAKHON_RATCHASIMA_port: "Паттайя-Сіті"
+ HUB_NAME_STATE_NAKHON_RATCHASIMA_port: "Паттая-Сіті"
  HUB_NAME_STATE_NAKHON_RATCHASIMA_mine: "Сакон Нахон"
  HUB_NAME_STATE_NAKHON_RATCHASIMA_farm: "Убонратчатхані"
  HUB_NAME_STATE_NAKHON_RATCHASIMA_wood: "Кхон Каен"
@@ -1659,7 +1824,7 @@
  HUB_NAME_STATE_EAST_JAVA_mine: "Мадіюн"
  HUB_NAME_STATE_EAST_JAVA_farm: "Проболінґґо"
  HUB_NAME_STATE_EAST_JAVA_wood: "Пачітан"
- HUB_NAME_STATE_CENTRAL_JAVA_city: "Джок‘якарта"
+ HUB_NAME_STATE_CENTRAL_JAVA_city: "Джок’якарта"
  HUB_NAME_STATE_CENTRAL_JAVA_port: "Семаранґ"
  HUB_NAME_STATE_CENTRAL_JAVA_mine: "Цилакап"
  HUB_NAME_STATE_CENTRAL_JAVA_farm: "Пекалонган"
@@ -1726,7 +1891,7 @@
  HUB_NAME_STATE_QUEENSLAND_city: "Брисбен"
  HUB_NAME_STATE_QUEENSLAND_port: "Таунсвілл"
  HUB_NAME_STATE_QUEENSLAND_mine: "Шарлевіль"
- HUB_NAME_STATE_QUEENSLAND_farm: "Хьюенден"
+ HUB_NAME_STATE_QUEENSLAND_farm: "Г’юенден"
  HUB_NAME_STATE_QUEENSLAND_wood: "Тувумба"
  HUB_NAME_STATE_NORTHERN_TERRITORY_city: "Дарвін"
  HUB_NAME_STATE_NORTHERN_TERRITORY_port: "Нуланбей"
@@ -1851,7 +2016,7 @@
  HUB_NAME_STATE_AZORES_farm: "Віла-ду-Порту"
  HUB_NAME_STATE_AZORES_wood: "Мадалена"
   
-  # Canada
+# Canada
  HUB_NAME_STATE_NEW_BRUNSWICK_city: "Галіфакс"
  HUB_NAME_STATE_NEW_BRUNSWICK_port: "Луненбурґ"
  HUB_NAME_STATE_NEW_BRUNSWICK_mine: "Фредеріктон"
@@ -1906,11 +2071,11 @@
  HUB_NAME_STATE_YUKON_TERRITORY_farm: "Білий кінь"
  HUB_NAME_STATE_YUKON_TERRITORY_wood: "Кармаки"
   
-  # United States of America
+# United States of America
  HUB_NAME_STATE_ALASKA_city: "Анкоридж"
  HUB_NAME_STATE_ALASKA_port: "Джуно"
  HUB_NAME_STATE_ALASKA_mine: "Ном"
- HUB_NAME_STATE_ALASKA_farm: "Новий Арх‘янгол"
+ HUB_NAME_STATE_ALASKA_farm: "Новий Арх’янгол"
  HUB_NAME_STATE_ALASKA_wood: "Вальдес"
  HUB_NAME_STATE_MAINE_city: "Августа"
  HUB_NAME_STATE_MAINE_port: "Портленд"
@@ -2042,7 +2207,7 @@
  HUB_NAME_STATE_LOUISIANA_wood: "Колумбія"
  HUB_NAME_STATE_TEXAS_city: "Остін"
  HUB_NAME_STATE_TEXAS_port: "Ґалвестон"
- HUB_NAME_STATE_TEXAS_mine: "Х‘юстон"
+ HUB_NAME_STATE_TEXAS_mine: "Х’юстон"
  HUB_NAME_STATE_TEXAS_farm: "Ель Пасо"
  HUB_NAME_STATE_TEXAS_wood: "Даллас"
  HUB_NAME_STATE_OKLAHOMA_city: "Талса"
@@ -2073,7 +2238,7 @@
  HUB_NAME_STATE_MINNESOTA_mine: "Дулут"
  HUB_NAME_STATE_MINNESOTA_farm: "Сант Клауд"
  HUB_NAME_STATE_MINNESOTA_wood: "Ейткін"
- HUB_NAME_STATE_SOUTH_DAKOTA_city: "П‘єр"
+ HUB_NAME_STATE_SOUTH_DAKOTA_city: "П’єр"
  HUB_NAME_STATE_SOUTH_DAKOTA_mine: "Дедвуд"
  HUB_NAME_STATE_SOUTH_DAKOTA_farm: "Су-Фолс"
  HUB_NAME_STATE_SOUTH_DAKOTA_wood: "Абердін"
@@ -2085,7 +2250,7 @@
  HUB_NAME_STATE_MONTANA_mine: "Батт"
  HUB_NAME_STATE_MONTANA_farm: "Бозмен"
  HUB_NAME_STATE_MONTANA_wood: "Міссула"
- HUB_NAME_STATE_WYOMING_city: "Шайєнн"
+ HUB_NAME_STATE_WYOMING_city: "Шаєнн"
  HUB_NAME_STATE_WYOMING_mine: "Рок-Спрінгс"
  HUB_NAME_STATE_WYOMING_farm: "Дуглас"
  HUB_NAME_STATE_WYOMING_wood: "Коді"
@@ -2112,7 +2277,7 @@
  HUB_NAME_STATE_IDAHO_city: "Бойсе"
  HUB_NAME_STATE_IDAHO_mine: "Айдахо Фоллс"
  HUB_NAME_STATE_IDAHO_farm: "Покателло"
- HUB_NAME_STATE_IDAHO_wood: "Кер Д‘Ален"
+ HUB_NAME_STATE_IDAHO_wood: "Кер Д’Ален"
  HUB_NAME_STATE_WASHINGTON_city: "Сієтл"
  HUB_NAME_STATE_WASHINGTON_port: "Такома"
  HUB_NAME_STATE_WASHINGTON_mine: "Беллінгем"
@@ -2129,7 +2294,7 @@
  HUB_NAME_STATE_CALIFORNIA_farm: "Фресно"
  HUB_NAME_STATE_CALIFORNIA_wood: "Шаста"
   
-  # Mexico
+# Mexico
  HUB_NAME_STATE_BAJA_CALIFORNIA_city: "Ла-Пас"
  HUB_NAME_STATE_BAJA_CALIFORNIA_port: "Сан-Квентін"
  HUB_NAME_STATE_BAJA_CALIFORNIA_mine: "Мехікалі"
@@ -2147,7 +2312,7 @@
  HUB_NAME_STATE_CHIHUAHUA_wood: "Куаутемок"
  HUB_NAME_STATE_DURANGO_city: "Дуранґо"
  HUB_NAME_STATE_DURANGO_mine: "Лердо"
- HUB_NAME_STATE_DURANGO_farm: "Сантьяго Папаскьяро"
+ HUB_NAME_STATE_DURANGO_farm: "Сантьяго Папаск’яро"
  HUB_NAME_STATE_DURANGO_wood: "Ель Сальто"
  HUB_NAME_STATE_RIO_GRANDE_city: "Монтеррей"
  HUB_NAME_STATE_RIO_GRANDE_port: "Тампіко"
@@ -2233,7 +2398,7 @@
  HUB_NAME_STATE_PANAMA_farm: "Лас Таблас"
  HUB_NAME_STATE_PANAMA_wood: "Сантяґо"
   
-  # Colombia
+# Colombia
  HUB_NAME_STATE_ANTIOQUIA_city: "Медельїн"
  HUB_NAME_STATE_ANTIOQUIA_port: "Санта-Марта"
  HUB_NAME_STATE_ANTIOQUIA_mine: "Пуерто-Берріо"
@@ -2253,7 +2418,7 @@
  HUB_NAME_STATE_GUAVIARE_farm: "Сан-Хосе-дель-Ґуав'яре"
  HUB_NAME_STATE_GUAVIARE_wood: "Пуерто-Карреньйо"
   
-  # Venezuela
+# Venezuela
  HUB_NAME_STATE_ZULIA_city: "Баркісімето"
  HUB_NAME_STATE_ZULIA_port: "Маракайбо"
  HUB_NAME_STATE_ZULIA_mine: "Сан-Крістобаль"
@@ -2276,7 +2441,7 @@
  HUB_NAME_STATE_GUAYANA_wood: "Кайенне"
  HUB_NAME_STATE_GUAYANA_mine: "Нойтгедахт"
   
-  # Brazil
+# Brazil
  HUB_NAME_STATE_PARA_city: "Белен"
  HUB_NAME_STATE_PARA_port: "Макапа"
  HUB_NAME_STATE_PARA_mine: "Амапа"
@@ -2370,7 +2535,7 @@
  HUB_NAME_STATE_PARAIBA_farm: "Жуазейріньо"
  HUB_NAME_STATE_PARAIBA_mine: "Патос"
 
-  # Argentina
+# Argentina
  HUB_NAME_STATE_BUENOS_AIRES_city: "Буенос-Айрес"
  HUB_NAME_STATE_BUENOS_AIRES_port: "Мар-дель-Плата"
  HUB_NAME_STATE_BUENOS_AIRES_farm: "Баїя-Бланка"
@@ -2383,7 +2548,7 @@
  HUB_NAME_STATE_SANTA_FE_mine: "Рафаеля"
  HUB_NAME_STATE_CORRIENTES_city: "Посадас"
  HUB_NAME_STATE_CORRIENTES_farm: "Коррієнтес"
- HUB_NAME_STATE_CORRIENTES_wood: "Ґойя"
+ HUB_NAME_STATE_CORRIENTES_wood: "Ґоя"
  HUB_NAME_STATE_CORRIENTES_mine: "Есквіна"
  HUB_NAME_STATE_CHACO_city: "Ресістенція"
  HUB_NAME_STATE_CHACO_farm: "Формоза"
@@ -2416,10 +2581,8 @@
  HUB_NAME_STATE_SOUTH_ATLANTIC_ISLANDS_farm: "Норт-Арм"
  HUB_NAME_STATE_SOUTH_ATLANTIC_ISLANDS_mine: "Гус-Ґрін"
  HUB_NAME_STATE_SOUTH_ATLANTIC_ISLANDS_wood: "Порт Говард"
-  
-  
    
-  # Chile
+# Chile
  HUB_NAME_STATE_ARAUCANIA_city: "Пунта-Аренас"
  HUB_NAME_STATE_ARAUCANIA_port: "Пуерто-Монт"
  HUB_NAME_STATE_ARAUCANIA_mine: "Койхайке"
@@ -2436,7 +2599,7 @@
  HUB_NAME_STATE_SANTIAGO_farm: "Ла-Серена"
  HUB_NAME_STATE_SANTIAGO_wood: "Ранкаґуа"
   
-  # Bolivia
+# Bolivia
  HUB_NAME_STATE_ANTOFAGASTA_city: "Антофаґаста"
  HUB_NAME_STATE_ANTOFAGASTA_port: "Талтал"
  HUB_NAME_STATE_ANTOFAGASTA_mine: "Калама"
@@ -2463,7 +2626,7 @@
  HUB_NAME_STATE_LA_PAZ_farm: "Тринідад"
  HUB_NAME_STATE_LA_PAZ_wood: "Кочабамба"
 
-  # Peru
+# Peru
  HUB_NAME_STATE_TARAPACA_city: "Ікіке"
  HUB_NAME_STATE_TARAPACA_port: "Пісагуа"
  HUB_NAME_STATE_TARAPACA_mine: "Хамберстоун"
@@ -2531,7 +2694,7 @@
  #HUB_NAME_STATE_PUERTO_RICO_mine: "NAME"
  HUB_NAME_STATE_PUERTO_RICO_farm: "Кагуас"
  HUB_NAME_STATE_PUERTO_RICO_wood: "Маяґуес"
- HUB_NAME_STATE_WEST_INDIES_city: "Сен-П‘єр"
+ HUB_NAME_STATE_WEST_INDIES_city: "Сен-П’єр"
  HUB_NAME_STATE_WEST_INDIES_port: "Кастрі"
  HUB_NAME_STATE_WEST_INDIES_mine: "Кінґстаун"
  HUB_NAME_STATE_WEST_INDIES_farm: "Крістіянстед"
@@ -2559,7 +2722,7 @@
  STATE_MADEIRA_farm: "Порто Моніш"
  STATE_MADEIRA_wood: "Естрейто да кальета"
    
-  # Morocco
+# Morocco
  HUB_NAME_STATE_AL_RIF_city: "Танжер"
  HUB_NAME_STATE_AL_RIF_port: "Мелілья"
  HUB_NAME_STATE_AL_RIF_mine: "Таза"
@@ -2661,7 +2824,7 @@
  HUB_NAME_STATE_SINAI_wood: "Аріш"
  HUB_NAME_STATE_MIDDLE_EGYPT_city: "Бені Суеф"
  HUB_NAME_STATE_MIDDLE_EGYPT_port: "Ель-Сувейс"
- HUB_NAME_STATE_MIDDLE_EGYPT_mine: "Бір З‘афарана"
+ HUB_NAME_STATE_MIDDLE_EGYPT_mine: "Бір З’афарана"
  HUB_NAME_STATE_MIDDLE_EGYPT_farm: "Асют"
  HUB_NAME_STATE_MIDDLE_EGYPT_wood: "Сохаґ"
  HUB_NAME_STATE_UPPER_EGYPT_city: "Луксор"
@@ -2760,7 +2923,7 @@
  HUB_NAME_STATE_ZAMBEZIA_city: "Тете"
  HUB_NAME_STATE_ZAMBEZIA_port: "Байра"
  HUB_NAME_STATE_ZAMBEZIA_mine: "Мандже"
- HUB_NAME_STATE_ZAMBEZIA_farm: "Каія"
+ HUB_NAME_STATE_ZAMBEZIA_farm: "Кая"
  HUB_NAME_STATE_ZAMBEZIA_wood: "Мукумбура"
  HUB_NAME_STATE_KAZEMBE_city: "Касама"
  HUB_NAME_STATE_KAZEMBE_mine: "Мбала"
@@ -2974,11 +3137,11 @@
  HUB_NAME_STATE_GAMBIA_port: "Батурст"
  HUB_NAME_STATE_GAMBIA_mine: "Тамбаковнда"
  HUB_NAME_STATE_GAMBIA_farm: "Біґнона"
- HUB_NAME_STATE_GAMBIA_wood: "К‘єдовґов"
+ HUB_NAME_STATE_GAMBIA_wood: "К’єдовґов"
  HUB_NAME_STATE_GUINEA_city: "Кіндія"
  HUB_NAME_STATE_GUINEA_port: "Конакри"
- HUB_NAME_STATE_GUINEA_mine: "Лаб‘є"
- HUB_NAME_STATE_GUINEA_farm: "Бок‘є"
+ HUB_NAME_STATE_GUINEA_mine: "Лаб’є"
+ HUB_NAME_STATE_GUINEA_farm: "Бок’є"
  HUB_NAME_STATE_GUINEA_wood: "Канкан"
  HUB_NAME_STATE_SIERRA_LEONE_city: "Кенема"
  HUB_NAME_STATE_SIERRA_LEONE_port: "Фрітавн"
@@ -2997,7 +3160,7 @@
  HUB_NAME_STATE_WINDWARD_COAST_wood: "Совбре"
   
  HUB_NAME_STATE_CANARY_ISLANDS_city: "Санта Круз де Тенеріфе"
- HUB_NAME_STATE_CANARY_ISLANDS_port: "Коста Адейє"
+ HUB_NAME_STATE_CANARY_ISLANDS_port: "Коста Адеє"
  HUB_NAME_STATE_CANARY_ISLANDS_mine: "Пуерто дель Розаріо"
  HUB_NAME_STATE_CANARY_ISLANDS_farm: "Тельде"
  HUB_NAME_STATE_CANARY_ISLANDS_wood: "Арреціфе"

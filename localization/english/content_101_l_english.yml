@@ -6,8 +6,8 @@
  technology_events.1.b: "Людям просто треба пристосуватися."
  technology_events.1.c: "Автомобілі повинні мати перевагу в русі."
 
- custom_automobile_accident_type_crash: "два автомобілі врізалися один в одного на великій швидкості, серйозно травмувавши пасажирів."
- custom_automobile_accident_type_wall_crash: "некерований автомобіль на великій швидкості врізався в стіну, внаслідок чого загинув водій."
+ custom_automobile_accident_type_crash: "два автомобілі врізалися один в одного на великій швидкости, серйозно травмувавши пасажирів."
+ custom_automobile_accident_type_wall_crash: "некерований автомобіль на великій швидкости врізався в стіну, внаслідок чого загинув водій."
  custom_automobile_accident_type_wall_person_hit: "автомобіль збив чоловіка, який переходив вулицю, вбивши його."
  custom_automobile_accident_type_river: "автомобіль з’їхав з дороги і впав у річку."
 
@@ -124,6 +124,8 @@
  expedition_events.550.b:0 "We cannot stop, give [SCOPE.sCharacter('expedition_leader').GetHerHim] the knife."
  sir_loc:0 "Sir"
  madam_loc:0 "Ma'am"
+ mr_loc:0 "Mr."
+ ms_loc:0 "Ms."
 
  expedition_event_delayed_tt:0 "The expedition is slightly delayed."
 
@@ -489,7 +491,7 @@
  character_events.4.d: "Було виявлено, що [SCOPE.sCharacter('devout_scandal').GetFullName] з [Concept('concept_interest_group','$concept_interest_group_gen$')|l] [SCOPE.sCharacter('devout_scandal').GetInterestGroup.GetName] мав таємний зв’язок із представником духовенства. Тепер усі вимагають [SCOPE.sCharacter('devout_scandal').GetCustom('UA_joho_jiji')|l] відставки."
  character_events.4.f: "«Сам факт того, що цей підступний виродок думав, що [SCOPE.sCharacter('devout_scandal').GetSheHe] міг уникнути покарання за таке грубе зловживання владою. Ця ситуація показує про те, що з керівництвом [Concept('concept_interest_group','$concept_interest_group_gen$')|l] [SCOPE.sCharacter('devout_scandal').GetInterestGroup.GetNameNoFormatting] щось не так.»"
  character_events.4.a: "Змусити [SCOPE.sCharacter('devout_scandal').GetCustom('UA_joho_jiji')|l] піти у відставку."
- character_events.4.b: "Ігнорувати це."
+ character_events.4.b: "іґнорувати це."
  character_events.4.c: "Народ повинен знати про [SCOPE.sCharacter('devout_scandal').GetCustom('UA_joho_jiji')|l] розпусту."
  character_events.4.a.tt: "[SCOPE.sCharacter('devout_scandal').GetFullName] з ганьбою йде у відставку."
 
@@ -631,9 +633,9 @@
  je_central_archives_reason: "Внісши таку просту зміну, як спосіб зберігання документів, можна зробити революцію в усій нашій організаційній системі."
 
  dan_society_tech_events.1.t: "Картотечні шафи"
- dan_society_tech_events.1.d: "Використання картотек у будівлі [SCOPE.sBuilding('government_building').GetName|l] різко підвищило ефективність державної бюрократії."
+ dan_society_tech_events.1.d: "Використання картотек у будівлі [SCOPE.sBuilding('government_building').GetName|l] різко підвищило плідність урядування державою."
  dan_society_tech_events.1.f: "«Майбутнє не в тому, щоб літати, як птах, і не в тому, щоб мчати в поїзді з гуркотом. Ні... майбутнє - у тому, щоб зберігати документи.»"
- dan_society_tech_events.1.a: "Обожнюю бюрократію."
+ dan_society_tech_events.1.a: "Обожнюю врядування."
  dan_society_tech_events.1.b: "Зберігайте інформацію про наших громадян."
 
  horizontal_filing_cabinets_modifier: "Покращення поземних картотек"
@@ -843,7 +845,7 @@
  central_america_falls_apart_reason: "Землі Центральної Америки волають про незалежність. Чи дамо ми їм її? Незабаром вони висунуть нам ультиматум."
 
  ragamuffin_war: "Війна Фаррапус"
- ragamuffin_war_reason: "Повстанці в Рію-Ґранді-ду-Сул вимагають незалежности і готові заплатити за це кров‘ю своїх солдатів."
+ ragamuffin_war_reason: "Повстанці в Рію-Ґранді-ду-Сул вимагають незалежности і готові заплатити за це кров’ю своїх солдатів."
 
  south_america.5.t: "Перемога Фаррапус"
  south_america.5.d: "Незважаючи на наші величезні шанси, Піратіні вдалося виграти у війні Фаррапус, та разом з цим здобути свою незалежність."

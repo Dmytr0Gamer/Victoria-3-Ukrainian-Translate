@@ -258,3 +258,49 @@ ACHIEVEMENT_achievement_devils_railroad: "Диявольська залізни�
 ACHIEVEMENT_DESC_achievement_devils_railroad: "Виконайте запис у часописі «Експлуатація лісів Амазонки», володійте всією Амазонкою і  побудуйте в ній залізниці"
 achievement_devils_railroad_tt: "Запис «Експлуатація лісів Амазонки» виконано"
 achievement_devils_railroad_2_tt: "Усі землі з ознаками «Амазонські тропічні ліси» належать вашій державі та мають будівлю залізниці"
+
+ACHIEVEMENT_achievement_duran_duran:0 "Durran Durran"
+ACHIEVEMENT_DESC_achievement_duran_duran:0 "As Herat, form Afghanistan, own all the historical states of the old Durrani Empire, and do not be a member of any power bloc led by any other country."
+
+ACHIEVEMENT_achievement_hyperpeace:0 "Hyperpeace"
+ACHIEVEMENT_DESC_achievement_hyperpeace:0 "As any country, have both Finland and Korea in your power bloc."
+
+ACHIEVEMENT_achievement_bootlicker:0 "Bootlicker" # I'm judging you
+ACHIEVEMENT_DESC_achievement_bootlicker:0 "As a subject, have the pro-overlord lobby at max appeasement."
+
+ACHIEVEMENT_achievement_im_the_captain_now:0 "I'm the Captain Now"
+ACHIEVEMENT_DESC_achievement_im_the_captain_now:0 "Look at me. As a member of a power bloc, win the struggle for power bloc leadership."
+
+ACHIEVEMENT_achievement_new_order:0 "The New Order"
+ACHIEVEMENT_DESC_achievement_new_order:0 "Have a fully decked out power bloc."
+
+ACHIEVEMENT_achievement_great_game_no_re:0 "Great Game no re"
+ACHIEVEMENT_DESC_achievement_great_game_no_re:0 "Complete the Great Game Objective."
+
+ACHIEVEMENT_achievement_honor_and_life:0 "Honor and Life"
+ACHIEVEMENT_DESC_achievement_honor_and_life:0 "As Circassia, complete the Honor Before Life journal entry."
+
+ACHIEVEMENT_achievement_iranzamin:0 "Iranzamin"
+ACHIEVEMENT_DESC_achievement_iranzamin:0 "As Persia, complete the Eastern Frontier Journal Entry, and have a literacy rating of 80%"
+
+ACHIEVEMENT_achievement_for_twelve_years_you_have_been_asking:0 "For Twelve Years You Have Been Asking"
+ACHIEVEMENT_DESC_achievement_for_twelve_years_you_have_been_asking:0 "Privatize all buildings and prevent them from being state or worker-owned for 12 whole years."
+
+ACHIEVEMENT_achievement_cant_touch_this:0 "Can't Touch This"
+ACHIEVEMENT_DESC_achievement_cant_touch_this:0 "As a country with at least 10% of your GDP owned by a foreign power, nationalize all buildings and prevent them from being privatized for 12 whole years."
+cant_touch_this_possible_tt:0 "Has had #v 10%#! of your [concept_gdp] owned by a foreign power"
+
+ACHIEVEMENT_achievement_standard_oil:0 "Standard Oil"
+ACHIEVEMENT_DESC_achievement_standard_oil:0 "Own at least 30 levels of oil rigs in foreign countries."
+
+ACHIEVEMENT_achievement_diplomatic_victory:0 "Diplomatic Victory"
+ACHIEVEMENT_DESC_achievement_diplomatic_victory:0 "As a Great Power, have a pro-country lobby for your country in every other Great Power."
+
+ACHIEVEMENT_achievement_hermit_kingdom:0 "Hermit Kingdom"
+ACHIEVEMENT_DESC_achievement_hermit_kingdom:0 "As Korea, act on the Donghak movement's petitions."
+
+ACHIEVEMENT_achievement_cult_of_reason:0 "Cult of Reason"
+ACHIEVEMENT_DESC_achievement_cult_of_reason:0 "Pass the State Atheism Law and be the leader of an ideological power bloc with at least 10 members."
+
+ACHIEVEMENT_achievement_declaration_of_independence:0 "Declaration of Independence"
+ACHIEVEMENT_DESC_achievement_declaration_of_independence:0 "Starting as a subject nation, break free from your overlord."

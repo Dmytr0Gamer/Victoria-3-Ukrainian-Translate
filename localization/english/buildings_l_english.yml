@@ -31,9 +31,9 @@
  building_munition_plants_lens_option: "Розширити виробні набоїв"
  building_synthetics_plants: "Синтетична промисловість"
  building_synthetics_plants_lens_option: "Розширити синтетичну промисловість"
- building_steel_mills: "Крицеварня"     #Незнаю чи є таке слово, але як на мене воно непогано звучить
+ building_steel_mills: "Крицеварня"
  building_steel_mills_lens_option: "Розширити крицеварні"
- building_glassworks: "Скловарня"       #Незнаю чи є таке слово, але як на мене воно непогано звучить
+ building_glassworks: "Скловарня"
  building_glassworks_lens_option: "Розширити скловарні"
  building_coal_mine: "Вугільна копальня"
  building_coal_mine_lens_option: "Розширити вугільні копальні"
@@ -49,17 +49,17 @@
  building_dye_plantation_lens_option: "Розширити барвильні полища"
  building_fishing_wharf: "Рибальська приплава"
  building_fishing_wharf_lens_option: "Розширити рибальські приплави"
- building_whaling_station: "Китобійня"     #або Китобійна станиця, Китобійний ставець
+ building_whaling_station: "Китобійня"
  building_whaling_station_lens_option: "Розширити китобійні"
- building_rye_farm: "Житній хутір"   #або присілок
+ building_rye_farm: "Житній хутір"
  building_rye_farm_les_option: "Розширити житні хутори"
- building_wheat_farm: "Пшеничний хутір"    #або присілок
+ building_wheat_farm: "Пшеничний хутір" 
  building_wheat_farm_les_option: "Розширити пшеничні хутори"
- building_rice_farm: "Рисовий хутір"    #або присілок
+ building_rice_farm: "Рисовий хутір" 
  building_rice_farm_les_option: "Розширити рисові хутори"
- building_maize_farm: "Кукурудзяний хутір"    #або присілок
+ building_maize_farm: "Кукурудзяний хутір" 
  building_maize_farm_les_option: "Розширити кукурудзяні хутори"
- building_millet_farm: "Пшоний хутір"    #або присілок
+ building_millet_farm: "Пшоний хутір" 
  building_millet_farm_les_option: "Розширити пшоні хутори"
  building_iron_mine: "Залізна копальня"
  building_iron_mine_lens_option: "Розширити залізні копальні"
@@ -74,11 +74,8 @@
  building_opium_plantation_lens_option: "Розширити опіюмні полища"
  building_orchard: "Сад"
  building_orchard_lens_option: "Розширити сади"
- 
- #Золоте поле? чому потім викорестовується теґ копальні? потім подивлюся у грі щоб зрозуміти що це
  building_gold_fields: "Золота старальня"
  building_gold_fields_lens_option: "Розширити золоті старальні"
- 
  building_gold_fields_discovered_resource: "Золото"
  building_rubber_plantation: "Кавчукове полище"    
  building_rubber_plantation_lens_option: "Розширити кавчукові полища"
@@ -108,7 +105,7 @@
  building_subsistence_pastures: "Натуральні пасовища"
  building_subsistence_fishing_villages: "Натуральні рибальські поселення"
  building_subsistence_rice_paddies: "Натуральні рисові поля"
- building_construction_sector: "Будівельний витинок"   #або сектор
+ building_construction_sector: "Будівельний витинок"
  building_banana_plantation: "Бананове полище"
  building_banana_plantation_lens_option: "Розширити бананові полища"
  building_suez_canal: "Суецький водовід"
@@ -116,7 +113,6 @@
  building_panama_canal: "Панамський водовід"
  building_panama_canal_lens_option: "Побудувати панамський водовід"
  UNEMPLOYED: "[Concept('concept_unemployed', '$concept_unemployed$')]"
-
 
 # Building Groups
  bg_subsistence: "Натуральні господарства"
@@ -137,7 +133,7 @@
  bg_oil_extraction: "Роповий витяг"
  bg_manufacturing: "Рукодільні"
  bg_urban_facilities: "Міські споруди"
- bg_bureaucracy: "Бюрократичні установи"
+ bg_bureaucracy: "Урядництва"
  bg_government: "Урядові структури"
  bg_trade: "Торгові центри"
  bg_infrastructure: "Інфраструктура"
@@ -179,6 +175,9 @@
  bg_navy: "Naval Buildings"
  bg_skyscraper: "Skyscrapers"
  bg_monuments_hidden: "Monuments"
+ bg_owner_buildings: "Ownership Buildings"
+ bg_manor_houses: "Manor Houses"
+ bg_financial_districts: "Financial Districts"
 
 #Factories
 
@@ -188,7 +187,9 @@
  building_port: "Приплав"
  building_railway: "Залізниця"
  building_trade_center: "Торговий центр"
- building_link: "Торговий тор"  #при перекладі виходить посилання, але мабуть воне має значення шлях 
+ building_link: "Торговий тор"
+ building_manor_house: "Manor Houses"
+ building_financial_district: "Financial Districts"
 
  building_port_lens_option: "Приплав"
  building_railway_lens_option: "Залізниця"
@@ -203,14 +204,14 @@
 
   #Colonies
  building_colony_military: "Військова осада"
- building_colony_military_lens_option: "Встановити війскову осаду"
- building_colony_military_hover: "Встановити #variable війскову осаду#! у землі #variable [STATE.GetName]"
+ building_colony_military_lens_option: "Установити війскову осаду"
+ building_colony_military_hover: "Установити #variable війскову осаду#! у землі #variable [STATE.GetName]"
  building_colony_missionary: "Метарська осада"    #від метар(месіонер)
- building_colony_missionary_lens_option: "Встановити метарську осаду"
- building_colony_missionary_hover: "Встановити #variable метарську осаду#! у землі #variable [STATE.GetName]#!"
+ building_colony_missionary_lens_option: "Установити метарську осаду"
+ building_colony_missionary_hover: "Установити #variable метарську осаду#! у землі #variable [STATE.GetName]#!"
  building_colony_trade: "Торгова осада"
- building_colony_trade_lens_option: "Встановити торгову осаду"
- building_colony_trade_hover: "Встановити #variable торгову осаду#! у землі #variable [STATE.GetName]"
+ building_colony_trade_lens_option: "Установити торгову осаду"
+ building_colony_trade_hover: "Установити #variable торгову осаду#! у землі #variable [STATE.GetName]"
 
   #Barracks
  building_barracks: "Курінь"
@@ -220,7 +221,7 @@
  building_conscription_center: "Осередок призви"
 
   #National Buildings
- building_government_administration: "Державна управа"
+ building_government_administration: "Урядництво"
  building_government_administration_lens_option: "Розширити державну управу"
 
   # Unlock tooltips
@@ -249,3 +250,4 @@
 
   # Skyscraper
  building_skyscraper: "Хмарочос"
+ building_power_bloc_statue:0 "Power Bloc Statue"

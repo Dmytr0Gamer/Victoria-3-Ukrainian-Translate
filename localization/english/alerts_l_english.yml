@@ -5,7 +5,7 @@
   # alert_xyz_action = Where does clicking this take you?
 
  alert_country_default_name: "Оголошена [concept_default|l]"
- alert_country_default_desc: "[GetPlayer.GetName] оголосила [concept_default|l] через те, що ми не можемо повернути ваші кредити. Поки ми не зможемо досягти позитивного балянсу, ми будемо зазнавати карн, які з часом ставатимуть дедалі суворішими.\n\n#title Поточні заподії:#!\n[GetPlayer.GetInDefaultEffectsDesc]"
+ alert_country_default_desc: "[GetPlayer.GetName] оголосила [concept_default|l] через те, що ми не можемо повернути ваші кредити. Поки ми не зможемо досягти позитивного балянсу, ми будемо зазнавати карн, які з часом ставатимуть дедалі суворішими.\n\n#title Поточні ефекти:#!\n[GetPlayer.GetInDefaultEffectsDesc]"
  alert_country_default_hint: "Ви можете покращити своє матеріяльне становище, збільшивши прибутки або зменшивши витрати. Щоб збільшити свій прибуток у короткостроковій перспективі, ви можете підвищити поточну ставку податку, почати стягувати нові податки на споживання чи підвищити тарифи для отримання нових прибутків. Щоб зменшити свої витрати, ви можете зменшити заробітну плату у своїх військових або державних будівлях, знизити ціни на товари, які вони споживають чи призупинити будівництво, доки ваші фінанси не відновляться. Якщо нічого з цього недостатньо, то у вас також є можливість оголосити про [Concept('concept_bankruptcy','$concept_bankruptcy_acc$')|l]"
  alert_country_default_action: "Панель бюджету"
 
@@ -56,18 +56,22 @@
  
  alert_stalled_naval_invasion_name: "Stalled [concept_naval_invasion]"
  alert_stalled_naval_invasion_desc: "Your [SCOPE.GetRootScope.GetNavalInvasion.GetName] will be unable to progress to landing troops because no invading [concept_admiral] has [Concept('concept_order','$concept_orders$')] that allows them to start a [concept_battle]."
- alert_stalled_naval_invasion_hint: "You can change the $concept_orders$ of your $concept_admirals$ to ones that allow them to start battles, such as #v $patrol_coast$#!."
+ alert_stalled_naval_invasion_hint: "You can change the $concept_orders$ of your $concept_admirals$ to ones that allow them to start battles, such as #v $interception_coast$#!."
  alert_stalled_naval_invasion_action: "Naval Invasion panel"
- 
- alert_low_organization_name:0 "Low [concept_organization]: [SCOPE.GetRootScope.GetMilitaryFormation.GetName]"
- alert_low_organization_desc:0 "[SCOPE.GetRootScope.GetMilitaryFormation.GetName] has an [concept_organization] of [SCOPE.GetRootScope.GetMilitaryFormation.GetOrganization] which imposes heavy penalties."
- alert_low_organization_hint:0 "You can increase the [concept_organization] of a [concept_military_formation] by ensuring it has adequate [concept_command_limit] for all its [Concept('concept_unit','$concept_units$')]. While a $concept_military_formation$ with sufficient $concept_command_limit$ is stationary it will regain $concept_organization$ over time. Toggling [Concept('concept_mobilization_option','$concept_mobilization_options$')] while the $concept_military_formation$ is in the field can lead to a temporary loss of $concept_organization$."
- alert_low_organization_action:0 "Military Formation Panel"
- 
- alert_low_max_organization_name:0 "Low maximum [concept_organization]: [SCOPE.GetRootScope.GetMilitaryFormation.GetName]"
- alert_low_max_organization_desc:0 "[SCOPE.GetRootScope.GetMilitaryFormation.GetName] has an maximum [concept_organization] of [SCOPE.GetRootScope.GetMilitaryFormation.GetMaxOrganization|v^2]/[GetDefine('NMilitary','MILITARY_FORMATION_ORGANIZATION_MAX')|v^2], preventing it from operating at full capacity."
- alert_low_max_organization_hint:0 "You can increase the maximum [concept_organization] of a [concept_military_formation] by ensuring it has adequate [concept_command_limit] for all its [Concept('concept_unit','$concept_units$')]."
- alert_low_max_organization_action:0 "Military Formation Panel"
+ alert_low_organization_active_name: "Low [concept_organization]: [SCOPE.GetRootScope.GetMilitaryFormation.GetName] at [concept_front]"
+ alert_low_organization_active_desc: "[SCOPE.GetRootScope.GetMilitaryFormation.GetName] has an [concept_organization] of [SCOPE.GetRootScope.GetMilitaryFormation.GetOrganization] which imposes heavy penalties."
+ alert_low_organization_active_hint: "You can increase the [concept_organization] of a [concept_military_formation] by ensuring it has adequate [concept_command_limit] for all its [Concept('concept_unit','$concept_units$')]. While a $concept_military_formation$ with sufficient $concept_command_limit$ is stationary it will regain $concept_organization$ over time. Toggling [Concept('concept_mobilization_option','$concept_mobilization_options$')] while the $concept_military_formation$ is in the field can lead to a temporary loss of $concept_organization$."
+ alert_low_organization_active_action: "Military Formation Panel"
+
+ alert_low_organization_idle_name: "Low [concept_organization]: [SCOPE.GetRootScope.GetMilitaryFormation.GetName]"
+ alert_low_organization_idle_desc: "[SCOPE.GetRootScope.GetMilitaryFormation.GetName] has an [concept_organization] of [SCOPE.GetRootScope.GetMilitaryFormation.GetOrganization] which imposes heavy penalties."
+ alert_low_organization_idle_hint: "You can increase the [concept_organization] of a [concept_military_formation] by ensuring it has adequate [concept_command_limit] for all its [Concept('concept_unit','$concept_units$')]. While a $concept_military_formation$ with sufficient $concept_command_limit$ is stationary it will regain $concept_organization$ over time. Toggling [Concept('concept_mobilization_option','$concept_mobilization_options$')] while the $concept_military_formation$ is in the field can lead to a temporary loss of $concept_organization$."
+ alert_low_organization_idle_action: "Military Formation Panel"
+
+ alert_low_max_organization_name: "Low maximum [concept_organization]: [SCOPE.GetRootScope.GetMilitaryFormation.GetName]"
+ alert_low_max_organization_desc: "[SCOPE.GetRootScope.GetMilitaryFormation.GetName] has an maximum [concept_organization] of [SCOPE.GetRootScope.GetMilitaryFormation.GetMaxOrganization|v^2]/[GetDefine('NMilitary','MILITARY_FORMATION_ORGANIZATION_MAX')|v^2], preventing it from operating at full capacity."
+ alert_low_max_organization_hint: "You can increase the maximum [concept_organization] of a [concept_military_formation] by ensuring it has adequate [concept_command_limit] for all its [Concept('concept_unit','$concept_units$')]."
+ alert_low_max_organization_action: "Military Formation Panel"
 
  alert_high_attrition_alert_name: "[SCOPE.GetRootScope.GetCharacter.GetFullName] має [SCOPE.GetRootScope.GetMilitaryFormation.GetAverageAttritionPerWeek|0%-] [Concept('concept_attrition', '$concept_attrition_gen$')|l]"
  alert_high_attrition_alert_desc: "Військо [Concept('concept_commander', '$concept_commander_gen$')|l] [SCOPE.GetRootScope.GetCharacter.GetFullName] може зазнати багато втрат через виснаження."
@@ -87,7 +91,7 @@
 
  alert_isolated_state_alert_name: "[Concept('concept_state', '$concept_state$')] [SCOPE.GetRootScope.GetState.GetName] є [Concept('concept_isolated_state', '$concept_isolated_state_short_adj$ою')|l]"
  alert_isolated_state_alert_desc: "[Concept('concept_isolated_state', '$concept_isolated_state$')] не дозволяє населенню закуповувати та продавати товари на більшому ринку, вони отримують ресурси, які їм потрібні, безпосередньо з землі, але це має значний вплив на їхнє [Concept('concept_sol', '$concept_sol_acc$')|l] через зміни цін."
- alert_isolated_state_alert_hint: "Ви можете під‘єднати [Concept('concept_state', '$concept_state_acc$')|l] [SCOPE.GetRootScope.GetState.GetName] до [Concept('concept_market', '$concept_market_gen$')|l] ([SCOPE.GetRootScope.GetState.GetMarket.GetName]), збільшивши рівень [Concept('concept_infrastructure', '$concept_infrastructure_gen$')|l] за допомогою зведення будівель, які її покращують. Наприклад, приплав, чи залізниця, чи ухваливши [Concept('concept_decree', '$concept_decree_acc$')|l] #v «$decree_road_maintenance$»#!." #[concept_infrastructure]
+ alert_isolated_state_alert_hint: "Ви можете під’єднати [Concept('concept_state', '$concept_state_acc$')|l] [SCOPE.GetRootScope.GetState.GetName] до [Concept('concept_market', '$concept_market_gen$')|l] ([SCOPE.GetRootScope.GetState.GetMarket.GetName]), збільшивши рівень [Concept('concept_infrastructure', '$concept_infrastructure_gen$')|l] за допомогою зведення будівель, які її покращують. Наприклад, приплав, чи залізниця, чи ухваливши [Concept('concept_decree', '$concept_decree_acc$')|l] #v «$decree_road_maintenance$»#!." #[concept_infrastructure]
  alert_isolated_state_alert_action: "Панель землі [SCOPE.GetRootScope.GetState.GetName]"
 
  alert_inactive_trade_route_alert_name: "[concept_trade_route] «[SCOPE.GetRootScope.GetTradeRoute.GetDescriptionForActingMarket]» недієвий"
@@ -111,7 +115,7 @@
  alert_secession_growing_alert_action: "Панель політики"
 
  alert_diplomatic_pact_in_danger_name: "[SCOPE.GetRootScope.GetDiplomaticPact.GetName] з [Concept('concept_country', '$concept_country_ins$')|l] [AddTextIf(SCOPE.GetRootScope.GetDiplomaticPact.IsFirstCountry(GetPlayer), SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName)][AddTextIf(SCOPE.GetRootScope.GetDiplomaticPact.IsSecondCountry(GetPlayer), SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName)]"
- alert_diplomatic_pact_in_danger_desc: "Розірветься, якщо:\n$TAB$[SCOPE.GetRootScope.GetDiplomaticPact.ShouldAutoBreakDesc]"
+ alert_diplomatic_pact_in_danger_desc: "Розірветься, якщо наступні умови більше не виконуються:\n$TAB$[SCOPE.GetRootScope.GetDiplomaticPact.GetAboutToBreakReasonDesc]"
  alert_diplomatic_pact_in_danger_hint: "Якщо цей дипломатичний пакт важливий для функціонування вашої держави, то подумайте про покращення відносин з іншою державою або про зміну дипломатичного курсу від будь-яких дій, які зараз їх засмучують."
  alert_diplomatic_pact_in_danger_action: "Панель дипломатії"
  
@@ -124,6 +128,26 @@
  alert_obligation_expiring_desc: "Реченець [Concept('concept_obligation', '$concept_obligations_gen$')|l], яке ми володіємо на державу [SCOPE.GetRootScope.GetDiplomaticRelations.GetCountryWhichOwesObligation.GetName], мине через #v [SCOPE.GetRootScope.GetDiplomaticRelations.CalcOwedObligationDaysLeft(GetPlayer.Self)]#! дн."
  alert_obligation_expiring_hint: "Вам слід скористатися [Concept('concept_obligation', '$concept_obligation_ins$')|l] до того, як мине реченець, або використати для покращення відносин з державою [SCOPE.GetRootScope.GetDiplomaticRelations.GetCountryWhichOwesObligation.GetName], або долучити їх у дипломатичну угоду/гру."
  alert_obligation_expiring_action: "Панель дипломатії"
+
+alert_overlord_can_decrease_subject_autonomy_name: "Can [GetDiplomaticActionType('da_decrease_autonomy').GetName] of [SCOPE.GetRootScope.GetCountry.GetName]"
+ alert_overlord_can_decrease_subject_autonomy_desc: "It is possible to [GetDiplomaticActionType('da_decrease_autonomy').GetName] of our [concept_subject] [SCOPE.GetRootScope.GetCountry.GetName]."
+ alert_overlord_can_decrease_subject_autonomy_hint: "You can use the Subjects tab in the Diplomacy Panel to perform a [GetDiplomaticActionType('da_decrease_autonomy').GetName] [concept_diplomatic_action]."
+ alert_overlord_can_decrease_subject_autonomy_action: "Diplomacy Panel"
+
+ alert_subject_likely_to_increase_autonomy_name: "[SCOPE.GetRootScope.GetCountry.GetName] is likely to [GetDiplomaticActionType('da_increase_autonomy_of_self').GetName]"
+ alert_subject_likely_to_increase_autonomy_desc: "Our [concept_subject] [SCOPE.GetRootScope.GetCountry.GetName] is now able to [GetDiplomaticActionType('da_increase_autonomy_of_self').GetName]."
+ alert_subject_likely_to_increase_autonomy_hint: "You can use the Subjects tab in the Diplomacy Panel to perform a [concept_diplomatic_action] that affects their [concept_liberty_desire]."
+ alert_subject_likely_to_increase_autonomy_action: "Diplomacy Panel"
+
+ alert_subject_can_increase_autonomy_name: "We can [GetDiplomaticActionType('da_increase_autonomy_of_self').GetName]"
+ alert_subject_can_increase_autonomy_desc: "[SCOPE.GetRootScope.GetCountry.GetName] can [GetDiplomaticActionType('da_increase_autonomy_of_self').GetName] as a [concept_subject] [concept_country]."
+ alert_subject_can_increase_autonomy_hint: "You can use the the Diplomacy Panel to perform an [GetDiplomaticActionType('da_increase_autonomy_of_self').GetName] [concept_diplomatic_action]."
+ alert_subject_can_increase_autonomy_action: "Diplomacy Panel"
+
+ alert_has_low_liberty_desire_name: "Can suffer [GetDiplomaticActionType('da_decrease_autonomy').GetName] by [SCOPE.GetRootScope.GetCountry.GetOverlord.GetName]"
+ alert_has_low_liberty_desire_desc: "[SCOPE.GetRootScope.GetCountry.GetOverlord.GetName] can [GetDiplomaticActionType('da_decrease_autonomy').GetName] on us."
+ alert_has_low_liberty_desire_hint: "You can use the Diplomacy Panel to see which [Concept('concept_subject_action','$concept_subject_actions$')] are available in order to increase our [concept_liberty_desire]."
+ alert_has_low_liberty_desire_action: "Diplomacy Panel"
 
  alert_has_convoys_being_sunk_name:1 "[concept_convoys] Raided"
  alert_has_convoys_being_sunk_desc:2 "Convoys are being Raided in the following Sea Nodes:[SCOPE.GetRootScope.GetCountry.GetSeaNodesMightBeConvoyRaidedInDesc]. \n\n This means that all connections to overseas territory, trade to other markets, and supplies to our expeditionary forces going through these Sea Nodes are being disurpted, which can have disastrous effects on our Economic and Military Might."
@@ -196,12 +220,12 @@
  alert_market_goods_shortage_alert_affected_building_entry: "[Building.GetName] у [Concept('concept_state', '$concept_state_loc$')|l] [Building.GetState.GetName]"
 
  alert_low_market_access_alert_name: "[SCOPE.GetRootScope.GetState.GetMarketAccess|%0v] [Concept('concept_market_access', '$concept_market_access_gen$')|l] у [Concept('concept_state', '$concept_state_loc$')|l] [SCOPE.GetRootScope.GetState.GetName]"
- alert_low_market_access_alert_hint: "Ви можете покращити [Concept('concept_market_access', '$concept_market_access_acc$')|l] у [Concept('concept_state', '$concept_state_loc$')|l] [SCOPE.GetRootScope.GetState.GetName], завдяки збільшеню рівня [Concept('concept_infrastructure', '$concept_infrastructure_gen$')|l] (звівши будівлі [GetBuildingType('building_port').GetName|l] чи [GetBuildingType('building_railway').GetName|l]), завдяки [Concept('concept_decree', '$concept_decrees_dat$')|l] «[GetDecreeType('decree_road_maintenance').GetName]» чи забезпечивши достатню кількість [Concept('concept_convoys', '$concept_convoys_gen$')|l] для з‘єднання морським тором [Concept('concept_state', '$concept_state_gen$')|l] [SCOPE.GetRootScope.GetState.GetName] зі [Concept('concept_market_capital', '$concept_market_capital_ins$')|l]."
+ alert_low_market_access_alert_hint: "Ви можете покращити [Concept('concept_market_access', '$concept_market_access_acc$')|l] у [Concept('concept_state', '$concept_state_loc$')|l] [SCOPE.GetRootScope.GetState.GetName], завдяки збільшеню рівня [Concept('concept_infrastructure', '$concept_infrastructure_gen$')|l] (звівши будівлі [GetBuildingType('building_port').GetName|l] чи [GetBuildingType('building_railway').GetName|l]), завдяки [Concept('concept_decree', '$concept_decrees_dat$')|l] «[GetDecreeType('decree_road_maintenance').GetName]» чи забезпечивши достатню кількість [Concept('concept_convoys', '$concept_convoys_gen$')|l] для з’єднання морським тором [Concept('concept_state', '$concept_state_gen$')|l] [SCOPE.GetRootScope.GetState.GetName] зі [Concept('concept_market_capital', '$concept_market_capital_ins$')|l]."
  alert_low_market_access_alert_action: "Панель землі [SCOPE.GetRootScope.GetState.GetName]"
  
  alert_insufficient_tax_capacity_alert_name: "[SCOPE.GetRootScope.GetState.GetName] ([SCOPE.GetRootScope.GetState.CalcTaxCapacityBalance|+0v])"
  alert_insufficient_tax_capacity_alert_desc: "Місцеве керівництво вашої землі не має можливости в повній мірі керувати оподаткуванням, яке ви встановили для вашої держави, через це вони стягують з вашого населення менше податків, ніж очікувалося."
- alert_insufficient_tax_capacity_alert_hint: "Ви можете покращити [Concept('concept_tax_capacity','$concept_tax_capacity_acc$')|l] [Concept('concept_state', '$concept_state_gen$')|l] [SCOPE.GetRootScope.GetState.GetName], звівши [Concept('concept_building','$concept_building_acc$')|l] ([GetBuildingType('building_government_administration').GetName]) у [Concept('concept_state', '$concept_state_loc$')|l]. Ви також можете додатково змінювати методи виробництва, щоб збільшити мічність оподаткування, яка створена місцевими будівлями.\n\nУ вашій державі можна змінити закони та досліджувати нові технології, щоб модернізувати свій бюрократичний апарат і збільшити його вроджену податкову мічність."
+ alert_insufficient_tax_capacity_alert_hint: "Ви можете покращити [Concept('concept_tax_capacity','$concept_tax_capacity_acc$')|l] [Concept('concept_state', '$concept_state_gen$')|l] [SCOPE.GetRootScope.GetState.GetName], звівши [Concept('concept_building','$concept_building_acc$')|l] ([GetBuildingType('building_government_administration').GetName]) у [Concept('concept_state', '$concept_state_loc$')|l]. Ви також можете додатково змінювати методи виробництва, щоб збільшити мічність оподаткування, яка створена місцевими будівлями.\n\nУ вашій державі можна змінити закони та досліджувати нові технології, щоб осучаснити наше врядування та збільшити його вроджену податкову мічність."
  alert_insufficient_tax_capacity_alert_action: "Панель землі [SCOPE.GetRootScope.GetState.GetName]"
   
  alert_expensive_goods_alert_hint_common: "Ви можете впливати на ціну [Concept('concept_good', '$concept_good_gen$')|l] кількома способами. Наприклад, ви можете підвищити доступність товару, збільшивши його виробництво за допомогою методів будівництва або виробництва, або купити його в іншій державі. Якщо кінцевий продукт хороший, то ви можете бути впевненим, що на це не впливає дефіцит ресурсів або висока вартість матеріялів. Ви також можете змінити свою тарифну політику або податки на споживання на товар (або на товари з яких він складається, щоб, імовірно, знизити ціну)."
@@ -221,9 +245,29 @@
  alert_isolated_colony_alert_hint: "You can connect [SCOPE.GetRootScope.GetState.GetName] to the [SCOPE.GetRootScope.GetState.GetMarket.GetName] by building a [GetBuildingType('building_port').GetName]."
  alert_isolated_colony_alert_action: "State Panel for [SCOPE.GetRootScope.GetState.GetName]"
 
+alert_power_struggle_leader_name: "Ongoing [concept_power_struggle]"
+ alert_power_struggle_leader_desc: "[SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetPowerStruggleContender.GetName] is [Concept('concept_power_struggle','$concept_power_struggling$')] for control of [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetName] (#v [SCOPE.GetRootScope.GetCountry.GetCurrentPowerStruggleMonth]/[SCOPE.GetRootScope.GetCountry.GetMaxPowerStruggleMonth] months#!). This means [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetPowerStruggleContender.GetName] has at least #v [Subtract_CFixedPoint(GetDefine('NPowerBlocs','POWER_STRUGGLE_PRESTIGE_THRESHOLD_FAIL'), '(CFixedPoint)1')|0%]#! more [concept_prestige] than you. If this continues for a total of #v [SCOPE.GetRootScope.GetCountry.GetMaxPowerStruggleMonth]#! months, they become the new [concept_power_bloc_leader] of [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetName].\n\n@prestige! #v #tooltippable #tooltip:[SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetPowerStruggleContender.GetTooltipTag],COUNTRY_PRESTIGE_BREAKDOWN [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetPowerStruggleContender.GetPrestige]#!#!#! $concept_prestige$ for [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetPowerStruggleContender.GetName]\n@prestige! #v #tooltippable #tooltip:[SCOPE.GetRootScope.GetCountry.GetTooltipTag],COUNTRY_PRESTIGE_BREAKDOWN [SCOPE.GetRootScope.GetCountry.GetPrestige]#!#!#! $concept_prestige$ for [SCOPE.GetRootScope.GetCountry.GetName] $YOU$"
+ alert_power_struggle_leader_hint: "Increase your [concept_prestige] and make sure [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetPowerStruggleContender.GetName] has less than a #v [Subtract_CFixedPoint(GetDefine('NPowerBlocs','POWER_STRUGGLE_PRESTIGE_THRESHOLD_FAIL'), '(CFixedPoint)1')|0%]#! $concept_prestige$ advantage over you."
+ alert_power_struggle_leader_action: "$concept_power_bloc$ panel"
+
+ alert_power_struggle_contender_name: "Ongoing [concept_power_struggle]"
+ alert_power_struggle_contender_desc: "You are [Concept('concept_power_struggle','$concept_power_struggling$')] for control of [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetName] (#v [SCOPE.GetRootScope.GetCountry.GetCurrentPowerStruggleMonth]/[SCOPE.GetRootScope.GetCountry.GetMaxPowerStruggleMonth] months#!). This means [SCOPE.GetRootScope.GetCountry.GetName] $YOU$ have at least #v [Subtract_CFixedPoint(GetDefine('NPowerBlocs','POWER_STRUGGLE_PRESTIGE_THRESHOLD_FAIL'), '(CFixedPoint)1')|0%]#! more [concept_prestige] than [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetLeader.GetName]. If this continues for a total of #v [SCOPE.GetRootScope.GetCountry.GetMaxPowerStruggleMonth]#! months, you become the new [concept_power_bloc_leader] of [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetName].\n\n@prestige! #v #tooltippable #tooltip:[SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetLeader.GetTooltipTag],COUNTRY_PRESTIGE_BREAKDOWN [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetLeader.GetPrestige]#!#!#! $concept_prestige$ for [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetLeader.GetName]\n@prestige! #v #tooltippable #tooltip:[SCOPE.GetRootScope.GetCountry.GetTooltipTag],COUNTRY_PRESTIGE_BREAKDOWN [SCOPE.GetRootScope.GetCountry.GetPrestige]#!#!#! $concept_prestige$ for [SCOPE.GetRootScope.GetCountry.GetName] $YOU$."
+ alert_power_struggle_contender_hint: "Keep your [concept_prestige] higher than [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetLeader.GetName] for #v [SCOPE.GetRootScope.GetCountry.GetMaxPowerStruggleMonth] months#! and you will become the new [concept_power_bloc_leader]."
+ alert_power_struggle_contender_action: "$concept_power_bloc$ panel"
+
+ alert_power_bloc_mandates_available_name: "[SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetNumMandates|v] Available [SelectLocalization(EqualTo_int32(SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetNumMandates, '(int32)1'), 'MANDATE_CONCEPT', 'MANDATES_CONCEPT')]"
+ alert_power_bloc_mandates_available_desc: "As the [Concept('concept_power_bloc_leader','$concept_power_bloc_leader_short$')] of [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetName], you may $concept_power_bloc_mandate$ changes of your [Concept('concept_power_bloc', '$concept_power_bloc_possessive$')] [Concept('concept_power_bloc_principle', '$concept_power_bloc_principles$')]."
+ alert_power_bloc_mandates_available_hint: "Use available $concept_power_bloc_mandates$ to change, upgrade, or add new $concept_power_bloc_principles$ on the $concept_power_bloc$ panel"
+ alert_power_bloc_mandates_available_action: "$concept_power_bloc$ panel"
+
+ alert_power_bloc_invite_available_name: "Can invite [concept_country] to [concept_power_bloc]"
+ alert_power_bloc_invite_available_desc: "As the [Concept('concept_power_bloc_leader','$concept_power_bloc_leader_short$')] of [SCOPE.GetRootScope.GetCountry.GetPowerBloc.GetName], you may invite a [concept_country] to join."
+ alert_power_bloc_invite_available_hint: "Use the $concept_power_bloc$ panel to invite a new member."
+ alert_power_bloc_invite_available_action: "$concept_power_bloc$ panel"
+
  alert_can_take_decisions_name: "Доступні рішення"
  alert_can_take_decisions_hint: "Ви можете бачити як доступні, так і недоступні рішення на вкладці рішень на панелі часопису"
- alert_can_take_decisions_action: "вкладку рішень на панелі часопису"
+ alert_can_take_decisions_action: "Панель часопису"
 
  ALERT_TOOLTIP_FORMAT: "#header [Alert.GetName]#!\n$TOOLTIP_DELIMITER$\n[ConcatIfNeitherEmpty(Alert.GetDescription, '\n\n')]@information! [Alert.GetHint]\n\n#instruction Клацніть, щоб відкрити [Alert.GetAction|l]#!"
  EXPANDABLE_IMPORTANT_ACTION_ITEM: "[Alert.GetToolTip]$notification_tooltip_footer$"
@@ -232,7 +276,7 @@
  MP_CLIENT_LAGGING_SLOWDOWN: "$NAME$ відстає. Уповільніть швидкість гри."
  MP_CLIENT_LAGGING_PAUSE: "$NAME$ відстає більш ніж на $DAYS$. Поставте на павзу."
  MP_CLIENT_GRACEFUL_EXIT: "$NAME$ вийшов(-ла) з гри"
- MP_CLIENT_UNGRACEFUL_EXIT: "$NAME$ втратив(-ла) з‘єднання з грою"
+ MP_CLIENT_UNGRACEFUL_EXIT: "$NAME$ втратив(-ла) з’єднання з грою"
  MP_HOST_DATE: "$NAME$(#V Відник#!): $DATE_STR$"
  MP_CLIENT_DATE: "$NAME$: $DATE_STR$"
 
@@ -265,6 +309,10 @@
  ag_diplomatic_pact_in_danger_name: "[concept_diplomatic_pact] під загрозою розриву"
  ag_diplomatic_pact_in_danger_desc: "У вас є [Concept('concept_diplomatic_pact','$concept_diplomatic_pacts$')|l], які можуть розірватися, якщо [concept_relations|l] погіршаться"
  ag_diplomatic_pact_in_danger_tooltip: "#header $ag_diplomatic_pact_in_danger_name$#!\n$TOOLTIP_DELIMITER$\n$ag_diplomatic_pact_in_danger_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+
+ ag_can_decrease_subject_autonomy_name: "Can [GetDiplomaticActionType('da_decrease_autonomy').GetName]"
+ ag_can_decrease_subject_autonomy_desc: "There are [concept_subject] [Concept('concept_country', '$concept_countries$')] which we can [GetDiplomaticActionType('da_decrease_autonomy').GetName]"
+ ag_can_decrease_subject_autonomy_tooltip: "#header $ag_can_decrease_subject_autonomy_name$#!\n$TOOLTIP_DELIMITER$\n$ag_can_decrease_subject_autonomy_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
 
  ag_formation_low_organization_name:0 "Low [concept_military_formation] [concept_organization]"
  ag_formation_low_organization_desc:0 "There are [Concept('concept_military_formation','$concept_military_formations$')] with very low [concept_organization]"
@@ -355,7 +403,7 @@ vulnerable_front_setting_name: "Vulnerable Front"
 high_attrition_alert_setting_name: "High Attrition"
 active_peace_deal_alert_setting_name: "Active Peace Deal"
 legitimacy_level_illegitimate_alert_setting_name: "Legitimacy Level Illegitimate"
-market_goods_shortage_alert_setting_name: "Market Goods Shortage"
+market_goods_shortage_alert_setting_name: "Severe Market Goods Shortage"
 low_supply_setting_name: "Low Supply"
 isolated_state_alert_setting_name: "Isolated State"
 inactive_trade_route_alert_setting_name: "Inactive Trade Route"
@@ -364,6 +412,10 @@ has_decreasing_interests_alert_setting_name: "Has Decreasing Interests"
 obligation_expiring_setting_name: "Obligation Expiring"
 insufficient_construction_for_investment_setting_name: "Insufficient Construction for Investment"
 diplomatic_pact_in_danger_setting_name: "Diplomatic Pact on Danger"
+overlord_can_decrease_subject_autonomy_setting_name: "Can Decrease Subject Autonomy"
+subject_likely_to_increase_autonomy_setting_name: "Subject Likely to Increase Autonomy"
+subject_can_increase_autonomy_setting_name: "Can Increase Own Autonomy"
+has_low_liberty_desire_setting_name: "Can Have Own [concept_autonomy] Decreased"
 legitimacy_level_unacceptable_alert_setting_name: "Legitimacy Level Unacceptable"
 training_rate_low_setting_name: "Training Rate Low"
 can_take_decisions_setting_name: "Can Take Decisions"
@@ -377,11 +429,16 @@ expensive_military_goods_alert_setting_name: "Expensive Military Goods"
 low_expected_sol_in_state_setting_name: "Low Expected SoL in State"
 general_can_be_demobilized_setting_name: "General Can Be Demobilized"
 admiral_with_no_flotillas_setting_name: "Admiral With No Flotillas"
-low_organization_setting_name: "Low Organization"
+low_organization_active_setting_name: "Low Organization at Front"
+low_organization_idle_setting_name: "Low Organization"
 low_max_organization_setting_name: "Low Organization Limit"
 naval_invasion_setting_name: "Naval Invasion Ongoing"
 stalled_naval_invasion_setting_name: "Naval Invasion Stalled"
 isolated_colony_alert_setting_name: "Isolated Colony"
+power_struggle_leader_setting_name: "Bloc Leader Power Struggle"
+power_struggle_contender_setting_name: "Bloc Member Power Struggle"
+power_bloc_mandates_available_setting_name: "Available Mandates"
+power_bloc_invite_available_setting_name: "Available Power Bloc Invitation"
 
 state_in_turmoil_alert: "State in Turmoil"
 high_tension_alert: "High Tension"

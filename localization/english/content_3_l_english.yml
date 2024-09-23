@@ -2,7 +2,7 @@
 
 # Generic Law Passing Events
  generic_laws.1.t: "Зворушлива промова захоплює публіку"
- generic_laws.1.d: "Сьогодні по обіді, [SCOPE.sCharacter('orator_ig_leader_scope').GetFullName], провідник [Concept('concept_interest_group','$concept_interest_group_short_gen$')|l] [SCOPE.gsInterestGroup('orator_ig_scope').GetName], виступив з полум‘яною промовою на підтримку надання чинности [Concept('concept_law','$concept_law_gen$')|l] «[SCOPE.sLaw('current_law_scope').GetName]»."
+ generic_laws.1.d: "Сьогодні по обіді, [SCOPE.sCharacter('orator_ig_leader_scope').GetFullName], провідник [Concept('concept_interest_group','$concept_interest_group_short_gen$')|l] [SCOPE.gsInterestGroup('orator_ig_scope').GetName], виступив з полум’яною промовою на підтримку надання чинности [Concept('concept_law','$concept_law_gen$')|l] «[SCOPE.sLaw('current_law_scope').GetName]»."
  generic_laws.1.f: "Виступ перед публікою на головній площі міста [SCOPE.sCharacter('orator_ig_leader_scope').GetCountry.GetCapital.GetCityHubName]. [SCOPE.sCharacter('orator_ig_leader_scope').GetFullNameNoFormatting] своєю палкою промовою не залиши[Select_CString(SCOPE.sCharacter('ottoman_sultan').IsFemale,'$CustomLoc_UA_vona_la$','$CustomLoc_UA_vin_v$')|l] байдужими навіть своїх найбільш озлоблених політичних опонентів. Уривки з промови вже ширяться всією країною, роздмухуючи вогонь і без того бурхливих суперечок." # [ROOT.GetCountry.GetNameNoFormatting]
  #переробити
  generic_laws.1.a: "Це має значно полегшити шлях до змін."
@@ -18,7 +18,7 @@
  generic_laws.2.a: "І що? Така природа політики."
  generic_laws.2.b: "Викиньте їх за борт, ми не повинні залишати цей безлад."
  generic_laws.2.c: "Ми можемо отримати певну користь, взявши участь самому."
- ignored_corruption: "Ігнорування корупції"
+ ignored_corruption: "іґнорування корупції"
  corrupt_connections_exposed: "Викриття корупційних зв'язків"
  corrupt_connections_exposed_minor: "Викриття корупційних зв'язків"
  dealing_with_corruption: "Боротьба з корупцією"
@@ -46,13 +46,13 @@
  popular_support_for_law: "Народна підтримка закону"
  renowned_playwright: "Видатний драматург"
 
- generic_laws.5.t: "Бюрократична заплутаність"
- generic_laws.5.d: "Законодавці, які працюють над ухваленням [Concept('concept_law', '$concept_law_gen$')|l] «[SCOPE.sLaw('current_law_scope').GetName]», застрягли в особливо складній низці бюрократичних процедур, що майже повністю призупинило роботу над наданням чинности."
+ generic_laws.5.t: "Урядова заплутаність"
+ generic_laws.5.d: "Законодавці, які працюють над ухваленням [Concept('concept_law', '$concept_law_gen$')|l] «[SCOPE.sLaw('current_law_scope').GetName]», застрягли в особливо складній низці урядових процедур, що майже повністю призупинило роботу над наданням чинности."
  generic_laws.5.f:2 "The fully developed bureaucratic apparatus compares with other organizations exactly as does the machine with the non-mechanical modes of production. That is to say, the teeth of its individual gears meet in accord, or its gears will gnash and churn until it eventually breaks." # Partially Max Weber
  generic_laws.5.a: "До біса цю заплутану правову систему!"
  generic_laws.5.b: "Подолайте хоч би частину тягара."
- mired_in_bureaucracy: "Занурений у бюрократію"
- mired_in_bureaucracy_minor: "Бюрократичні перепони"
+ mired_in_bureaucracy: "Занурений у врядування"
+ mired_in_bureaucracy_minor: "Урядові перепони"
  cutting_red_tape: "Робота проти системи"
 
  generic_laws.6.t: "[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] втручається у політичний процес"
@@ -131,12 +131,12 @@
 
 # Tanzimat Events
 
- je_sick_man_bureaucracy: "Танзимат: Бюрократична реформа"
+ je_sick_man_bureaucracy: "Танзимат: урядова реформа"
  sick_man.2.e: "Наша імперія тримається на папері."
- je_sick_man_bureaucracy_reason: "Наша бюрократія - це клаптикова ковдра застарілих законів і систем, з корумпованими самостійними беями, які ледве контролюють провінції імперії. Якщо ми хочемо подолати численні виклики нашому правлінню, ми повинні модернізувати нашу управничу систему."
- outmoded_bureaucracy: "Застаріла бюрократія"
+ je_sick_man_bureaucracy_reason: "Наше врядування - це клаптикова ковдра застарілих законів і систем, з корумпованими самостійними беями, які ледве контролюють провінції імперії. Якщо ми хочемо подолати численні виклики нашому правлінню, ми повинні модернізувати нашу управничу систему."
+ outmoded_bureaucracy: "Застаріле врядування"
  cizye_tax: "Податок джизія"
- ottoman_bureaucracy: "Османська бюрократія"
+ ottoman_bureaucracy: "Османське врядування"
  sick_man_of_europe: "Хвора людина Европи"
 
  tanzimat_events.1.t: "Система Ілтізам"
@@ -163,8 +163,8 @@
  reformed_land_code: "Реформований земельний кодекс"
  modern_land_code: "Сучасний земельний кодекс"
 
- tanzimat_events.4.t: "Указ Гатт-л Гьумаюну"
- tanzimat_events.4.d: "З нашим рухом до більш кращої бюрократичної системи були висунуті вимоги офіційно підвищити правовий статус немусульман, щоб вони теж могли служити як державні службовці."
+ tanzimat_events.4.t: "Указ Гатигумаюн"
+ tanzimat_events.4.d: "З нашим рухом до кращої системи врядування були висунуті вимоги офіційно підвищити правовий статус немусульман, щоб вони теж могли служити як урядовці."
  tanzimat_events.4.f: "Збереження Піднесеної держави у випадку заворушень, повстань та іноземного вторгнення - [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle|l] вважає це якщо не першочерговими, то головними турботами для [ROOT.GetCountry.GetRuler.GetCustom('UA_noho_neji')|l]. Однак, якщо ми хочемо досягти цього, можуть знадобитися пені кроки, спрямовані на заспокоєння наших підданих-меншин, щоб вони не стали пішаками зловмисних іноземних держав."
  tanzimat_events.4.a: "Рівні права перед законом! Принаймні, на папері."
  tanzimat_events.4.b: "Обіцяйте реформи, проте не будемо захоплюватися."
@@ -234,12 +234,12 @@
 
 ##################### Warlord China
   
- notification_warlord_china_explosion_point_add_name: "[SCOPE.GetRootScope.GetCountry.GetName] - розхитування."
- notification_warlord_china_explosion_point_add_desc: "Наше неуміле управління справами країни зробило менш законною нашу владу, а це призвело до того, що держава ще більше наблизилась до повного колапсу." #[SCOPE.GetRootScope.GetCountry.GetAdjectiveNoFormatting|l]ими 
+ notification_warlord_china_explosion_point_add_name: "[SCOPE.GetRootScope.GetCountry.GetName] - стабілізування."
+ notification_warlord_china_explosion_point_add_desc: "Наше вміле управління державою зробило законним наше правління в очах народу, неухильно відводячи країну від колапсу." #[SCOPE.GetRootScope.GetCountry.GetAdjectiveNoFormatting|l]ими 
  notification_warlord_china_explosion_point_add_tooltip: "#header $notification_warlord_china_explosion_point_add_name$#!\n$TOOLTIP_DELIMITER$\n$notification_warlord_china_explosion_point_add_desc$"
 
- notification_warlord_china_explosion_point_remove_name: "[SCOPE.GetRootScope.GetCountry.GetName] - стабілізування."
- notification_warlord_china_explosion_point_remove_desc: "Наше вміле управління державою зробило законним наше правління в очах народу, неухильно відводячи країну від колапсу."
+ notification_warlord_china_explosion_point_remove_name: "[SCOPE.GetRootScope.GetCountry.GetName] - розхитування."
+ notification_warlord_china_explosion_point_remove_desc: "Наше невміле управління справами країни зробило менш законною нашу владу, а це призвело до того, що держава ще більше наблизилась до повного колапсу."
  notification_warlord_china_explosion_point_remove_tooltip: "#header $notification_warlord_china_explosion_point_remove_name$#!\n$TOOLTIP_DELIMITER$\n$notification_warlord_china_explosion_point_remove_desc$"
 
 ##################### Boxer Rebellion

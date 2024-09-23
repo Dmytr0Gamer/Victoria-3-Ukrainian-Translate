@@ -537,8 +537,7 @@
   modifier_lessons_from_vargas:0 "Difficult Lessons"
 
   je_populist_unrest:0 "Populist Unrest"
-  je_populist_unrest_reason:0 "The domination of [ROOT.GetCountry.GetAdjective] politics by the [SCOPE.gsInterestGroup('landowners_ig').GetName] has sparked discontent across the nation. Populist figures supported by the [SCOPE.gsInterestGroup('pb_ig').GetName] agitate against the current government in the streets, and liberal military organizations look to the example of the Tenentes that stood against the agrarian oligarchy in the past. If this unrest is not successfully navigated, the ailing [ROOT.GetCountry.GetGovernment.GetName] faces a violent reorientation of power.\n\n#bold Populist#! unrest is expected to progress by #tooltippable;tooltip:[Country.GetTooltipTag],je_populist_unrest_special_tooltip [Country.MakeScope.Var('populism_progress_var_next').GetValue|-=]#! next month"
-  je_populist_unrest_special_tooltip:0 "This rate is determined by the following:\n#variable [Country.MakeScope.Var('populism_progress_from_radicals').GetValue|-=]#! from [Concept('concept_state', '$concept_states$')] in [concept_turmoil]\n#variable [Country.MakeScope.Var('populism_progress_from_unemployment').GetValue|-=]#! from [Concept('concept_state', '$concept_states$')] with [Concept('concept_unemployed','$concept_unemployment$')]\n#variable [Country.MakeScope.Var('populism_progress_from_loyalists').GetValue|-=]#! from [Concept('concept_state', '$concept_states$')] with [Concept('concept_loyalist','$concept_loyalists$')]\n#variable [Country.MakeScope.Var('populism_progress_from_laws').GetValue|-=]#! from #bold Home Affairs#! and #bold Policing#! [Concept('concept_law','$concept_laws$')] and [Concept('concept_institution', '$concept_institutions$')]\n#variable [Country.MakeScope.Var('populism_progress_from_pb').GetValue|-=]#! from [concept_clout] of the #bold Petty Bourgeoisie#!\n#variable [Country.MakeScope.Var('populism_progress_var_add').GetValue|-=]#! from other effects"
+  je_populist_unrest_reason:0 "The domination of [ROOT.GetCountry.GetAdjective] politics by the [SCOPE.gsInterestGroup('landowners_ig').GetName] has sparked discontent across the nation. Populist figures supported by the [SCOPE.gsInterestGroup('pb_ig').GetName] agitate against the current government in the streets, and liberal military organizations look to the example of the Tenentes that stood against the agrarian oligarchy in the past. If this unrest is not successfully navigated, the ailing [ROOT.GetCountry.GetGovernment.GetName] faces a violent reorientation of power."
   
   je_new_republic:0 "The New Republic"
   je_new_republic_reason:0 "[SCOPE.sCharacter('vargas_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('vargas_scope').GetFullName] and [SCOPE.sCharacter('vargas_scope').GetHerHis] supporters have overthrown the previous government of [ROOT.GetCountry.GetName], and established a new regime founded on nationalism and modernization of the state."
@@ -547,6 +546,16 @@
 
   BRZ_populism_100_tt:0 "The #variable Populist Unrest#! progress bar has reached #variable 100%#!"
   BRZ_populism_0_tt:0 "The #variable Populist Unrest#! progress bar has reached #variable 0%#!"
+
+  populist_unrest_progress_bar:0 "Populist Unrest"
+  populist_unrest_progress_bar_desc:0 "Progress:0 #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100)"
+
+  populism_progress_from_radicals_tt:0 "[Concept('concept_state', '$concept_states$')] in [concept_turmoil]"
+  populism_progress_from_loyalists_tt:0 "[Concept('concept_state', '$concept_states$')] with [Concept('concept_loyalist','$concept_loyalists$')]"
+  populism_progress_from_unemployment_tt:0 "states with [concept_unemployment]"
+  populism_progress_from_pb_tt:0 "[concept_clout] of the #v $ig_petty_bourgeoisie$#!"
+  populism_progress_from_laws_tt:0 "#bold Policing#! and #bold Home Affairs#! [Concept('concept_institution', '$concept_institutions$')]"
+  populism_progress_from_events_tt:0 "events and other effects"
 
   change_misc_populism_drift_1_down_tt:0 "Monthly #variable Populist Unrest#! progress will be #bold reduced#! by #bold 1#!"
   change_misc_populism_drift_2_down_tt:0 "Monthly #variable Populist Unrest#! progress will be #bold reduced#! by #bold 2#!"
@@ -583,7 +592,7 @@
 
   BRZ_populism.3.t:0 "Fallen Hopes"
   BRZ_populism.3.d:0 "Through the efforts of our institutions, the rising populist movement has dissolved into nothing. The reign of the [SCOPE.gsInterestGroup('landowners_ig').GetName] will continue over [ROOT.GetCountry.GetName] for the foreseeable future."
-  BRZ_populism.3.f:0 ""#italic Coronel,#! the last reports have come through. Most policing and military efforts have put a stranglehold on every major hub. Any active dissidents won't be able to move without us knowing."\n\n"Excellent, #italic tenente.#! Tell your men to single out the ringleaders. Don't harm the others. I'm sure there are coffee fields that could use their... ‘community service.'""
+  BRZ_populism.3.f:0 ""#italic Coronel,#! the last reports have come through. Most policing and military efforts have put a stranglehold on every major hub. Any active dissidents won't be able to move without us knowing."\n\n"Excellent, #italic tenente.#! Tell your men to single out the ringleaders. Don't harm the others. I'm sure there are coffee fields that could use their... ’community service.'""
   BRZ_populism.3.a:0 "There are still those who know who benefits them."
   BRZ_populism.3.b:0 "Another threat has been quashed, for now."
 

@@ -19,6 +19,7 @@ brazilian_slavery.1.a:0 "Rule, Britannia! Britannia rules the waves!"
 brazilian_slavery.1.b:0 "Britons never, never, never shall be slaves."
 the_west_african_squadron_modifier:0 "The West African Station"
 champions_of_abolition_modifier:0 "Heirs of Wilberforce"
+anti_slavery_society_legacy:0 "British and Foreign Anti-Slavery Society"
 
 brazilian_slavery.2.t:0 "[SCOPE.sCountry('brazil_scope').GetAdjectiveNoFormatting] Slaver Seized off [SCOPE.sState('slaver_coastal_state_scope').GetNameNoFormatting]"
 brazilian_slavery.2.d:0 "Following a short pursuit, the [SCOPE.GetRootScope.GetCountry.GetCustom('royal_navy_loc')] warship [SCOPE.GetRootScope.GetCountry.GetCustom('royal_navy_ship_names')] has captured the [SCOPE.sCountry('brazil_scope').GetAdjectiveNoFormatting] slaver [SCOPE.GetRootScope.GetCountry.GetCustom('slaver_ship_names')]. Discovered in her hold were hundreds of shackled African souls, destined for the slave markets of [SCOPE.sState('enslaved_destination_state_scope').GetCityHubName]."
@@ -112,12 +113,28 @@ brazilian_slavery.13.a:0 "Once more, our position is thoroughly identified with 
 brazil_slaving_pariah_modifier:0 "Renewed African Cycle"
 
 je_matter_of_slavery: "Питання рабства"
-je_matter_of_slavery_reason: "Статус #bold поступу#! буде визначатися різними #tooltippable;tooltip:[Country.GetTooltipTag],je_brazilian_slavery_tooltip_advance схвальними#! або #tooltippable;tooltip:[Country.GetTooltipTag],je_brazilian_slavery_tooltip_deplete несхвальними#! умовами. Падінння #bold поступу#! до #bold 0#! призведе до офіційного скасування заборони на работоргівлю та подальшого #bold закріплення#! інституції в культурному та політичному житті Бразилії.\n\nОпоненти засуджують [concept_slavery|l] як рак, що загрожує самим основам Бразилії, а його прибічники вихваляють як природну, необхідну та законну інституцію, що століттями визначала політику Бразилії.\n\n#bold Південноатлантична работоргівля#!\nХоча Бразилія офіційно взяла на себе зобов’язання скасувати [GetLawType('law_slave_trade').GetName] у #bold британсько-бразильському договорі 1826р.#!, з тих пір було зроблено небагато кроків для дійсного виконання заборони, і торгівля залишається все такою ж ефективною.\n\nДопоки Бразилія підтримує закон [GetLawType('law_slave_trade').GetName], [SCOPE.sCountry('britain_scope').GetName] вважатиме виправданим зупиняти бразильські судна, що перевозять рабів у відкритому морі."
+je_matter_of_slavery_reason:1 "The status of the #bold Progress Bar#! will be determined by various #tooltippable;tooltip:[Country.GetTooltipTag],je_brazilian_slavery_tooltip_advance positive#! or #tooltippable;tooltip:[Country.GetTooltipTag],je_brazilian_slavery_tooltip_deplete negative#! conditions. The #bold Progress Bar#! reaching #bold 0#! will lead to the ban on the slave trade being officially repealed, further #bold entrenching#! the institution in Brazilian cultural and political life.\n\nDecried as a cancer threatening the very foundations of [SCOPE.GetRootScope.GetCountry.GetNameNoFlag] by its opponents, and lauded as a natural, necessary, and legitimate institution by its proponents, [concept_slavery] has defined the political landscape of [SCOPE.GetRootScope.GetCountry.GetNameNoFormatting] for centuries.\n\n#bold The South Atlantic Slave Trade#!\nWhile Brazil officially committed itself to the ending of the [GetLawType('law_slave_trade').GetName] in the #bold British-Brazilian Treaty of 1826#!, few steps have been taken since then to actually enforce the ban, and the trade remains effectively in place.\n\nAs long as Brazil maintains the [GetLawType('law_slave_trade').GetName] [concept_law], [SCOPE.sCountry('britain_scope').GetName] may feel justified in disrupting Brazilian vessels carrying slaves on the high seas."
+
+
+matter_of_slavery_progress_bar: "The Matter of Slavery"
+matter_of_slavery_progress_bar_desc: "Progress: #v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#! ([JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/360)"
+
+slavery_progress_from_landowners_in_gov_tt: "[GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] in [concept_in_government]"
+slavery_progress_from_landowners_powerful_tt: "[concept_powerful] [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]"
+slavery_progress_from_regency_tt: "the #bold Regency#! period"
+slavery_progress_from_slaver_ruler_tt: "[GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] or [GetIdeology('ideology_slaver').GetName] [concept_ruler]"
+slavery_progress_from_slavers_tt: "majority of [Concept('concept_commander','$concept_commanders$')] are [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant], or have the [GetIdeology('ideology_slaver').GetName] [concept_ideology]"
+slavery_progress_from_suppression_tt: "actively suppressing the slave trade"
+slavery_progress_from_marginal_landowners_tt: "[concept_marginalized] [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]"
+slavery_progress_from_intelligentsia_tt: "[GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] in [concept_in_government]"
+slavery_progress_from_abolished_slave_trade_tt: "abolished the [GetLawType('law_slave_trade').GetName] [concept_law]"
+slavery_progress_from_ended_regency_tt: "#bold Regency#! period concluded"
+slavery_progress_from_isabel_tt: "Princess Isabel confirmed as [concept_heir] to the throne"
 
 je_slave_trade_suppression_button: "Вибірково застосовувати заборону"
 je_slave_trade_suppression_button_desc: "Хоча [GetLawType('law_slave_trade').GetName] надто вкорінена в [SCOPE.GetRootScope.GetCountry.GetNameNoFlag] для повного придушення, певні заходи все ж можуть бути вжиті проти найгірших і найвідоміших порушників."
 je_slave_trade_end_suppression_button: "Скасувати контроль работоргівлі"
-je_slave_trade_end_suppression_button_desc: "Дотримання наших договірних зобов’язань приносить більше проблем, ніж варте. Заради національної стабільності ми повинні дозволити торгівлі безперешкодно продовжуватися."
+je_slave_trade_end_suppression_button_desc: "Дотримання наших договірних зобов’язань приносить більше проблем, ніж варте. Заради національної стабільности ми повинні дозволити торгівлі безперешкодно продовжуватися."
 restricted_slave_trade_ig_modifier: "Придушення работоргівлі"
 
 unrestricted_slave_trade_modifier: "Необмежена работоргівля"
@@ -130,7 +147,7 @@ slave_shipments_intercepted_large: "Ефективна антирабовлас�
 
 slave_trade_button_cooldown_tt: "Ми можемо змінювати свою позицію лише раз на #variable 2#! роки."
 
-je_brazilian_slavery_informal_trade: "Заборона работоргівлі - #bold широко ігнорується#!."
+je_brazilian_slavery_informal_trade: "Заборона работоргівлі - #bold широко іґнорується#!."
 je_brazilian_slavery_suppressed_trade: "Заборона работоргівлі - #bold вибірково примусова#!."
 je_brazilian_slavery_banned_trade: "Заборона работоргівлі - #bold суворо дотримується#!."
 

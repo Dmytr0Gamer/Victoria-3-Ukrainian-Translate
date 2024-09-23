@@ -349,7 +349,7 @@
 
   # Oil Rush Events
  oil_rush.1.t: "Ропа!"
- oil_rush.1.d: "Знайденя ропи у [Concept('concept_state','$concept_state_loc$')|l] [ROOT.GetState.GetName] примусила людей цілою юрбою прибувати з надією знайти роботу у цій успішній промисловості."
+ oil_rush.1.d: "Знайденя ропи у [Concept('concept_state','$concept_state_loc$')|l] [ROOT.GetState.GetName] примусила людей цілою юрбою прибувати з надією знайти роботу у цій успішній промисловости."
  oil_rush.1.f: "«Злато? Срібло? Діяманти? Для чого? Дармовиси та прикраси для шляхти, увесь гламур, лише для того, щоб приховати, що їхній час минув? Слухай, друже, ностальґія мусить бути в золоті, але майбутнє за ропою.»"
  oil_rush.1.a: "Заохочувати цю течію. Ропа - майбутнє!"
  oil_rush.1.b: "Ми повинні звернути увагу, що це може сильно вплинути на [Concept('concept_state','$concept_state_acc$')|l] [ROOT.GetState.GetName]."
@@ -887,7 +887,7 @@
  citizenship_laws.4.b:0 "[SCOPE.gsInterestGroup('supporting_ig').GetLeader.GetFullName]'s leadership is needed in these uncertain times."
  citizenship_laws.5.t:0 "Thieves and Liars"
  citizenship_laws.5.d:1 "The Movement to [SCOPE.sPoliticalMovement('discrimination_movement').GetName] has begun a propaganda campaign, painting [SCOPE.sCulture('future_accepted_pop').GetName] people as criminals who will be allowed to run rampant under the new [SCOPE.sLaw('current_law_scope').GetName] law."
- citizenship_laws.5.f:1 ""Yes, I've read the pamphlet. It's nothing new. 'The [SCOPE.sPop('future_accepted_pop').GetCulture.GetNameNoFormatting] are thieves, the [SCOPE.sCulture('future_accepted_pop').GetNameNoFormatting] are violent thugs, the [SCOPE.sCulture('future_accepted_pop').GetNameNoFormatting] culture is inherently corrupt and desegregation will be the end of [ROOT.GetCountry.GetNameNoFormatting]'. The picture of a [SCOPE.sCulture('future_accepted_pop').GetNameNoFormatting] man in rags, vaguely resembling my father. Has it ever crossed their minds that the reason so many of us live in poverty is because the current laws force us there?""
+ citizenship_laws.5.f:1 ""Yes, I've read the pamphlet. It's nothing new. 'The [SCOPE.sCulture('future_accepted_pop').GetNameNoFormatting] are thieves, the [SCOPE.sCulture('future_accepted_pop').GetNameNoFormatting] are violent thugs, the [SCOPE.sCulture('future_accepted_pop').GetNameNoFormatting] culture is inherently corrupt and desegregation will be the end of [ROOT.GetCountry.GetNameNoFormatting]'. The picture of a [SCOPE.sCulture('future_accepted_pop').GetNameNoFormatting] man in rags, vaguely resembling my father. Has it ever crossed their minds that the reason so many of us live in poverty is because the current laws force us there?""
  citizenship_laws.5.a:0 "We must take a stand against these vile lies."
  citizenship_laws.5.b:0 "Let them whinge."
  citizenship_laws.6.t:1 "[SCOPE.sCulture('future_accepted_pop').GetName] Customers Not Wanted"
@@ -963,7 +963,7 @@
 
  distribution_of_power_laws.10.t: "Гріхи минулого"
  distribution_of_power_laws.10.d: "Прихильники [Concept('concept_law', '$concept_law_gen$')|l] «[SCOPE.sLaw('current_law_scope').GetName]» звернули увагу на минулі зловживання владою з боку нинішнього режиму, як на одну з причин термінової необхідности цього закону."
- distribution_of_power_laws.10.f: "«Ну, я сам ледви це пам‘ятаю. Тоді це був інший час. Таке було в межах норми, і я ніколи не думав, що мене будуть допитувати щодо цього. Звісно, це не означає, що це залишилося безсумніву, проте завжди будуть люди, які скаржаться. Ти не повинен їх слухати, якщо хочеш все зробити правильно. Звичайно, [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle|l] це все схвалив. Не офіційно, але я думаю, що ти повинен був це знати. Це все залишиться між нами.»"
+ distribution_of_power_laws.10.f: "«Ну, я сам ледви це пам’ятаю. Тоді це був інший час. Таке було в межах норми, і я ніколи не думав, що мене будуть допитувати щодо цього. Звісно, це не означає, що це залишилося безсумніву, проте завжди будуть люди, які скаржаться. Ти не повинен їх слухати, якщо хочеш все зробити правильно. Звичайно, [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle|l] це все схвалив. Не офіційно, але я думаю, що ти повинен був це знати. Це все залишиться між нами.»"
  distribution_of_power_laws.10.a: "Влада розбещує, тому можновладці повинні нести відповідальність перед виборцями."
  distribution_of_power_laws.10.b: "Минуле залишиться в минулому. Ці питання не стосуються реформи."
 
@@ -1015,7 +1015,7 @@
  setting_up_election_system:0 "Setting Up Election System"
   # Warlord China
  je_warlord_china: "Крихка єдність"
- je_warlord_china_reason: "Різні місцеві військові сили всередині [Concept('concept_country', '$concept_country_gen$')|l] [SCOPE.GetRootScope.GetCountry.GetName] можуть розірвати країну на частини, якщо тільки дати їм таку можливість."
+ je_warlord_china_reason: "The status of the #bold Progress Bar#! will #tooltippable;tooltip:[Country.GetTooltipTag],je_warlord_china_special_tooltip_advance advance#! or #tooltippable;tooltip:[Country.GetTooltipTag],je_warlord_china_special_tooltip_deplete retreat#! based on certain conditions. The #bold Progress Bar#! reaching #variable 0%#! will lead to the total loss of the central government's control, and the seizure of power by despotic local authorities.\n\nDespite a period of temporary stability under the Yongzheng and Qianlong Emperors, China has embarked upon a steady slide towards collapse at the hands of rebellions, mismanagement, and external pressure. If the authority of the central government is sufficiently eroded, local military powers within [SCOPE.GetRootScope.GetCountry.GetName] threaten to tear the country apart into petty fiefdoms."
  je_warlord_china_special_tooltip_advance: "The following conditions will #bold advance#! the #bold Progress Bar#!:\n• Losing the #BOLD Opium Wars#!\n• Failing to stop the appearance of the #BOLD Heavenly Kingdom#!\n• Failing to retake the #BOLD Heavenly Kingdom#!\n• Failing the #BOLD Boxer Rebellion#!\n• Going into debt and taking any [concept_loans]\n• Having a [concept_civil_war]\n• Becoming a [concept_subject] under another country\n• Abolishing the [GetLawType('law_monarchy').GetName]"
  je_warlord_china_special_tooltip_deplete: "The following conditions will #bold deplete#! the #bold Progress Bar#!:\n• Winning the #BOLD Opium Wars#!\n• Ceasing to be an [concept_unrecognized_power]\n• Finishing the #BOLD Stamp Out Monarchism#! [concept_journal_entry]"
  je_china_failure_tt: "The #bold Progress Bar#! has reached #variable 100%#!"
@@ -1171,7 +1171,7 @@
 
  election_liberal_events.2.t: "Свобода без безвладдя"
  election_liberal_events.2.d: "[SCOPE.sParty('liberal_party').GetName] під час передвиборчої виправа використала політичну групу [SCOPE.sParty('anarchist_party').GetName], яка називала себе більш розумною іншиною."
- election_liberal_events.2.f: "«Народ хоче свободи, але від чого? Від законів, від управління, від самого організованого суспільства? Звісно, ні. Просто від непотрібних законів, поганого управління та жахливої бюрократії. Дуже багато урядів дозволяють собі безконтрольно вирощувати надмірності, подібно до того, як дерева простягають свої розлогі гілки в кожен дім і кишеню, доки не прийдуть люди зі смолоскипами, щоб спалити їх. Усього цього можна уникнути за допомогою розумної обрізки.»"
+ election_liberal_events.2.f: "«Народ хоче свободи, але від чого? Від законів, від управління, від самого організованого суспільства? Звісно, ні. Просто від непотрібних законів, поганого управління та жахливого врядування. Дуже багато урядів дозволяють собі безконтрольно вирощувати надмірности, подібно до того, як дерева простягають свої розлогі гілки в кожен дім і кишеню, доки не прийдуть люди зі смолоскипами, щоб спалити їх. Усього цього можна уникнути за допомогою розумної обрізки.»"
  election_liberal_events.2.a: "Для справжньої свободи потрібен час."
  election_liberal_events.2.b: "Корумповану систему неможливо змінити, її треба повалити."
 
@@ -1194,7 +1194,7 @@
  election_conservative_events.1.b: "Можливо, [SCOPE.sCharacter('atheist_leader').GetLastName] бачить речі ясніше, не обмежено релігійними догмами."
  election_conservative_events.2.t: "Єдність у традиції"
  election_conservative_events.2.d: "У світлі [concept_devastation|l], якого зазнали такі землі, як [SCOPE.sState('devastation_state').GetName], [SCOPE.sParty('conservative_party').GetName] провела виправу з об'єднання держави [ROOT.GetCountry.GetName] у цей важкий час позаду традиційних цінностей."
- election_conservative_events.2.f: "«Наша нація лежить у руїнах, але вона відроджувалася з попелу раніше і буде робити це знову, доки ми не забудемо, хто ми є. Зараз не час для радикалізму чи безрозсудності. Це час для зцілення. Ми повинні дивитися на те, що змусило нас вистояти в минулому, і захистити його від тих, хто хотів би побачити його знищення. Поки ми не відбудуємо, поки ми не зцілимо, це все, що ми маємо!»"
+ election_conservative_events.2.f: "«Наша нація лежить у руїнах, але вона відроджувалася з попелу раніше і буде робити це знову, доки ми не забудемо, хто ми є. Зараз не час для радикалізму чи безрозсудности. Це час для зцілення. Ми повинні дивитися на те, що змусило нас вистояти в минулому, і захистити його від тих, хто хотів би побачити його знищення. Поки ми не відбудуємо, поки ми не зцілимо, це все, що ми маємо!»"
  election_conservative_events.2.a: "Ми повинні об’єднатися в цей важкий час."
  election_conservative_events.2.b: "Це схоже на холоднокровний опортунізм."
  election_conservative_events.3.t: "Правопорядок"

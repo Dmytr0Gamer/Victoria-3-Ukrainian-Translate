@@ -65,7 +65,7 @@
 
   nihilism.5.t:0 "Black Coats and Feuerbach"
   nihilism.5.d:0 "Students embracing the aesthetic and attitude of nihilism have become more and more common at [SCOPE.sState('university_nihilist_affected_state').GetStateRegion.GetName] [SCOPE.sBuilding('university_nihilist_affected_building').GetName], and numerous parties have raised concerns about radicalism in academia."
-  nihilism.5.f:0 ""The tiny space I occupy is so infinitely small in comparison with the rest of space, in which I am not, and which has nothing to do with me; and the period of time in which it is my lot to live is so petty beside the eternity in which I have not been, and shall not be.... And in this atom, this mathematical point, the blood is circulating, the brain is working and wanting something.... Isn't it loathsome? Isn't it petty?"" #Turgenev, Fathers and Sons
+  nihilism.5.f:0 ""The tiny space I occupy is so infinitely small in comparison with the rest of space, in which I am not, and which has nothing to do with me; and the period of time in which it is my lot to live is so petty beside the eternity in which I have not been, and shall not be... And in this atom, this mathematical point, the blood is circulating, the brain is working and wanting something... Isn't it loathsome? Isn't it petty?"" #Turgenev, Fathers and Sons
   nihilism.5.a:0 "The only education these people deserve is from the school of hard knocks!"
   nihilism.5.b:0 "This is a matter for university authorities."
 
@@ -1120,8 +1120,6 @@
   agitators_election_events.44.a:0 "Simple and true. Remarkable!"
   agitators_election_events.44.b:0 "There's more to lawmaking than this."
   agitators_election_events.44.c:0 "And what about the women?"
-  # The below is a fake tooltip
-  agitators_election_events.44.c.tt:0 "[SCOPE.sCountry('self_referential_reference').GetName] gets #tooltippable A Hand to Women#!\n#P +10.00%#! #tooltippable_name Women's Suffrage#! #tooltippable_concept Pop#! #tooltippable_name Support#!"
 
   agitators_election_events.45.t:0 "To Decapitate a Serpent"
   agitators_election_events.45.d:0 "[SCOPE.sCharacter('agitator_scope').GetFullName] has ambushed a royal appearance in [SCOPE.sState('capital_scope').GetCityHubName] for a simple announcement: the [SCOPE.sParty('agitator_party_scope').GetName] are wholly committed to the establishment of a republic."
@@ -1288,7 +1286,7 @@
 
   historical_agitators.4.t:0 "Women Beyond Spinsters"
   historical_agitators.4.d:0 "The rising feminist factions in [ROOT.GetCountry.GetName] have suffered a schism. [SCOPE.sCharacter('historic_agitator_scope').GetFullName] has founded a new, militant organization in its wake."
-  historical_agitators.4.f:0 "Affiliations with the Independent Labour Party, three separate bills, twenty years of work, and all the support of a dedicated community were not enough — not nearly enough — to affect even the slightest forward step on women's suffrage. New measures would be needed. A woman's right to vote would belong not only to the spinsters and the widows.\n\nBy fire, fist, and famine, all women will have the power to vote."
+  historical_agitators.4.f:0 "Affiliations with the Independent Labour Party, three separate bills, twenty years of work, and all the support of a dedicated community were not enough — not nearly enough — to affect even the slightest forward step on women’s suffrage. New measures would be needed. A woman’s right to vote would belong not only to the spinsters and the widows.\n\nBy fire, fist, and famine, all women will have the power to vote."
   historical_agitators.4.a:0 "A few days in the country ought to soothe their woes."
   historical_agitators.4.b:0 "Meet with her followers early."
   historical_agitators.4.c:0 "Her charity in the workhouses does her credit."
@@ -2055,7 +2053,7 @@
   ### Government Petitions
   je_government_petition: "Урядове прохання"
   je_government_petition_status: "Група [SCOPE.gsInterestGroup('government_petition_ig').GetName] вимагає ухвалити закон «[SCOPE.sLaw('government_petition_law').GetName]»."
-  je_government_petition_reason: "Як прихильна частина уряду та очільника держави, група [SCOPE.gsInterestGroup('government_petition_ig').GetName] вимагає ухвалити закон «[SCOPE.sLaw('government_petition_law').GetName]».\n\nЯкщо законові «[SCOPE.sLaw('government_petition_law').GetName]» нададуть сили, то група [SCOPE.gsInterestGroup('government_petition_ig').GetName] буде дуже задоволені. Але якщо це прохання проігнорують, тоді країну чекатимуть наслідки, аж до того, що група [SCOPE.gsInterestGroup('government_petition_ig').GetName] покине уряд." #[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle|l]
+  je_government_petition_reason: "Як прихильна частина уряду та очільника держави, група [SCOPE.gsInterestGroup('government_petition_ig').GetName] вимагає ухвалити закон «[SCOPE.sLaw('government_petition_law').GetName]».\n\nЯкщо законові «[SCOPE.sLaw('government_petition_law').GetName]» нададуть сили, то група [SCOPE.gsInterestGroup('government_petition_ig').GetName] буде дуже задоволені. Але якщо це прохання проіґнорують, тоді країну чекатимуть наслідки, аж до того, що група [SCOPE.gsInterestGroup('government_petition_ig').GetName] покине уряд." #[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle|l]
   modifier_failed_to_meet_petition: "Провал прохання"
   modifier_successfully_met_petition_legitimacy: "Чуйне керування"
   modifier_expelled_from_government_petition: "Вигнані з уряду"
@@ -2066,12 +2064,22 @@
   notification_government_petition_start_desc: "Група [SCOPE.gsInterestGroup('government_petition_ig').GetName] вимагає в уряду ухвалити закон «[SCOPE.sLaw('government_petition_law').GetName]»."
   notification_government_petition_start_tooltip: "#header $notification_government_petition_start_name$#!\n$TOOLTIP_DELIMITER$\n$notification_government_petition_start_desc$"
   government_petition_tt: "Група [SCOPE.gsInterestGroup('government_petition_ig').GetName] очікує, що уряд ухвалить закон «[SCOPE.sLaw('government_petition_law').GetName]» протягом наступних п’яти років."
+  government_petition_2_tt: "The [SCOPE.gsInterestGroup('government_petition_ig').GetName] will expect the government to pass [SCOPE.sLaw('government_petition_law_2').GetName] within the next five years."
 
   government_petition_events.1.t: "Урядове прохання від групи [SCOPE.gsInterestGroup('government_petition_ig').GetName]"
   government_petition_events.1.d: "Представляючи виборців своєї групи [SCOPE.gsInterestGroup('government_petition_ig').GetName], [SCOPE.gsInterestGroup('government_petition_ig').GetLeader.GetFullName] пода[Select_CString(SCOPE.gsInterestGroup('government_petition_ig').IsFemale,'$CustomLoc_UA_vona_la$','$CustomLoc_UA_vin_v$')|l] офіційне прохання до #yellow [ROOT.GetCountry.GetAdjective|l]ого#! уряду з метою ухвалити закон «[SCOPE.sLaw('government_petition_law').GetName]»."
   government_petition_events.1.f: "«Кгм, остання справа на сьогодні, пане. Члени вашого виборчого округу прибули сьогодні вранці. Вони... просять досить голосно і наполегливо... чи хотіли б ви зустрітися з ними для обговорення нового законодавства?»\n\n«І це все? Боже, ти наче примару побачив. Я впевнений, що зможу приділити останні години робочого дня для них, чи не так?»\n\n«Я-я гадаю, що так, пане. Вони не приймали «Ні» як відповідь.»"
   government_petition_events.1.a: "Подивимося, що ми можемо зробити."
-  
+  government_petition_events.1.b: "Offer them [SCOPE.sLaw('government_petition_law_2').GetName] as a compromise."
+  government_petition_events.1.c1: "They must understand the present situation does not allow for this."
+  government_petition_events.1.c2: "They must understand the present situation does not allow for this."
+
+  government_petition_blown_off_tt: "The petition will be #bold rejected#!. Doing this multiple times for the same [concept_interest_group] will have worse consequences."
+  government_petition_blown_off_2_tt: "The petition will be #bold rejected#!, at significant political cost. Doing this multiple times for the same [concept_interest_group] will have worse consequences."
+
+  modifier_petition_rejected_legitimacy: "Unresponsive Governance"
+  modifier_petition_rejected_ig_opinion: "Rejected Petition"
+
   ### Divided Monarchist Rework
   modifier_reasonable_monarchist_partisan:0 "Respectable Partisanship"
   modifier_monarchist_partisan_popularity:0 "Monarchist Agitation"
@@ -2150,7 +2158,7 @@
 
   french_pretenders_pulse.19.t: "Le Retour des Cendres"
   french_pretenders_pulse.19.d: "Тіло Наполеона Бонапарта повернулося з країни [SCOPE.sCountry('saint_helena_owner_scope').GetName] та було перевезене з острова Святої Гелени до #yellow [ROOT.GetCountry.GetAdjective|l]ого#! землі. Поховання тіла імператора дає можливість переосмислити імперське минуле."
-  french_pretenders_pulse.19.f: "«Я вважаю себе щасливим, що мені випала нагода повернути на землю Франції тлін того, хто подарував стільки слави нашій величі, і сплатити борг нашої спільної Батьківщини, оточивши його труну всіма належними йому почестями.»"
+  french_pretenders_pulse.19.f: "«Я вважаю себе щасливим, що мені випала нагода повернути на землю Франції тлін того, хто подарував стільки слави нашій величі, і сплатити довг нашої спільної Батьківщини, оточивши його труну всіма належними йому почестями.»"
   french_pretenders_pulse.19.a: "Ми нарешті відправили імператора на спочинок."
   french_pretenders_pulse.19.b: "Скористатися цією можливістю, щоб задобрити бонапартистів."
 
